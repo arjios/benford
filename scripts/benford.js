@@ -21,7 +21,8 @@ const apiEndpoints = {
     brpopulation: 'https://servicodados.ibge.gov.br/api/v1/projecoes/populacao',
     population: 'https://restcountries.com/v3.1/all?fields=population',
     stocks: 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-01/2023-06-01?apiKey=demo',
-    earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100'
+    earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100',
+    custom: '../assets/popbr.json'
 };
 
 
@@ -95,16 +96,22 @@ function initializeChart() {
 async function fetchDataFromAPI() {
     const source = dataSourceSelect.value;
     const count = parseInt(dataCountSelect.value);
+    console.log("Fonte: ", source, " Count: ", count);
 
     // Mostrar indicador de carregamento
     loadingElement.style.display = 'block';
 
     try {
         let data = [];
-
         if (source === 'custom') {
-            // Para dados personalizados, usar dados simulados
-            data = generateMockData(count);
+            const response = await fetch(apiEndpoints.custom);
+            const pops = await response.json();
+            const countpop = pops.length;
+            console.log("Resposta ", response, " POPS: ", pops, " CountPOP:", countpop);
+            data = pops
+                .map(lin => lin[4])
+                .filter(pops => pops > 0);
+            console.log("Data: ",data)
         } else if (source === 'brasilcovid') {
             // API da COVID no Brasil
             const response = await fetch(apiEndpoints.brasilcovid);
@@ -137,7 +144,7 @@ async function fetchDataFromAPI() {
             data = countries
                 .slice(0, count)
                 .map(country => country.population)
-                .filter(pop => pop > 0);
+                .filter(country => country > 0);
 
         } else if (source === 'stocks') {
             // API de preços de ações (usando dados simulados para evitar limite de API)

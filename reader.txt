@@ -1,0 +1,36 @@
+    <header>
+        <div class="header_container">
+            <div class="header_title">
+                <p>
+                <h1> Análise da Lei de Benford</h1>
+                </p>
+                <p class="header_subtitle">Sistema que recupera dados de APIs e verifica se seguem a distribuição
+                    esperada
+                    pela
+                    Lei de Benford</p>
+            </div>
+            <div class="header_logo">
+                <img src="assets/ufsb_logo.png" />
+            </div>
+        </div>
+    </header>
+
+
+/* header {
+    align-items: center;
+    background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin-bottom: 16px;
+    padding: 8px 0;
+} 
+
+.header_container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+}
+*/

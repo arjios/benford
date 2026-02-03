@@ -22,4 +22,12 @@ Como o Sistema Funciona:
 
         Exibe gráficos comparativos
 
-        Calcula métricas de conform
+        Calcula métricas de conformidade
+
+    Referenncias:
+
+        População municipios brasileiros: https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html
+
+        Conversão .CSV para .JSON: https://www.convertcsv.com/csv-to-json.htm
+        
+        
