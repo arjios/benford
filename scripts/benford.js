@@ -22,7 +22,7 @@ const apiEndpoints = {
     population: 'https://restcountries.com/v3.1/all?fields=population',
     stocks: 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-01/2023-06-01?apiKey=demo',
     earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100',
-    custom: '../assets/popbr.json'
+    custom: '/assets/popbr.json'
 };
 
 
