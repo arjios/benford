@@ -23,7 +23,8 @@ const apiEndpoints = {
     stocks: 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-01/2023-06-01?apiKey=demo',
     earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100',
     custom: '/assets/popbr.json',
-    gitcustom: 'https://arjios.github.io/benford/assets/popbr.json'
+    gitcustom: 'https://arjios.github.io/benford/assets/popbr.json',
+    mortebr: 'assets/mortebr.json'
 };
 
 
@@ -113,14 +114,24 @@ async function fetchDataFromAPI() {
                 .map(lin => lin[4])
                 .filter(pops => pops > 0);
             console.log("Data: ",data)
+        } else if (source === 'mortebr') {
+                        const response = await fetch(apiEndpoints.mortebr);
+            const pops = await response.json();
+            const countmorte = pops.length;
+            console.log("Resposta ", response, " POPS: ", pops, " CountMORTE:", countmorte);
+            data = pops
+                .map(lin => lin[1])
+                .filter(pops => pops > 0);
+            console.log("Data: ",data)
         } else if (source === 'brasilcovid') {
             // API da COVID no Brasil
             const response = await fetch(apiEndpoints.brasilcovid);
             const countries = await response.json();
-
+            const results = countries.length;
+            console.log("Resposta ", response, " Results: ", results);
             // Extrair valores de população
             data = countries
-                .slice(0, count)
+                .slice(0, results)
                 .map(country => country.brasilcovid)
                 .filter(pop => pop > 0);
 

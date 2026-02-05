@@ -16,11 +16,13 @@
     <header>
         <div class="header_container">
             <div class="header_logo">
-                <img src="assets/ufsb_logo.png" />
+                <img src="assets/ufsb_logo.png" class="logo_img"/>
+                <p class="logo_text">LIMCT - Iniciação Cientifica</p>
+                <p class="logo_text">Prof. Dr. Adriano Jesus </p>
             </div>
-            <div>
-                <div class="header_title">
-                    <h1>Lei de Benford</h1>
+            <div class="header_title">
+                <div class="title_text">
+                    <h1 class="title_text">Lei de Benford</h1>
                 </div>
             </div>
         </div>
@@ -68,11 +70,11 @@
                     <div class="control-group">
                         <label for="data-source"><i class="fas fa-database"></i> Fonte de Dados</label>
                         <select id="data-source">
-                            <option value="brasilcovid">COVID no Brasil</option>
-                            <option value="brpopulation">População do Brasil</option>
-                            <option value="population">População de Países</option>
-                            <option value="stocks">Preços de Ações (Bolsa de Valores)</option>
-                            <option value="earthquakes">Magnitudes de Terremotos</option>
+                            <option value="brasilcovid">COVID no Brasil (não implementado)</option>
+                            <option value="brpopulation">População do Brasil (não implementado)</option>
+                            <option value="population">População de Países (não implementado)</option>
+                            <option value="mortebr">Probabilidade Morte por Idade Brasil</option>
+                            <option value="earthquakes">Magnitudes de Terremotos (não implementado)</option>
                             <option value="custom">População Municipios Brasil (JSON)</option>
                         </select>
                     </div>
@@ -80,8 +82,9 @@
                     <div class="control-group">
                         <label for="data-count"><i class="fas fa-list-ol"></i> Quantidade de Dados</label>
                         <select id="data-count">
-                            <option value="50">50 registros</option>
-                            <option value="100" selected>100 registros</option>
+                            <option value="0" selected>Todos registros</option>                            
+                            <option value="50" >50 registros</option>
+                            <option value="100">100 registros</option>
                             <option value="200">200 registros</option>
                             <option value="500">500 registros</option>
                         </select>

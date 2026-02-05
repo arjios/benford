@@ -1,51 +1,53 @@
- header {
+header {
     align-items: center;
-    background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    color: white;
     display: flex;
-    height: 100px;
-    margin-bottom: 16px;
-    padding: 8px 0;
-} 
+    justify-content: center;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
 
 .header_container {
+    align-items: flex-start;
+    background-color: #283593;
     display: flex;
     width: 100%;
-    margin: 0 auto;
     padding: 8px;
 }
 
 .header_logo {
+    align-items: center;
     display: flex;
-    justify-content: left;
-    opacity: 0.9;
-    margin: 0 8px 0 8px;
-    width: 30%;
+    flex-direction: column;
+    justify-content: center;
 }
 
-img {
-    width: 200px;
-    height: 50px;
+.logo_img {
+    width: 280px;
+    height: auto;
+}
+
+.logo_text {
+    color: #FFFFFF;
+    font-family: "Arial";
+    font-size: small;
+    font-weight: 600;
 }
 
 .header_title {
     align-items: center;
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    margin: 0 auto;
     text-align: center;
-    font-size: 0.8rem;
-    opacity: 0.9;
-    margin-bottom: 8px;
     width: 100%;
 }
 
-.header_subtitle {
-    text-align: center;
-    font-size: 0.9rem;
-    opacity: 0.9;
-    margin-bottom: 8px;
+.title_text {
+    font-family: "Arial";
+    font-size:xx-large;
+    font-weight: 700;
 }
 
 .benford-explanation {
@@ -336,4 +338,26 @@ footer {
 .alert-warning {
     background-color: #fff3e0;
     color: #ef6c00;
+}
+
+@media screen and (max-width: 600px) {
+    .header_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo_img {
+        width: 180px;
+    }
+
+    .logo_text {
+        font-size: smaller;
+        font-weight: 400;
+    }
+
+    .title_text {
+        font-size: x-large;
+        font-weight: 600;
+    }
+
 }
