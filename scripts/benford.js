@@ -2,9 +2,9 @@
 const benfordLawPercentages = [0, 30.1, 17.6, 12.5, 9.7, 7.9, 6.7, 5.8, 5.1, 4.6];
 
 // Elementos do DOM
-const fetchButton = document.getElementById('fetch-data');
-const analyzeButton = document.getElementById('analyze-data');
-const resetButton = document.getElementById('reset-data');
+const fetchButton = document.getElementById('fetchDataBtn');
+const analyzeButton = document.getElementById('analyzeDataBtn');
+const resetButton = document.getElementById('resetDataBtn');
 const dataSourceSelect = document.getElementById('data-source');
 const dataCountSelect = document.getElementById('data-count');
 const loadingElement = document.getElementById('loading');
@@ -22,9 +22,9 @@ const apiEndpoints = {
     population: 'https://restcountries.com/v3.1/all?fields=population',
     stocks: 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-01/2023-06-01?apiKey=demo',
     earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100',
-    custom: '/assets/popbr.json',
-    gitcustom: 'https://arjios.github.io/benford/assets/popbr.json',
-    mortebr: 'assets/mortebr.json'
+    gitcustom: 'assets/popbr.json',
+    custom: 'https://arjios.github.io/benford/assets/popbr.json',
+    mortebr: '/assets/mortebr.json'
 };
 
 
@@ -62,7 +62,7 @@ function initializeChart() {
         },
         options: {
             responsive: true,
-            maintainAspectRatio: true,
+            maintainAspectRatio: false,
             scales: {
                 y: {
                     beginAtZero: true,
@@ -96,8 +96,10 @@ function initializeChart() {
 
 // Buscar dados da API selecionada
 async function fetchDataFromAPI() {
-    const source = dataSourceSelect.value;
-    const count = parseInt(dataCountSelect.value);
+//    const source = dataSourceSelect.value;
+//    const count = parseInt(dataCountSelect.value);
+    source = 'custom';
+    count = 0;
     console.log("Fonte: ", source, " Count: ", count);
 
     // Mostrar indicador de carregamento
@@ -177,7 +179,7 @@ async function fetchDataFromAPI() {
         });
 
         // Atualizar tabela
-        updateDataTable();
+    //    updateDataTable();
 
         // Esconder indicador de carregamento
         loadingElement.style.display = 'none';
@@ -481,9 +483,9 @@ function showAlert(message, type) {
             `;
 
     // Inserir após o primeiro alerta de informação
-    const dataControls = document.querySelector('.data-controls');
-    const firstAlert = dataControls.querySelector('.alert');
-    dataControls.insertBefore(alertDiv, firstAlert.nextSibling);
+//    const dataControls = document.querySelector('.data-controls');
+//    const firstAlert = dataControls.querySelector('.alert');
+//    dataControls.insertBefore(alertDiv, firstAlert.nextSibling);
 
     // Remover alerta após 10 segundos
     setTimeout(() => {
@@ -521,6 +523,9 @@ function resetAnalysis() {
 fetchButton.addEventListener('click', fetchDataFromAPI);
 analyzeButton.addEventListener('click', analyzeData);
 resetButton.addEventListener('click', resetAnalysis);
+initializeChart();
+fetchDataFromAPI();
+analyzeData();
 
 // Inicializar gráfico e aplicação
 window.addEventListener('DOMContentLoaded', () => {

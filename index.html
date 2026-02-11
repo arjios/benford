@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <lang="pt-br"></lang>
@@ -16,166 +18,64 @@
     <header>
         <div class="header_container">
             <div class="header_logo">
-                <img src="assets/ufsb_logo.png" class="logo_img"/>
-                <p class="logo_text">LIMCT - Iniciação Cientifica</p>
-                <p class="logo_text">Prof. Dr. Adriano Jesus </p>
+                <div class="logo_img">
+                    <img class="img_picture" src="assets/images/ufsb_logo.png" alt="Logo">
+                </div>
             </div>
             <div class="header_title">
                 <div class="title_text">
-                    <h1 class="title_text">Lei de Benford</h1>
+                    <p>Analise Lei Benford </p>
                 </div>
+                <div class="subtitle_text">
+                    <p>LIMCT - Licenciatura Interdisciplinar em Matemática Computação e suas Tecnologias</p>
+                </div>
+            </div>
+        </div>
+        <div class="header_menu">
+            <div class="menu_items">
+                <a class="items_link" href="pageOld.html">pagina original</a>
+                <a class="items_link" href="#">sobre</a>
+                <a class="items_link" href="#">contato</a>
+                <a class="items_link" href="#">ajuda</a>
             </div>
         </div>
     </header>
-
     <main>
         <div class="main_container">
-            <div class="benford-explanation">
-                <h2><i class="fas fa-info-circle"></i> O que é a Lei de Benford?</h2>
-                <p>A Lei de Benford, também conhecida como Lei do Primeiro Dígito, descreve a frequência de ocorrência
-                    do primeiro dígito em muitos conjuntos de dados da vida real. Em vez de uma distribuição uniforme
-                    (onde cada dígito teria 11.1% de chance), a lei prevê que:</p>
-
-                <div class="benford-list">
-                    <div class="benford-item">
-                        <strong>Dígito 1:</strong> Ocorre em aproximadamente 30.1% dos casos
-                    </div>
-                    <div class="benford-item">
-                        <strong>Dígito 2:</strong> Ocorre em aproximadamente 17.6% dos casos
-                    </div>
-                    <div class="benford-item">
-                        <strong>Dígito 3:</strong> Ocorre em aproximadamente 12.5% dos casos
-                    </div>
-                    <div class="benford-item">
-                        <strong>Dígitos 4-9:</strong> Frequência decrescente de 9.7% a 4.6%
-                    </div>
+            <div class="main_content">
+                <div class="button_container">
+                    <select id="data-source">
+                        <option value="nodata" selected>Fonte de Dados</option>
+                        <option value="brasilcovid">COVID no Brasil (não implementado)</option>
+                        <option value="brpopulation">População do Brasil (não implementado)</option>
+                        <option value="population">População de Países (não implementado)</option>
+                        <option value="mortebr">Probabilidade Morte por Idade Brasil</option>
+                        <option value="earthquakes">Magnitudes de Terremotos (não implementado)</option>
+                        <option value="custom">População Municipios Brasil (JSON)</option>
+                    </select>
+                    <button id="fetchDataBtn" class="button_primary">Buscar Dados</button>
+                    <button id="analyzeDataBtn" class="button_primary">Analisar</button>
+                    <button id="resetDataBtn" class="button_primary">Limpar Dados</button>
                 </div>
-
-                <p>Esta lei é usada para detectar fraudes em dados financeiros, eleitorais, científicos e outros, pois
-                    dados manipulados tendem a não seguir essa distribuição natural.</p>
-            </div>
-
-            <div class="data-controls">
-                <h2><i class="fas fa-cogs"></i> Configuração da Análise</h2>
-
-                <div class="alert alert-info">
-                    <i class="fas fa-info-circle"></i>
-                    <div>
-                        <strong>Informação:</strong> Este sistema usa APIs públicas para obter dados reais. Escolha uma
-                        fonte de dados e clique em "Buscar Dados" para iniciar a análise.
+                <div class="loading" id="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Carregando dados da API...</p>
+                </div>
+                <div class="data-display">
+                    <div class="chart-container">
+                        <h2><i class="fas fa-chart-bar"></i> Gráfico da Distribuição do Primeiro Dígito</h2>
+                        <canvas id="benfordChart"></canvas>
                     </div>
-                </div>
-
-                <div class="controls-grid">
-                    <div class="control-group">
-                        <label for="data-source"><i class="fas fa-database"></i> Fonte de Dados</label>
-                        <select id="data-source">
-                            <option value="brasilcovid">COVID no Brasil (não implementado)</option>
-                            <option value="brpopulation">População do Brasil (não implementado)</option>
-                            <option value="population">População de Países (não implementado)</option>
-                            <option value="mortebr">Probabilidade Morte por Idade Brasil</option>
-                            <option value="earthquakes">Magnitudes de Terremotos (não implementado)</option>
-                            <option value="custom">População Municipios Brasil (JSON)</option>
-                        </select>
-                    </div>
-
-                    <div class="control-group">
-                        <label for="data-count"><i class="fas fa-list-ol"></i> Quantidade de Dados</label>
-                        <select id="data-count">
-                            <option value="0" selected>Todos registros</option>                            
-                            <option value="50" >50 registros</option>
-                            <option value="100">100 registros</option>
-                            <option value="200">200 registros</option>
-                            <option value="500">500 registros</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="button-group">
-                    <button id="fetch-data" class="btn-primary">
-                        <i class="fas fa-cloud-download-alt"></i> Buscar Dados
-                    </button>
-                    <button id="analyze-data" class="btn-secondary">
-                        <i class="fas fa-chart-line"></i> Analisar Dados
-                    </button>
-                    <button id="reset-data" class="btn-secondary">
-                        <i class="fas fa-redo"></i> Limpar Análise
-                    </button>
-                </div>
-            </div>
-
-            <div class="loading" id="loading">
-                <div class="loading-spinner"></div>
-                <p>Carregando dados da API...</p>
-            </div>
-
-            <div class="data-display">
-                <div class="chart-container">
-                    <h2><i class="fas fa-chart-bar"></i> Distribuição do Primeiro Dígito</h2>
-                    <canvas id="benfordChart"></canvas>
-                </div>
-
-                <div class="results-container">
-                    <h2><i class="fas fa-clipboard-check"></i> Resultados da Análise</h2>
-                    <div id="results-content">
-                        <div class="result-item">
-                            <span>Conformidade com Benford:</span>
-                            <div>
-                                <span class="conformity-indicator" id="conformity-indicator"></span>
-                                <span class="result-value" id="conformity-value">--</span>
-                            </div>
-                        </div>
-                        <div class="result-item">
-                            <span>Total de Dados Analisados:</span>
-                            <span class="result-value" id="total-data">--</span>
-                        </div>
-                        <div class="result-item">
-                            <span>Maior Desvio Percentual:</span>
-                            <span class="result-value" id="max-deviation">--</span>
-                        </div>
-                        <div class="result-item">
-                            <span>Dígito Mais Frequente:</span>
-                            <span class="result-value" id="most-frequent">--</span>
-                        </div>
-                        <div class="result-item">
-                            <span>Dígito Menos Frequente:</span>
-                            <span class="result-value" id="least-frequent">--</span>
-                        </div>
-                        <div class="result-item">
-                            <span>Chi-quadrado (χ²):</span>
-                            <span class="result-value" id="chi-square">--</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="data-preview">
-                <h2><i class="fas fa-table"></i> Dados Obtidos da API</h2>
-                <div class="table-container">
-                    <table class="data-table" id="data-table">
-                        <thead>
-                            <tr>
-                                <th>Índice</th>
-                                <th>Valor</th>
-                                <th>Primeiro Dígito</th>
-                            </tr>
-                        </thead>
-                        <tbody id="data-table-body">
-                            <!-- Dados serão inseridos aqui via JavaScript -->
-                        </tbody>
-                    </table>
                 </div>
             </div>
         </div>
-
     </main>
     <footer>
         <div class="footer_container">
-            <p>Análise da Lei de Benford &copy; 2026 - Usado para detecção de padrões em dados numéricos
-            </p>
+
         </div>
     </footer>
-    <script src="scripts/benford.js"></script>
+    <script src="/scripts/benford.js" async defer></script>
 </body>
 
 </html>

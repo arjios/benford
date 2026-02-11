@@ -2,14 +2,14 @@ header {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: auto;
+    flex-direction: column;
     margin: 0 auto;
     width: 100%;
 }
 
 .header_container {
     align-items: flex-start;
-    background-color: #283593;
+    background-color: #00226C;
     display: flex;
     width: 100%;
     padding: 8px;
@@ -17,27 +17,39 @@ header {
 
 .header_logo {
     align-items: center;
+    color: #FFFFFF;
     display: flex;
-    flex-direction: column;
+    height: 80px;
     justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: clamp(30%, 30% + 0.8vw, 30%);
 }
 
 .logo_img {
-    width: 280px;
-    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.img_picture {
+    margin: 0 auto;
+    width: 100%;
 }
 
 .logo_text {
     color: #FFFFFF;
     font-family: "Arial";
-    font-size: small;
+    font-size: 0.5rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .header_title {
     align-items: center;
     color: #FFFFFF;
     display: flex;
+    flex-direction: column;
+    height: 80px;
     justify-content: center;
     margin: 0 auto;
     text-align: center;
@@ -46,8 +58,76 @@ header {
 
 .title_text {
     font-family: "Arial";
-    font-size:xx-large;
+    font-size: clamp(0.5rem, 0.5rem + 1.8vw, 2.5rem);
+    font-weight: 600;
+    margin-right: 20%;
+}
+
+.subtitle_text {
+    font-family: "Arial";
+    font-size: clamp(0.4rem, 0.4rem + 0.5vw, 0.8rem);
     font-weight: 700;
+    margin-right: 20%;
+}
+
+.header_menu {
+    align-items: center;
+    background-color: #001858;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    padding: 8px;
+    width: 100%;
+}
+
+.menu_items {
+    display: flex;
+    gap: 20px;
+}
+
+.items_link {
+    color: #FFFFFF;
+    font-family: "Arial";
+    font-size: clamp(0.5rem, 0.5rem + 0.8vw, 1rem);
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.items_link:hover {
+    color: #3949ab;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .header_container {
+        flex-direction: column;
+    }
+
+    .header_logo {
+        height: auto;
+    }
+
+    .header_title {
+        height: auto;
+    }
+}
+
+.main_container {
+    background-color: #E4E4E4;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.main_content {
+    border: 1px solid #3949ab;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .benford-explanation {
@@ -124,6 +204,35 @@ select:focus {
     box-shadow: 0 0 0 2px rgba(57, 73, 171, 0.2);
 }
 
+.button_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    padding: 8px;
+}
+
+.button_primary {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #3949ab;
+    color: #3949ab;
+    cursor: pointer;
+    display: flex;
+    font-size: clamp(0.4rem, 0.4rem + 0.5vw, 1.2rem);
+    font-weight: 600;
+    justify-content: center;
+    gap: 8px;
+    width: clamp(2rem, 5rem + 3vw, 12rem);
+}
+
+.button_primary:hover {
+    background-color: #303f9f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
 .btn-primary {
     background-color: #3949ab;
     color: white;
@@ -161,10 +270,15 @@ select:focus {
 }
 
 .data-display {
-    display: grid;
-    grid-template-columns: 1fr;
+    align-items: flex-start;
+    border-top: 1px solid #3949ab;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: center;
     gap: 30px;
-    margin-bottom: 30px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -174,10 +288,17 @@ select:focus {
 }
 
 .chart-container {
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    width: 100%;
+}
+
+#benfordChart {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
 }
 
 .chart-container h2 {
@@ -338,26 +459,4 @@ footer {
 .alert-warning {
     background-color: #fff3e0;
     color: #ef6c00;
-}
-
-@media screen and (max-width: 600px) {
-    .header_container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo_img {
-        width: 180px;
-    }
-
-    .logo_text {
-        font-size: smaller;
-        font-weight: 400;
-    }
-
-    .title_text {
-        font-size: x-large;
-        font-weight: 600;
-    }
-
 }
