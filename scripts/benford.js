@@ -508,16 +508,16 @@ function resetAnalysis() {
     benfordChart.update();
 
     // Resetar tabela
-    dataTableBody.innerHTML = '<tr><td colspan="3" style="text-align: center;">Nenhum dado carregado ainda</td></tr>';
+//    dataTableBody.innerHTML = '<tr><td colspan="3" style="text-align: center;">Nenhum dado carregado ainda</td></tr>';
 
     // Resetar resultados
-    document.getElementById('conformity-value').textContent = '--';
-    document.getElementById('conformity-indicator').className = 'conformity-indicator';
-    document.getElementById('total-data').textContent = '--';
-    document.getElementById('max-deviation').textContent = '--';
-    document.getElementById('most-frequent').textContent = '--';
-    document.getElementById('least-frequent').textContent = '--';
-    document.getElementById('chi-square').textContent = '--';
+    document.getElementById('accordance').textContent = '____';
+    document.getElementById('accordanceIndicator').className = 'accordanceIndicator';
+    document.getElementById('datas').textContent = '____';
+    document.getElementById('deviation').textContent = '____';
+    document.getElementById('moreOften').textContent = '____';
+    document.getElementById('lessOften').textContent = '____';
+    document.getElementById('xSquare').textContent = '____';
 
     showAlert('Análise resetada. Selecione uma fonte de dados e clique em "Buscar Dados" para começar uma nova análise.', 'info');
 }
