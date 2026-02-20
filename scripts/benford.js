@@ -120,7 +120,6 @@ async function fetchDataFromAPI() {
             data = pops
                 .map(lin => lin[4])
                 .filter(pops => pops > 0);
-            console.log("Data: ",data)
         } else if (source === 'mortebr') {
             // Inserir o cabeçalho do grafico para a API de mortalidade
             document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da Nortalidade da População do Brasil';
@@ -131,14 +130,12 @@ async function fetchDataFromAPI() {
             data = pops
                 .map(lin => lin[1])
                 .filter(pops => pops > 0);
-            console.log("Data: ",data)
         } else if (source === 'brasilcovid') {
             // Inserir o cabeçalho do grafico para a API de mortalidade
             document.getElementById("chartChoice").innerText = 'ATENÇÃO: Grafico da Distribuição do Primeiro Digito da COVID no Brasil não implementado';
             const response = await fetch(apiEndpoints.brasilcovid);
             const countries = await response.json();
             const results = countries.length;
-            console.log("Resposta ", response, " Results: ", results);
             // Extrair valores de população
             data = countries
                 .slice(0, results)
@@ -149,8 +146,6 @@ async function fetchDataFromAPI() {
             // API de população do Brasil
             const response = await fetch(apiEndpoints.brpopulation);
             const countries = await response.json();
-            console.log(response);
-
             // Extrair valores de população
             data = countries
                 .slice(0, count)
@@ -381,7 +376,6 @@ function analyzeData() {
     // Atualizar gráfico
     benfordChart.data.datasets[1].data = observedPercentages.slice(1);
     benfordChart.update();
-    console.log('Atualizar grafico com:', observedPercentages.slice(1));
 
     // Calcular métricas de conformidade
     calculateConformityMetrics(observedPercentages, totalValidDigits);
@@ -406,7 +400,7 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
 
     const meanAbsoluteDeviation = sumAbsoluteDeviation / 9;
 
-    // Calcular chi-quadrado
+    // Calcular qui-quadrado
     let chiSquare = 0;
     for (let i = 1; i <= 9; i++) {
         const expected = (benfordLawPercentages[i] / 100) * totalValidDigits;
@@ -435,24 +429,24 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
     let conformityLevel, conformityClass;
 
     if (meanAbsoluteDeviation < 3) {
-        conformityLevel = "Alta Conformidade";
+        conformityLevel = "Alta";
         conformityClass = "high-conformity";
     } else if (meanAbsoluteDeviation < 6) {
-        conformityLevel = "Conformidade Moderada";
+        conformityLevel = "Moderada";
         conformityClass = "medium-conformity";
     } else {
-        conformityLevel = "Baixa Conformidade";
+        conformityLevel = "Baixa";
         conformityClass = "low-conformity";
     }
 
     // Atualizar interface com os resultados
-    document.getElementById('conformity-value').textContent = conformityLevel;
-    document.getElementById('conformity-indicator').className = `conformity-indicator ${conformityClass}`;
-    document.getElementById('total-data').textContent = totalValidDigits;
-    document.getElementById('max-deviation').textContent = `${maxDeviation.toFixed(1)}% (dígito ${maxDeviationDigit})`;
-    document.getElementById('most-frequent').textContent = mostFrequent;
-    document.getElementById('least-frequent').textContent = leastFrequent;
-    document.getElementById('chi-square').textContent = chiSquare.toFixed(2);
+    document.getElementById('accordanceIndicator').className = `conformity-indicator ${conformityClass}`
+    document.getElementById('accordance').textContent = conformityLevel;
+    document.getElementById('datas').innerText = totalValidDigits;
+    document.getElementById('deviation').innerText = `${maxDeviation.toFixed(1)}% (dígito ${maxDeviationDigit})`;
+    document.getElementById('moreOften').textContent = mostFrequent;
+    document.getElementById('lessOften').textContent = leastFrequent;
+    document.getElementById('xSquare').textContent = chiSquare.toFixed(2);
 
     // Mostrar mensagem baseada nos resultados
     let alertMessage = '';
