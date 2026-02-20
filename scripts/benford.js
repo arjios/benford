@@ -24,7 +24,7 @@ const apiEndpoints = {
     earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100',
     gitcustom: 'assets/popbr.json',
     custom: 'https://arjios.github.io/benford/assets/popbr.json',
-    mortebr: '/assets/mortebr.json'
+    mortebr: 'https://arjios.github.io/benford/assets/mortebr.json'
 };
 
 
@@ -122,7 +122,7 @@ async function fetchDataFromAPI() {
                 .filter(pops => pops > 0);
         } else if (source === 'mortebr') {
             // Inserir o cabeçalho do grafico para a API de mortalidade
-            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da Nortalidade da População do Brasil';
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da Mortalidade da População do Brasil';
             const response = await fetch(apiEndpoints.mortebr);
             const pops = await response.json();
             const countmorte = pops.length;
