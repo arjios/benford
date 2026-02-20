@@ -113,7 +113,7 @@ async function fetchDataFromAPI() {
         let data = [];
         if (source === 'custom') {
             document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Municipios do Brasil';
-            const response = await fetch(apiEndpoints.gitcustom);
+            const response = await fetch(apiEndpoints.custom);
             const pops = await response.json();
             const countpop = pops.length;
             console.log("Resposta ", response, " POPS: ", pops, " CountPOP:", countpop);
