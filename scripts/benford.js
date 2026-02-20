@@ -96,9 +96,13 @@ function initializeChart() {
 
 // Buscar dados da API selecionada
 async function fetchDataFromAPI() {
-//    const source = dataSourceSelect.value;
+    const source = dataSourceSelect.value;
 //    const count = parseInt(dataCountSelect.value);
-    source = 'custom';
+    if(source !== 'custom' && source !== 'mortebr') {
+        showAlert('As APIs de COVID e população do Brasil ainda não estão implementadas. Usando dados simulados para demonstração.', 'warning');
+    }
+//    source = 'custom';
+    document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito';
     count = 0;
     console.log("Fonte: ", source, " Count: ", count);
 
@@ -108,6 +112,7 @@ async function fetchDataFromAPI() {
     try {
         let data = [];
         if (source === 'custom') {
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Municipios do Brasil';
             const response = await fetch(apiEndpoints.gitcustom);
             const pops = await response.json();
             const countpop = pops.length;
@@ -117,7 +122,9 @@ async function fetchDataFromAPI() {
                 .filter(pops => pops > 0);
             console.log("Data: ",data)
         } else if (source === 'mortebr') {
-                        const response = await fetch(apiEndpoints.mortebr);
+            // Inserir o cabeçalho do grafico para a API de mortalidade
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da Nortalidade da População do Brasil';
+            const response = await fetch(apiEndpoints.mortebr);
             const pops = await response.json();
             const countmorte = pops.length;
             console.log("Resposta ", response, " POPS: ", pops, " CountMORTE:", countmorte);
@@ -126,7 +133,8 @@ async function fetchDataFromAPI() {
                 .filter(pops => pops > 0);
             console.log("Data: ",data)
         } else if (source === 'brasilcovid') {
-            // API da COVID no Brasil
+            // Inserir o cabeçalho do grafico para a API de mortalidade
+            document.getElementById("chartChoice").innerText = 'ATENÇÃO: Grafico da Distribuição do Primeiro Digito da COVID no Brasil não implementado';
             const response = await fetch(apiEndpoints.brasilcovid);
             const countries = await response.json();
             const results = countries.length;
@@ -150,7 +158,8 @@ async function fetchDataFromAPI() {
                 .filter(pop => pop > 0);
 
         } else if (source === 'population') {
-            // API de população de países
+            // Inserir o cabeçalho do grafico para a API de população global
+            document.getElementById("chartChoice").innerText = 'ATENÇÃO: Grafico da Distribuição do Primeiro Digito da População Global não implementado';
             const response = await fetch(apiEndpoints.population);
             const countries = await response.json();
 

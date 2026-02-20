@@ -44,7 +44,7 @@
         <div class="main_container">
             <div class="main_content">
                 <div class="button_container">
-                    <select id="data-source">
+                    <select id="data-source" class="button_primary">
                         <option value="nodata" selected>Fonte de Dados</option>
                         <option value="brasilcovid">COVID no Brasil (não implementado)</option>
                         <option value="brpopulation">População do Brasil (não implementado)</option>
@@ -56,15 +56,32 @@
                     <button id="fetchDataBtn" class="button_primary">Buscar Dados</button>
                     <button id="analyzeDataBtn" class="button_primary">Analisar</button>
                     <button id="resetDataBtn" class="button_primary">Limpar Dados</button>
+                    <div class="button_primary" id="loading" style="display: none;">
+                        <div class="loading-spinner"></div>
+                        <p>Carregando dados...</p>
+                    </div>
                 </div>
-                <div class="loading" id="loading">
-                    <div class="loading-spinner"></div>
-                    <p>Carregando dados da API...</p>
-                </div>
-                <div class="data-display">
-                    <div class="chart-container">
-                        <h2><i class="fas fa-chart-bar"></i> Gráfico da Distribuição do Primeiro Dígito</h2>
-                        <canvas id="benfordChart"></canvas>
+                <div class="chart-container">
+                    <div class="chart_content">
+                        <div class="chart_bar">
+                            <h2><i class="fas fa-chart-bar" id="chartChoice"></i> </h2>
+                            <div class="chart_curve">
+                                <div class="curve_bar">
+                                    <canvas id="benfordChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="chart_results">
+                            <div class="results_container">
+                                <p class="results_title">Resultados da Analise</P>
+                                <p class="results_item">Conformidade</p>
+                                <p class="results_item">Dados</p>
+                                <p class="results_item">Desvio</p>
+                                <p class="results_item">Mais Frequente</p>
+                                <p class="results_item">Menos Frequente</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

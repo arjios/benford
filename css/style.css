@@ -113,12 +113,20 @@ header {
     .header_title {
         height: auto;
     }
+
+    .title_text {
+        margin: 0 auto;
+    }
+
+    .subtitle_text {
+        margin: 0 auto;
+    }
 }
 
 .main_container {
     background-color: #E4E4E4;
-    height: 100%;
     margin: 0 auto;
+    height: 400px;
     padding: 20px;
     width: 100%;
 }
@@ -126,6 +134,7 @@ header {
 .main_content {
     border: 1px solid #3949ab;
     border-radius: 8px;
+    height: 100%;
     margin: 0 auto;
     width: 100%;
 }
@@ -223,7 +232,21 @@ select:focus {
     font-weight: 600;
     justify-content: center;
     gap: 8px;
-    width: clamp(2rem, 5rem + 3vw, 12rem);
+    width: clamp(1rem, 5rem + 3.5vw, 12rem);
+}
+
+.button_choice {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #3949ab;
+    color: #3949ab;
+    cursor: pointer;
+    display: flex;
+    font-size: clamp(0.4rem, 0.4rem + 0.5vw, 1.2rem);
+    font-weight: 600;
+    justify-content: center;
+    gap: 8px;
+    width: clamp(1rem, 5rem + 3.5vw, 12rem);
 }
 
 .button_primary:hover {
@@ -235,7 +258,7 @@ select:focus {
 
 .btn-primary {
     background-color: #3949ab;
-    color: white;
+    color: #FFFFFF;
     border: none;
     cursor: pointer;
     font-weight: 600;
@@ -269,36 +292,88 @@ select:focus {
     flex-wrap: wrap;
 }
 
-.data-display {
-    align-items: flex-start;
-    border-top: 1px solid #3949ab;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+.chart-container {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
     display: flex;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.chart_content {
+    align-items: center;
+    display: flex;
+    font-size: clamp(0.4rem, 0.4rem + 0.5vw, 1.2rem);
+    gap: 8px;
+    height: 100%;
     justify-content: center;
-    gap: 30px;
     margin: 0 auto;
     width: 100%;
 }
 
-@media (min-width: 992px) {
-    .data-display {
-        grid-template-columns: 2fr 1fr;
-    }
+.chart_bar {
+    align-items: flex-start;
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    width: 70%;
 }
 
-.chart-container {
-    background-color: #FFFFFF;
+.chart_curve {
+    align-items: center;
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    display: flex;
+    flex-grow: 4;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.curve_bar {
+    align-items: center;
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.chart_results {
+    align-items: center;
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 30%;
+}
+
+.results_container {
+    background-color: #E4E4E4;
     border-radius: 10px;
-    padding: 20px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    flex-grow: 2;
+    font-size: clamp(0.4rem, 0.4rem + 0.5vw, 1.2rem);
+    height: 100%;
+    padding: 8px;
     width: 100%;
 }
 
 #benfordChart {
-    width: 100%;
-    height: auto;
+    background-color: #E4E4E4;
+    height: 100%;
     max-height: 300px;
+    width: 100%;
 }
 
 .chart-container h2 {
@@ -306,15 +381,20 @@ select:focus {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
-.results-container {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+.results_title {
+    background-color: #f0f4ff;
+    color: #1a237e;
+    display: flex;
+    font-size: clamp(0.4rem, 0.4rem + 0.5vw, 1.2rem);
+    font-weight: 600;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
 }
+
 
 .results-container h2 {
     color: #1a237e;
@@ -412,19 +492,20 @@ footer {
 }
 
 .loading {
-    display: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 30px;
+    padding: 8px;
 }
 
 .loading-spinner {
-    border: 5px solid #f3f3f3;
-    border-top: 5px solid #3949ab;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
     animation: spin 1s linear infinite;
-    margin: 0 auto 15px;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3949ab;
+    margin: 0 auto;
+    width: 30px;
 }
 
 @keyframes spin {
