@@ -56,9 +56,8 @@
                     <button id="fetchDataBtn" class="button_primary">Buscar Dados</button>
                     <button id="analyzeDataBtn" class="button_primary">Analisar</button>
                     <button id="resetDataBtn" class="button_primary">Limpar Dados</button>
-                    <div class="button_primary" id="loading" style="display: none;">
+                    <div id="loading">
                         <div class="loading-spinner"></div>
-                        <p>Carregando dados...</p>
                     </div>
                 </div>
                 <div class="chart-container">
@@ -115,7 +114,12 @@
 
         </div>
     </footer>
-    <script src="https://arjios.github.io/scripts/benford.js" async defer></script>
+    <!-- Antes de atualizar no github descomentar esta linha-->
+    <script src="https://arjios.github.io/benford/scripts/benford.js" async defer></script>
+
+    <!-- Antes de atualizar no github comentar esta linha
+    <script src="scripts/benford.js" async defer></script>-->
+
 </body>
 
 </html>
