@@ -22,7 +22,7 @@ const apiEndpoints = {
     population: 'https://restcountries.com/v3.1/all?fields=population',
     stocks: 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-01/2023-06-01?apiKey=demo',
     earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100',
-    gitcustom: 'https://arjios.github.io/benford/assets/popbr.json',
+    gitcustom: 'assets/popbr.json',
     custom: 'https://arjios.github.io/benford/assets/popbr.json',
     mortebr: 'https://arjios.github.io/benford/assets/mortebr.json'
 };
@@ -113,7 +113,7 @@ async function fetchDataFromAPI() {
         let data = [];
         if (source === 'custom') {
             document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Municipios do Brasil';
-            const response = await fetch(apiEndpoints.custom);
+            const response = await fetch(apiEndpoints.gitcustom);
             const pops = await response.json();
             const countpop = pops.length;
             console.log("Resposta ", response, " POPS: ", pops, " CountPOP:", countpop);
