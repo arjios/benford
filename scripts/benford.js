@@ -510,6 +510,9 @@ function resetAnalysis() {
     // Resetar tabela
 //    dataTableBody.innerHTML = '<tr><td colspan="3" style="text-align: center;">Nenhum dado carregado ainda</td></tr>';
 
+    // Resetar titulo do grafico
+    document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito';
+
     // Resetar resultados
     document.getElementById('accordance').textContent = '____';
     document.getElementById('accordanceIndicator').className = 'accordanceIndicator';

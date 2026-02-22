@@ -121,6 +121,7 @@ header {
     .subtitle_text {
         margin: 0 auto;
     }
+
 }
 
 .main_container {
@@ -137,12 +138,6 @@ header {
     height: 100%;
     margin: 0 auto;
     width: 100%;
-}
-
-@media screen and (max-width: 960px) {
-    .chart_content {
-        flex-direction: column;
-    }    
 }
 
 .benford-explanation {
@@ -363,6 +358,40 @@ select:focus {
     justify-content: center;
     padding: 8px;
     width: 30%;
+}
+
+@media screen and (max-width: 930px) {
+    .chart_bar {
+        width: 65%;
+    }
+
+    .chart_results {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .chart_bar {
+        width: 60%;
+    }
+
+    .chart_results {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .chart_content {
+        flex-direction: column;
+    }
+
+    .chart_bar {
+        width: 100%;
+    }
+
+    .chart_results {
+        width: 100%;
+    }
 }
 
 .results_container {
