@@ -82,21 +82,45 @@ header {
 }
 
 .menu_items {
+    align-items: center;
     display: flex;
     gap: 20px;
 }
 
 .items_link {
+    align-items: center;
     color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
     font-family: "Arial";
     font-size: clamp(0.5rem, 0.5rem + 0.8vw, 1rem);
     font-weight: 400;
+    justify-content: space-around;
+    margin-right: 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
+.item_link {
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    font-family: "Arial";
+    font-size: clamp(0.5rem, 0.5rem + 0.8vw, 1rem);
+    font-weight: 400;
+    justify-content: space-around;
     text-decoration: none;
     transition: color 0.3s;
     cursor: pointer;
 }
 
-.items_link:hover {
+.img_icon:hover {
+    background-color: #3949ab;
+    color: #3949ab;
+}
+
+.item_link:hover {
     color: #3949ab;
     font-weight: 600;
 }
