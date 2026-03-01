@@ -598,13 +598,31 @@ select:focus {
 }
 
 footer {
+    background-color: #001858;
     text-align: center;
     padding: 20px;
-    color: #666;
+    color: #666666;
     font-size: 0.9rem;
-    border-top: 1px solid #ddd;
-    margin-top: 30px;
+    border-top: 1px solid #DDDDDD;
 }
+
+.footer_container {
+    align-items: center;
+    background-color: #001858;
+    color: #FFFFFF;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer_text {
+    font-family: "Arial";
+    font-size: clamp(0.4rem, 0.4rem + 0.5vw, 1rem);
+    font-weight: 400;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 
 .loading {
     align-items: center;
