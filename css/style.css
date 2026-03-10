@@ -616,11 +616,13 @@ footer {
 }
 
 .footer_text {
+    color: #FFFFFF;
     font-family: "Arial";
     font-size: clamp(0.4rem, 0.4rem + 0.5vw, 1rem);
     font-weight: 400;
     justify-content: center;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 
