@@ -23,8 +23,11 @@ const apiEndpoints = {
     stocks: 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-01/2023-06-01?apiKey=demo',
     earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100',
     gitcustom: 'assets/popbr.json',
+    account: 'assets/condominio.json',
+    accountgit: 'https://arjios.github.io/benford/assets/condominio.json',
     custom: 'https://arjios.github.io/benford/assets/popbr.json',
     mortebr: 'https://arjios.github.io/benford/assets/mortebr.json'
+
 };
 
 
@@ -130,6 +133,20 @@ async function fetchDataFromAPI() {
             data = pops
                 .map(lin => lin[1])
                 .filter(pops => pops > 0);
+        } else if (source === 'accounting') {
+            console.log("Fonte: ", source);
+            // Inserir o cabeçalho do grafico para a API do Grafico Contabil
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito de uma Conta Contabil';
+            const response = await fetch(apiEndpoints.account);
+            console.log("Response: ", response);
+            const pops = await response.json();
+            console.log("POPS: ", pops);
+            const results = pops.length;
+            console.log("Resposta ", response, " POPS: ", pops, " CountContabil:", results);
+            data = pops
+                .slice(0, count)
+                .map(counntry => counntry.account)
+                .filter(pop => pop > 0);
         } else if (source === 'brasilcovid') {
             // Inserir o cabeçalho do grafico para a API de mortalidade
             document.getElementById("chartChoice").innerText = 'ATENÇÃO: Grafico da Distribuição do Primeiro Digito da COVID no Brasil não implementado';
