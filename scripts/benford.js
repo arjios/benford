@@ -133,20 +133,19 @@ async function fetchDataFromAPI() {
             data = pops
                 .map(lin => lin[1])
                 .filter(pops => pops > 0);
+
         } else if (source === 'accounting') {
-            console.log("Fonte: ", source);
             // Inserir o cabeçalho do grafico para a API do Grafico Contabil
             document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito de uma Conta Contabil';
-            const response = await fetch(apiEndpoints.account);
-            console.log("Response: ", response);
+            const response = await fetch(apiEndpoints.accountgit);
             const pops = await response.json();
-            console.log("POPS: ", pops);
             const results = pops.length;
-            console.log("Resposta ", response, " POPS: ", pops, " CountContabil:", results);
             data = pops
-                .slice(0, count)
-                .map(counntry => counntry.account)
+                .map(lin => lin[1])
                 .filter(pop => pop > 0);
+
+            console.log("Dados extraidos: ", data);
+
         } else if (source === 'brasilcovid') {
             // Inserir o cabeçalho do grafico para a API de mortalidade
             document.getElementById("chartChoice").innerText = 'ATENÇÃO: Grafico da Distribuição do Primeiro Digito da COVID no Brasil não implementado';
@@ -372,7 +371,7 @@ function analyzeData() {
         showAlert('Nenhum dado disponível para análise. Por favor, busque dados primeiro.', 'warning');
         return;
     }
-
+    console.log("Analisando dados: ", currentData);
     // Resetar contagem de dígitos
     firstDigitCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
