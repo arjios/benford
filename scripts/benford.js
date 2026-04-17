@@ -17,7 +17,8 @@ let benfordChart = null;
 
 // URLs de APIs públicas
 const apiEndpoints = {
-    brasilcovid: 'https://api.brasil.io/v1/dataset/covid19/caso/data/?is_last=True&place_type=state',
+    brareacities: 'assets/areacitiesbr.json',
+    brareacitiesgit: 'https://arjios.github.io/benford/assets/areacitiesbr.json',
     brpopulation: 'https://servicodados.ibge.gov.br/api/v1/projecoes/populacao',
     population: 'https://restcountries.com/v3.1/all?fields=population',
     stocks: 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-01/2023-06-01?apiKey=demo',
@@ -146,16 +147,16 @@ async function fetchDataFromAPI() {
 
             console.log("Dados extraidos: ", data);
 
-        } else if (source === 'brasilcovid') {
+        } else if (source === 'brareacities') {
             // Inserir o cabeçalho do grafico para a API de mortalidade
-            document.getElementById("chartChoice").innerText = 'ATENÇÃO: Grafico da Distribuição do Primeiro Digito da COVID no Brasil não implementado';
-            const response = await fetch(apiEndpoints.brasilcovid);
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Municipios do Brasil';
+            const response = await fetch(apiEndpoints.brareacities);
             const countries = await response.json();
             const results = countries.length;
             // Extrair valores de população
             data = countries
                 .slice(0, results)
-                .map(country => country.brasilcovid)
+                .map(country => country.brareacities)
                 .filter(pop => pop > 0);
 
         } else if (source === 'brpopulation') {
