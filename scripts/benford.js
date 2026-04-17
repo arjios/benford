@@ -156,7 +156,7 @@ async function fetchDataFromAPI() {
             // Extrair valores de população
             data = countries
                 .slice(0, results)
-                .map(country => country.brareacities)
+                .map(country => country.results)
                 .filter(pop => pop > 0);
 
         } else if (source === 'brpopulation') {
