@@ -172,7 +172,7 @@ async function fetchDataFromAPI() {
             // Inserir o cabeçalho do grafico para a API de população global
             console.log("População Global");
             document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Global';
-            const response = await fetch(apiEndpoints.globalpop);
+            const response = await fetch(apiEndpoints.globalpopgit);
             const countries = await response.json();
             const results = countries.length;
             console.log("Resposta ", response, " Countries: ", countries, " Results:", results);
