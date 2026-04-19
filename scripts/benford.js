@@ -17,18 +17,16 @@ let benfordChart = null;
 
 // URLs de APIs públicas
 const apiEndpoints = {
-    brareacities: 'assets/areacitiesbr.json',
     brareacitiesgit: 'https://arjios.github.io/benford/assets/areacitiesbr.json',
     brpopulation: 'https://servicodados.ibge.gov.br/api/v1/projecoes/populacao',
-    population: 'https://restcountries.com/v3.1/all?fields=population',
-    stocks: 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-01/2023-06-01?apiKey=demo',
-    earthquakes: 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&minmagnitude=4.5&limit=100',
-    gitcustom: 'assets/popbr.json',
-    account: 'assets/condominio.json',
+    globalpopgit: 'https://arjios.github.io/benford/assets/popglobal.json',
     accountgit: 'https://arjios.github.io/benford/assets/condominio.json',
     custom: 'https://arjios.github.io/benford/assets/popbr.json',
-    mortebr: 'https://arjios.github.io/benford/assets/mortebr.json'
-
+    mortebr: 'https://arjios.github.io/benford/assets/mortebr.json',
+    brareacities: 'assets/areacitiesbr.json',
+    gitcustom: 'assets/popbr.json',
+    account: 'assets/condominio.json',
+    globalpop: 'assets/popglobal.json'   
 };
 
 
@@ -109,13 +107,12 @@ async function fetchDataFromAPI() {
     document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito';
     count = 0;
     console.log("Fonte: ", source, " Count: ", count);
-
     // Mostrar indicador de carregamento
     loadingElement.style.display = 'block';
-
     try {
         let data = [];
         if (source === 'custom') {
+            console.log("Custom");
             document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Municipios do Brasil';
             const response = await fetch(apiEndpoints.gitcustom);
             const pops = await response.json();
@@ -125,6 +122,7 @@ async function fetchDataFromAPI() {
                 .map(lin => lin[4])
                 .filter(pops => pops > 0);
         } else if (source === 'mortebr') {
+            console.log("Morte BR");
             // Inserir o cabeçalho do grafico para a API de mortalidade
             document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da Mortalidade da População do Brasil';
             const response = await fetch(apiEndpoints.mortebr);
@@ -137,30 +135,31 @@ async function fetchDataFromAPI() {
 
         } else if (source === 'accounting') {
             // Inserir o cabeçalho do grafico para a API do Grafico Contabil
+            console.log("Account");
             document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito de uma Conta Contabil';
-            const response = await fetch(apiEndpoints.accountgit);
+            const response = await fetch(apiEndpoints.account);
             const pops = await response.json();
             const results = pops.length;
             data = pops
                 .map(lin => lin[1])
                 .filter(pop => pop > 0);
 
-            console.log("Dados extraidos: ", data);
 
-        } else if (source === 'brareacities') {
-            // Inserir o cabeçalho do grafico para a API de mortalidade
-            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Municipios do Brasil';
-            const response = await fetch(apiEndpoints.brareacities);
-            const countries = await response.json();
-            const results = countries.length;
-            // Extrair valores de população
-            data = countries
-                .slice(0, results)
-                .map(country => country.results)
+        } else if (source === 'brareacity') {
+            // Inserir o cabeçalho do grafico para a API de Areas das Cidades do Brasil
+            console.log("Area das Cidades Brasileiras");
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da Area dos Municipios do Brasil';
+            const response = await fetch(apiEndpoints.brareacitiesgit);
+            const areas = await response.json();
+            const results = areas.length;
+            // Extrair valores de area
+            data = areas
+                .map(area => area[5])
                 .filter(pop => pop > 0);
 
         } else if (source === 'brpopulation') {
             // API de população do Brasil
+            console.log("População das Cidades Brasileiras");
             const response = await fetch(apiEndpoints.brpopulation);
             const countries = await response.json();
             // Extrair valores de população
@@ -169,18 +168,19 @@ async function fetchDataFromAPI() {
                 .map(country => country.brpopulation)
                 .filter(pop => pop > 0);
 
-        } else if (source === 'population') {
+        } else if (source === 'globalpop') {
             // Inserir o cabeçalho do grafico para a API de população global
-            document.getElementById("chartChoice").innerText = 'ATENÇÃO: Grafico da Distribuição do Primeiro Digito da População Global não implementado';
-            const response = await fetch(apiEndpoints.population);
+            console.log("População Global");
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Global';
+            const response = await fetch(apiEndpoints.globalpop);
             const countries = await response.json();
-
+            const results = countries.length;
+            console.log("Resposta ", response, " Countries: ", countries, " Results:", results);
             // Extrair valores de população
             data = countries
-                .slice(0, count)
-                .map(country => country.population)
-                .filter(country => country > 0);
-
+                .map(country => country[9])
+                .filter(pop => pop > 0);
+            console.log(data[9])
         } else if (source === 'stocks') {
             // API de preços de ações (usando dados simulados para evitar limite de API)
             data = generateStockPrices(count);
