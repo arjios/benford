@@ -1,5 +1,16 @@
 // Dados de exemplo e configurações iniciais
-const benfordLawPercentagesFirst = [0, 30.1, 17.6, 12.5, 9.7, 7.9, 6.7, 5.8, 5.1, 4.6];
+const benfordLawPercentagesSecond = [
+    11.97, 
+    11.39, 
+    10.89, 
+    10.43, 
+    10.03, 
+    9.68, 
+    9.34, 
+    9.04, 
+    8.76,
+    8.50
+];
 
 // Elementos do DOM
 const fetchButton = document.getElementById('fetchDataBtn');
@@ -12,7 +23,7 @@ const dataTableBody = document.getElementById('data-table-body');
 
 // Variáveis de estado
 let currentData = [];
-let firstDigitCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+let secondDigitCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let benfordChart = null;
 
 // URLs de APIs públicas
@@ -42,11 +53,11 @@ function initializeChart() {
     benfordChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
+            labels: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
             datasets: [
                 {
                     label: 'Lei de Benford (Esperado)',
-                    data: benfordLawPercentagesFirst.slice(1),
+                    data: benfordLawPercentagesSecond.slice(0),
                     backgroundColor: 'rgba(57, 73, 171, 0.2)',
                     borderColor: 'rgba(57, 73, 171, 1)',
                     borderWidth: 2,
@@ -56,7 +67,7 @@ function initializeChart() {
                 },
                 {
                     label: 'Dados Analisados (Observado)',
-                    data: firstDigitCount.slice(1).map(count => 0),
+                    data: secondDigitCount.slice(0).map(count => 0),
                     backgroundColor: 'rgba(76, 175, 80, 0.7)',
                     borderColor: 'rgba(76, 175, 80, 1)',
                     borderWidth: 1
@@ -77,7 +88,7 @@ function initializeChart() {
                 x: {
                     title: {
                         display: true,
-                        text: 'Primeiro Dígito'
+                        text: 'Segundo Dígito'
                     }
                 }
             },
@@ -88,7 +99,7 @@ function initializeChart() {
                 tooltip: {
                     callbacks: {
                         label: function (context) {
-                            return `${context.dataset.label}: ${context.raw.toFixed(1)}%`;
+                            return `${context.dataset.label}: ${context.raw.toFixed(2)}%`;
                         }
                     }
                 }
@@ -100,21 +111,20 @@ function initializeChart() {
 // Buscar dados da API selecionada
 async function fetchDataFromAPI() {
     const source = dataSourceSelect.value;
-//    const count = parseInt(dataCountSelect.value);
     if(source !== 'custom' && source !== 'mortebr') {
         showAlert('As APIs de COVID e população do Brasil ainda não estão implementadas. Usando dados simulados para demonstração.', 'warning');
     }
-//    source = 'custom';
-    document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito';
+    document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Segundo Digito';
     count = 0;
     console.log("Fonte: ", source, " Count: ", count);
+
     // Mostrar indicador de carregamento
     loadingElement.style.display = 'block';
     try {
         let data = [];
         if (source === 'custom') {
             console.log("Custom");
-            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Municipios do Brasil';
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Segundo Digito da População Municipios do Brasil';
             const response = await fetch(apiEndpoints.gitcustom);
             const pops = await response.json();
             const countpop = pops.length;
@@ -123,9 +133,8 @@ async function fetchDataFromAPI() {
                 .map(lin => lin[4])
                 .filter(pops => pops > 0);
         } else if (source === 'mortebr') {
-            console.log("Morte BR");
             // Inserir o cabeçalho do grafico para a API de mortalidade
-            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da Mortalidade da População do Brasil';
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Segundo Digito da Mortalidade da População do Brasil';
             const response = await fetch(apiEndpoints.mortebr);
             const pops = await response.json();
             const countmorte = pops.length;
@@ -137,7 +146,7 @@ async function fetchDataFromAPI() {
         } else if (source === 'accounting') {
             // Inserir o cabeçalho do grafico para a API do Grafico Contabil
             console.log("Account");
-            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito de uma Conta Contabil';
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Segundo Digito de uma Conta Contabil';
             const response = await fetch(apiEndpoints.account);
             const pops = await response.json();
             const results = pops.length;
@@ -149,7 +158,7 @@ async function fetchDataFromAPI() {
         } else if (source === 'brareacity') {
             // Inserir o cabeçalho do grafico para a API de Areas das Cidades do Brasil
             console.log("Area das Cidades Brasileiras");
-            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da Area dos Municipios do Brasil';
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Segundo Digito da Area dos Municipios do Brasil';
             const response = await fetch(apiEndpoints.brareacitiesgit);
             const areas = await response.json();
             const results = areas.length;
@@ -158,7 +167,7 @@ async function fetchDataFromAPI() {
                 .map(area => area[5])
                 .filter(pop => pop > 0);
 
-        }  else if (source === 'brpopulation') { 
+        } else if (source === 'brpopulation') {
             // API de população do Brasil
             console.log("População das Cidades Brasileiras");
             const response = await fetch(apiEndpoints.brpopulation);
@@ -172,7 +181,7 @@ async function fetchDataFromAPI() {
         } else if (source === 'globalpop') {
             // Inserir o cabeçalho do grafico para a API de população global
             console.log("População Global");
-            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População Global';
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Segundo Digito da População Global';
             const response = await fetch(apiEndpoints.globalpopgit);
             const countries = await response.json();
             const results = countries.length;
@@ -196,11 +205,9 @@ async function fetchDataFromAPI() {
             return {
                 raw: value,
                 processed: num,
-                firstDigit: getFirstDigit(num)
+                secondDigit: getSecondDigit(num)
             };
         });
-
-    //    updateDataTable();
 
         // Esconder indicador de carregamento
         loadingElement.style.display = 'none';
@@ -218,7 +225,7 @@ async function fetchDataFromAPI() {
             return {
                 raw: value,
                 processed: num,
-                firstDigit: getFirstDigit(num)
+                secondDigit: getSecondDigit(num)
             };
         });
 
@@ -247,14 +254,31 @@ function generateMockData(count) {
         else if (rand < 0.954) firstDigit = 8;
         else firstDigit = 9;
 
-        // Criar um número com esse primeiro dígito
-        const magnitude = Math.floor(Math.random() * 6) + 1; // 1 a 6 dígitos
-        const rest = Math.floor(Math.random() * Math.pow(10, magnitude - 1));
-        const number = firstDigit * Math.pow(10, magnitude - 1) + rest;
+        // Escolher segundo digito
+        const rand2 = Math.random()
+        let cumulative = 0;
 
+        for (let d = 0; d <= 9; d++) {
+            let prob = 0;
+            for(let fd=1; fd<=9; fd++) {
+                prob += Math.log10(1 + 1 / (10 * fd + d));
+            }
+            cumulative += prob;
+            if(rand2 < cumulative) {
+                secondDigit = d;
+                break;
+            }
+        }
+        const magnitude = Math.floor(Math.random() * 6) + 2; // de 2 a 6
+        let number;
+        if(magnitude === 2) {
+            number = firstDigit * 10 + secondDigit;
+        } else {
+            const rest = Math.floor(Math.random() * Math.pow(10, magnitude - 2));
+            number = (firstDigit * 10 + secondDigit) * Math.pow(10, magnitude - 2) + rest;
+        }
         data.push(number);
     }
-
     return data;
 }
 
@@ -302,23 +326,17 @@ function generateEarthquakeMagnitudes(count) {
     return magnitudes;
 }
 
-// Obter o primeiro dígito significativo de um número
-function getFirstDigit(number) {
-    if (number === 0) return 0;
+// Obter o segundo dígito significativo de um número
+function getSecondDigit(number) {
+if (!number || isNaN(number)) return -1;
 
-    let n = Math.abs(number);
-
-    // Se o número for menor que 1, multiplicar por 10 até que seja >= 1
-    while (n < 1) {
-        n *= 10;
-    }
-
-    // Enquanto o número for >= 10, dividir por 10
-    while (n >= 10) {
-        n /= 10;
-    }
-
-    return Math.floor(n);
+    // Converte para string numérico apenas com os dígitos significativos
+    const cleanedStr = Math.abs(number).toString().replace('.', '').replace(/^0+/, '');
+    
+    // Precisa ter pelo menos 2 dígitos significativos
+    if (cleanedStr.length < 2) return -1;
+    
+    return parseInt(cleanedStr[1], 10);
 }
 
 // Atualizar tabela com os dados obtidos
@@ -341,7 +359,7 @@ function updateDataTable() {
             item.raw;
 
         const digitCell = document.createElement('td');
-        digitCell.textContent = item.firstDigit;
+        digitCell.textContent = item.secondDigit;
         digitCell.style.fontWeight = 'bold';
         digitCell.style.color = '#1a237e';
 
@@ -372,27 +390,30 @@ function analyzeData() {
         showAlert('Nenhum dado disponível para análise. Por favor, busque dados primeiro.', 'warning');
         return;
     }
-    console.log("Analisando dados: ", currentData);
-    // Resetar contagem de dígitos
-    firstDigitCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-    // Contar ocorrências de cada primeiro dígito
+    console.log("Analisando dados: ", currentData);
+    secondDigitCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    // Resetar contagem dos segundos dígitos
+    let totalValidDigits = 0;
     currentData.forEach(item => {
-        const digit = item.firstDigit;
-        if (digit >= 1 && digit <= 9) {
-            firstDigitCount[digit]++;
+        const digit = item.secondDigit;
+        if (digit >= 0 && digit <= 9) {
+            secondDigitCount[digit]++;
+            totalValidDigits++;
         }
     });
 
     // Calcular porcentagens
-    const totalValidDigits = currentData.filter(item => item.firstDigit >= 1 && item.firstDigit <= 9).length;
-    const observedPercentages = firstDigitCount.map(count =>
-        totalValidDigits > 0 ? (count / totalValidDigits) * 100 : 0
-    );
-
+    if (totalValidDigits === 0) {
+        showAlert('Nenhum dígito válido encontrado nos dados.', 'danger');
+        return;
+    }
+    const observedPercentages = secondDigitCount.map(count => (count / totalValidDigits) * 100);
     // Atualizar gráfico
-    benfordChart.data.datasets[1].data = observedPercentages.slice(1);
-    benfordChart.update();
+    if (benfordChart) {
+        benfordChart.data.datasets[1].data = observedPercentages;
+        benfordChart.update();
+    }
 
     // Calcular métricas de conformidade
     calculateConformityMetrics(observedPercentages, totalValidDigits);
@@ -405,8 +426,8 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
     let maxDeviation = 0;
     let maxDeviationDigit = 0;
 
-    for (let i = 1; i <= 9; i++) {
-        const deviation = Math.abs(observedPercentages[i] - benfordLawPercentagesFirst[i]);
+    for (let i = 0; i <= 9; i++) {
+        const deviation = Math.abs(observedPercentages[i] - benfordLawPercentagesSecond[i]);
         sumAbsoluteDeviation += deviation;
 
         if (deviation > maxDeviation) {
@@ -415,35 +436,38 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
         }
     }
 
-    const meanAbsoluteDeviation = sumAbsoluteDeviation / 9;
+    const meanAbsoluteDeviation = sumAbsoluteDeviation / 10;
 
     // Calcular qui-quadrado
     let chiSquare = 0;
-    for (let i = 1; i <= 9; i++) {
-        const expected = (benfordLawPercentagesFirst[i] / 100) * totalValidDigits;
-        const observed = firstDigitCount[i];
-        chiSquare += Math.pow(observed - expected, 2) / expected;
+    for (let i = 0; i <= 9; i++) {
+        const expectedCount = (benfordLawPercentagesSecond[i] / 100) * totalValidDigits;
+        const observedCount = secondDigitCount[i];
+        if (expectedCount > 0) {
+            chiSquare += Math.pow(observedCount - expectedCount, 2) / expectedCount;
+        }
     }
 
+    // Calcular SSD para segundos dígitos
     let ssd = 0;
-    for (let d = 1; d <= 9; d++) {
-        const deviation = observedPercentages[d] - benfordLawPercentagesFirst[d];
+    for (let d = 0; d <= 9; d++) {
+        const deviation = observedPercentages[d] - benfordLawPercentagesSecond[d];
         ssd += Math.pow(deviation, 2);
     }
 
     // Encontrar dígitos mais e menos frequentes
-    let mostFrequent = 1;
-    let leastFrequent = 1;
-    let maxCount = firstDigitCount[1];
-    let minCount = firstDigitCount[1];
+    let mostFrequent = 0;
+    let leastFrequent = 0;
+    let maxCount = secondDigitCount[0];
+    let minCount = secondDigitCount[0];
 
     for (let i = 2; i <= 9; i++) {
-        if (firstDigitCount[i] > maxCount) {
-            maxCount = firstDigitCount[i];
+        if (secondDigitCount[i] > maxCount) {
+            maxCount = secondDigitCount[i];
             mostFrequent = i;
         }
-        if (firstDigitCount[i] < minCount) {
-            minCount = firstDigitCount[i];
+        if (secondDigitCount[i] < minCount) {
+            minCount = secondDigitCount[i];
             leastFrequent = i;
         }
     }
@@ -470,7 +494,7 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
     document.getElementById('moreOften').textContent = mostFrequent;
     document.getElementById('lessOften').textContent = leastFrequent;
     document.getElementById('xSquare').textContent = chiSquare.toFixed(2);
-    document.getElementById('ssd').textContent = ssd.toFixed(2);
+    document.getElementById('ssd').textContent = ssd.toFixed(4);
 
     // Mostrar mensagem baseada nos resultados
     let alertMessage = '';
@@ -525,17 +549,17 @@ function showAlert(message, type) {
 // Resetar análise
 function resetAnalysis() {
     currentData = [];
-    firstDigitCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    secondDigitCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     // Resetar gráfico
-    benfordChart.data.datasets[1].data = firstDigitCount.slice(1).map(() => 0);
+    benfordChart.data.datasets[1].data = secondDigitCount.slice(1).map(() => 0);
     benfordChart.update();
 
     // Resetar tabela
 //    dataTableBody.innerHTML = '<tr><td colspan="3" style="text-align: center;">Nenhum dado carregado ainda</td></tr>';
 
     // Resetar titulo do grafico
-    document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito';
+    document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Segundo Digito';
 
     // Resetar resultados
     document.getElementById('accordance').textContent = '____';
