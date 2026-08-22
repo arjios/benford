@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <lang="pt-br"></lang>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+        <title>Analise Lei Benford</title>
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_logo">
+                <div class="logo_img">
+                    <img class="img_picture" src="../../assets/images/ufsb_logo.png" alt="Logo">
+                </div>
+            </div>
+            <div class="header_title">
+                <div class="title_text">
+                    <p>Analise Lei Benford </p>
+                </div>
+                <div class="subtitle_text">
+                    <p>LIMCT - Licenciatura Interdisciplinar em Matemática Computação e suas Tecnologias</p>
+                </div>
+            </div>
+        </div>
+        <div class="header_menu">
+            <div class="menu_items">
+                <ul class="items_link">
+                    <li class="items_link">
+                        <img class="img_icon" src="/benford/assets/icons/home.png" alt="Home">
+                        <a class="item_link" href="/index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="main_content">
+                <div class="button_container">
+                    <select id="data-source" class="button_primary">
+                        <option value="nodata" selected>Fonte de Dados</option>
+                        <option value="brareacity">Area Municipios do Brasil</option>
+                        <option value="custom">População Municipios Brasil</option>
+                        <option value="globalpop">População dos Paises do Mundo</option>
+                        <option value="mortebr">Probabilidade Morte por Idade Brasil</option>
+                        <option value="accounting">Contas Contábeis</option>
+
+                    </select>
+                    <button id="fetchDataBtn" class="button_primary">Buscar Dados</button>
+                    <button id="analyzeDataBtn" class="button_primary">Analisar</button>
+                    <button id="resetDataBtn" class="button_primary">Limpar Dados</button>
+                    <div id="loading">
+                        <div class="loading-spinner"></div>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart_content">
+                        <div class="chart_bar">
+                            <h2><i class="fas fa-chart-bar" id="chartChoice"></i> </h2>
+                            <div class="chart_curve">
+                                <div class="curve_bar">
+                                    <canvas id="benfordChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="chart_results">
+                            <div class="results_container">
+                                <p class="results_title">Resultados da Analise</P>
+                                <div class="result_item">
+                                    <p class="results_items">Indicador:</p>
+                                    <p class="result_values" id="accordanceIndicator"></p>
+                                </div>
+                                <div class="result_item">
+                                    <p class="results_items">Conformidade:</p>
+                                    <p class="result_values" id="accordance">____</p>
+                                </div>
+                                <div class="result_item">
+                                    <p class="results_items">Total de Dados:</p>
+                                    <p class="result_values" id="datas">____</p>
+                                </div>
+                                <div class="result_item">
+                                    <p class="results_items">Maior Desvio Percentual:</p>
+                                    <p class="result_values" id="deviation">____</p>
+                                </div>
+                                <div class="result_item">
+                                    <p class="results_items">Dígito Mais Frequente:</p>
+                                    <p class="result_values" id="moreOften">____</p>
+                                </div>
+                                <div class="result_item">
+                                    <p class="results_items">Dígito Menos Frequente:</p>
+                                    <p class="result_values" id="lessOften">____</p>
+                                </div>
+                                <div class="result_item">
+                                    <p class="results_items">(&chi;<sup>2</sup>) - Qui-Quadrado:</p>
+                                    <p class="result_values" id="xSquare">____</p>
+                                </div>
+                                <div class="result_item">
+                                    <p class="results_items">SSD:</p>
+                                    <p class="result_values" id="ssd">____</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <p class="footer_text">Desenvolvido por ARJIOS© 2025 - 2026 : Fonte de dados IBGE</p>
+        </div>
+    </footer>
+    <!-- Antes de atualizar no github descomentar esta linha 
+    <script src="https://arjios.github.io/benford/scripts/benfordTwo.js" async defer></script> -->
+
+    <!-- Antes de atualizar no github comentar esta linha  -->
+    <script src="../../scripts/benfordTwo.js" async defer></script>
+
+</body>
+
+</html>
