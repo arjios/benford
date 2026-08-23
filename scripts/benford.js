@@ -18,7 +18,7 @@ let benfordChart = null;
 // URLs de APIs públicas
 const apiEndpoints = {
     brareacitiesgit: 'https://arjios.github.io/benford/assets/areacitiesbr.json',
-    brpopulation: 'https://arjios.github.io/benford/assets/popbrasil.json',
+    brpopulation: 'https://arjios.github.io/benford/assets/populacao_cidades_br.json',
     globalpopgit: 'https://arjios.github.io/benford/assets/popglobal.json',
     accountgit: 'https://arjios.github.io/benford/assets/condominio.json',
     custom: 'https://arjios.github.io/benford/assets/popbr.json',
@@ -166,8 +166,8 @@ async function fetchDataFromAPI() {
             const population = await response.json();
             // Extrair valores de população
             data = population
-                    .map(area => area[5])
-                    .filter(pop => pop > 0);
+                .map(area => area[3])
+                .filter(pop => pop > 0);
 //                .slice(0, count)
 //                .map(item => item.brpopulation)
 //                .filter(pop => pop > 0);
