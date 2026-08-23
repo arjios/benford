@@ -21,7 +21,7 @@ const apiEndpoints = {
     brpopulation: 'https://arjios.github.io/benford/assets/populacao_cidades_br.json',
     globalpopgit: 'https://arjios.github.io/benford/assets/popglobal.json',
     accountgit: 'https://arjios.github.io/benford/assets/condominio.json',
-    custom: 'https://arjios.github.io/benford/assets/popbr.json',
+    custom: 'https://arjios.github.io/benford/assets/populacao_cidades_br.json',
     mortebr: 'https://arjios.github.io/benford/assets/mortebr.json',
     brareacities: '../../assets/areacitiesbr.json',
     gitcustomOld: '../../assets/popbr.json',
