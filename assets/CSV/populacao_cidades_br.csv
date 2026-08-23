@@ -1,0 +1,5570 @@
+1,Sao Paulo,SP,11451999
+2,Rio de Janeiro,RJ,6211223
+3,Brasilia,DF,2817381
+4,Fortaleza,CE,2428708
+5,Salvador,BA,2417678
+6,Belo Horizonte,MG,2315560
+7,Manaus,AM,2063689
+8,Curitiba,PR,1773718
+9,Recife,PE,1488920
+10,Goiania,GO,1437366
+11,Porto Alegre,RS,1332845
+12,Belem,PA,1303403
+13,Guarulhos,SP,1291771
+14,Campinas,SP,1139047
+15,Sao Luis,MA,1037775
+16,Maceio,AL,957916
+17,Campo Grande,MS,898100
+18,Sao Goncalo,RJ,896744
+19,Teresina,PI,866300
+20,Joao Pessoa,PB,833932
+21,Sao Bernardo do Campo,SP,810729
+22,Duque de Caxias,RJ,808161
+23,Nova Iguacu,RJ,785867
+24,Natal,RN,751300
+25,Santo Andre,SP,748919
+26,Osasco,SP,728615
+27,Sorocaba,SP,723682
+28,Uberlandia,MG,713224
+29,Ribeirao Preto,SP,698642
+30,Sao Jose dos Campos,SP,697054
+31,Cuiaba,MT,650877
+32,Jaboatao dos Guararapes,PE,644037
+33,Contagem,MG,621863
+34,Joinville,SC,616317
+35,Feira de Santana,BA,616272
+36,Aracaju,SE,602757
+37,Londrina,PR,555965
+38,Juiz de Fora,MG,540756
+39,Florianopolis,SC,537211
+40,Aparecida de Goiania,GO,527796
+41,Serra,ES,520653
+42,Campos dos Goytacazes,RJ,483540
+43,Belford Roxo,RJ,483087
+44,Niteroi,RJ,481749
+45,Sao Jose do Rio Preto,SP,480393
+46,Ananindeua,PA,478778
+47,Vila Velha,ES,467722
+48,Caxias do Sul,RS,463501
+49,Porto Velho,RO,460434
+50,Mogi das Cruzes,SP,451505
+51,Jundiai,SP,443221
+52,Macapa,AP,442933
+53,Sao Joao de Meriti,RJ,440962
+54,Piracicaba,SP,423323
+55,Campina Grande,PB,419379
+56,Santos,SP,418608
+57,Maua,SP,418261
+58,Montes Claros,MG,414240
+59,Boa Vista,RR,413486
+60,Betim,MG,411846
+61,Maringa,PR,409657
+62,Anapolis,GO,398869
+63,Diadema,SP,393237
+64,Carapicuiba,SP,386984
+65,Petrolina,PE,386791
+66,Bauru,SP,379146
+67,Caruaru,PE,378048
+68,Vitoria da Conquista,BA,370879
+69,Itaquaquecetuba,SP,369275
+70,Rio Branco,AC,364756
+71,Blumenau,SC,361261
+72,Ponta Grossa,PR,358371
+73,Caucaia,CE,355679
+74,Cariacica,ES,353491
+75,Franca,SP,352536
+76,Olinda,PE,349976
+77,Praia Grande,SP,349935
+78,Cascavel,PR,348051
+79,Canoas,RS,347657
+80,Paulista,PE,342167
+81,Uberaba,MG,337836
+82,Santarem,PA,331942
+83,Sao Vicente,SP,329911
+84,Ribeirao das Neves,MG,329794
+85,Sao Jose dos Pinhais,PR,329628
+86,Pelotas,RS,325685
+87,Vitoria,ES,322869
+88,Barueri,SP,316473
+89,Taubate,SP,310739
+90,Suzano,SP,307429
+91,Palmas,TO,302692
+92,Camacari,BA,300372
+93,Varzea Grande,MT,300078
+94,Limeira,SP,291869
+95,Guaruja,SP,287634
+96,Juazeiro do Norte,CE,286120
+97,Foz do Iguacu,PR,285415
+98,Sumare,SP,279545
+99,Petropolis,RJ,278881
+100,Cotia,SP,274413
+101,Taboao da Serra,SP,273542
+102,Imperatriz,MA,273110
+103,Santa Maria,RS,271735
+104,Sao Jose,SC,270299
+105,Parauapebas,PA,267836
+106,Maraba,PA,266533
+107,Gravatai,RS,265074
+108,Mossoro,RN,264577
+109,Itajai,SC,264054
+110,Volta Redonda,RJ,261563
+111,Governador Valadares,MG,257171
+112,Indaiatuba,SP,255748
+113,Sao Carlos,SP,254857
+114,Chapeco,SC,254785
+115,Parnamirim,RN,252716
+116,Embu das Artes,SP,250691
+117,Macae,RJ,246391
+118,Rondonopolis,MT,244911
+119,Sao Jose de Ribamar,MA,244579
+120,Dourados,MS,243367
+121,Araraquara,SP,242228
+122,Jacarei,SP,240275
+123,Juazeiro,BA,237821
+124,Marilia,SP,237627
+125,Americana,SP,237240
+126,Hortolandia,SP,236641
+127,Arapiraca,AL,234696
+128,Maracanau,CE,234509
+129,Itapevi,SP,232297
+130,Colombo,PR,232212
+131,Divinopolis,MG,231091
+132,Mage,RJ,228127
+133,Ipatinga,MG,227731
+134,Novo Hamburgo,RS,227646
+135,Sete Lagoas,MG,227397
+136,Rio Verde,GO,225696
+137,aguas Lindas de Goias,GO,225693
+138,Presidente Prudente,SP,225668
+139,Itaborai,RJ,224267
+140,Viamao,RS,224112
+141,Palhoca,SC,222598
+142,Cabo Frio,RJ,222161
+143,Santa Luzia,MG,219132
+144,Sao Leopoldo,RS,217409
+145,Criciuma,SC,214493
+146,Luziania,GO,209129
+147,Passo Fundo,RS,206215
+148,Cabo de Santo Agostinho,PE,203440
+149,Lauro de Freitas,BA,203331
+150,Sobral,CE,203023
+151,Rio Claro,SP,201418
+152,Aracatuba,SP,200124
+153,Valparaiso de Goias,GO,198861
+154,Marica,RJ,197277
+155,Sinop,MT,196312
+156,Nossa Senhora do Socorro,SE,192330
+157,Castanhal,PA,192256
+158,Rio Grande,RS,191900
+159,Nova Friburgo,RJ,189939
+160,Alvorada,RS,187315
+161,Itabuna,BA,186708
+162,Cachoeiro de Itapemirim,ES,185786
+163,Santa Barbara d''Oeste',SP,183347
+164,Jaragua do Sul,SC,182660
+165,Guarapuava,PR,182093
+166,Ferraz de Vasconcelos,SP,179198
+167,Ilheus,BA,178649
+168,Braganca Paulista,SP,176811
+169,Timon,MA,174465
+170,Araguaina,TO,171301
+171,Ibirite,MG,170537
+172,Barra Mansa,RJ,169894
+173,Porto Seguro,BA,168326
+174,Itu,SP,168240
+175,Angra dos Reis,RJ,167434
+176,Mesquita,RJ,167127
+177,Linhares,ES,166786
+178,Sao Caetano do Sul,SP,165655
+179,Pindamonhangaba,SP,165428
+180,Francisco Morato,SP,165139
+181,Teresopolis,RJ,165123
+182,Lages,SC,164981
+183,Pocos de Caldas,MG,163742
+184,Parnaiba,PI,162159
+185,Barreiras,BA,159734
+186,Patos de Minas,MG,159235
+187,Jequie,BA,158813
+188,Atibaia,SP,158647
+189,Itapecerica da Serra,SP,158522
+190,Abaetetuba,PA,158188
+191,Itapetininga,SP,157790
+192,Caxias,MA,156973
+193,Rio das Ostras,RJ,156491
+194,Senador Canedo,GO,155635
+195,Santana de Parnaiba,SP,154105
+196,Mogi Guacu,SP,153658
+197,Pouso Alegre,MG,152217
+198,Araucaria,PR,151666
+199,Alagoinhas,BA,151055
+200,Toledo,PR,150470
+201,Santa Rita,PB,149910
+202,Fazenda Rio Grande,PR,148873
+203,Camaragibe,PE,147771
+204,Nilopolis,RJ,146774
+205,Paranagua,PR,145829
+206,Paco do Lumiar,MA,145643
+207,Teixeira de Freitas,BA,145216
+208,Botucatu,SP,145155
+209,Franco da Rocha,SP,144849
+210,Garanhuns,PE,142506
+211,Trindade,GO,142431
+212,Brusque,SC,141385
+213,Queimados,RJ,140523
+214,Balneario Camboriu,SC,139155
+215,Teofilo Otoni,MG,137418
+216,Varginha,MG,136467
+217,Campo Largo,PR,136327
+218,Cachoeirinha,RS,136258
+219,Caraguatatuba,SP,134873
+220,Salto,SP,134319
+221,Cameta,PA,134184
+222,Vitoria de Santo Antao,PE,134084
+223,Jau,SP,133497
+224,Santa Cruz do Sul,RS,133230
+225,Tres Lagoas,MS,132152
+226,Sapucaia do Sul,RS,132107
+227,Conselheiro Lafaiete,MG,131621
+228,Itapipoca,CE,131123
+229,Crato,CE,131050
+230,Araras,SP,130866
+231,Apucarana,PR,130134
+232,Araruama,RJ,129671
+233,Resende,RJ,129612
+234,Sabara,MG,129380
+235,Vespasiano,MG,129246
+236,Votorantim,SP,127923
+237,Pinhais,PR,127019
+238,Sertaozinho,SP,126887
+239,Barcarena,PA,126650
+240,Valinhos,SP,126373
+241,Altamira,PA,126279
+242,Barbacena,MG,125317
+243,Guarapari,ES,124656
+244,Ji-Parana,RO,124333
+245,Tatui,SP,123942
+246,Sao Mateus,ES,123752
+247,Itaituba,PA,123314
+248,Bento Goncalves,RS,123151
+249,Braganca,PA,123082
+250,Barretos,SP,122485
+251,Itatiba,SP,121590
+252,Colatina,ES,120033
+253,Almirante Tamandare,PR,119825
+254,Arapongas,PR,119138
+255,Birigui,SP,118979
+256,Piraquara,PR,118730
+257,Sarandi,PR,118455
+258,Jandira,SP,118045
+259,Guaratingueta,SP,118044
+260,Bage,RS,117938
+261,Araguari,MG,117808
+262,Uruguaiana,RS,117210
+263,Umuarama,PR,117095
+264,Itaguai,RJ,116841
+265,Formosa,GO,115901
+266,Sao Goncalo do Amarante,RN,115838
+267,Catanduva,SP,115791
+268,Varzea Paulista,SP,115771
+269,Ribeirao Pires,SP,115559
+270,Igarassu,PE,115196
+271,Simoes Filho,BA,114559
+272,Catalao,GO,114427
+273,Codo,MA,114275
+274,Eunapolis,BA,113710
+275,Itabira,MG,113343
+276,Paulo Afonso,BA,112870
+277,Cubatao,SP,112476
+277,Itanhaem,SP,112476
+279,Passos,MG,111939
+280,Marituba,PA,111785
+281,Nova Lima,MG,111697
+282,Araxa,MG,111691
+283,Sao Lourenco da Mata,PE,111249
+284,Sorriso,MT,110635
+285,Paulinia,SP,110537
+286,Tubarao,SC,110088
+287,Itumbiara,GO,107970
+288,Luis Eduardo Magalhaes,BA,107909
+289,Santana,AP,107618
+290,Cambe,PR,107208
+291,Breves,PA,106968
+292,Acailandia,MA,106550
+293,Tangara da Serra,MT,106434
+294,Jatai,GO,105729
+295,Erechim,RS,105705
+296,Nova Serrana,MG,105552
+297,Paragominas,PA,105550
+298,Maranguape,CE,105093
+299,Planaltina,GO,105031
+300,Lavras,MG,104761
+301,Coronel Fabriciano,MG,104736
+302,Muriae,MG,104108
+303,Sao Pedro da Aldeia,RJ,104029
+304,Ourinhos,SP,103970
+305,Novo Gama,GO,103804
+306,Poa,SP,103765
+307,Bacabal,MA,103711
+308,Itacoatiara,AM,103598
+309,Itabaiana,SE,103440
+310,Uba,MG,103365
+311,Patos,PB,103165
+312,Camboriu,SC,103074
+313,Santo Antonio de Jesus,BA,103055
+314,Ituiutaba,MG,102217
+315,Manacapuru,AM,101883
+316,Balsas,MA,101767
+317,Lagarto,SE,101579
+318,Assis,SP,101409
+319,Itaperuna,RJ,101041
+320,Campo Mourao,PR,99432
+321,Ipojuca,PE,98932
+322,Caldas Novas,GO,98622
+323,Abreu e Lima,PE,98462
+324,Santa Cruz do Capibaribe,PE,98254
+325,Leme,SP,98161
+326,Iguatu,CE,98064
+327,Itauna,MG,97669
+328,Para de Minas,MG,97139
+329,Ariquemes,RO,96833
+330,Francisco Beltrao,PR,96666
+331,Votuporanga,SP,96634
+332,Parintins,AM,96372
+333,Japeri,RJ,96289
+334,Corumba,MS,96268
+335,Cacapava,SP,96202
+336,Vilhena,RO,95832
+337,Sao Cristovao,SE,95612
+338,Caieiras,SP,95032
+339,Aracruz,ES,94765
+340,Paracatu,MG,94023
+341,Rio Largo,AL,93927
+342,Mairipora,SP,93853
+343,Lajeado,RS,93646
+344,Itajuba,MG,93073
+345,Ubatuba,SP,92981
+346,Guaiba,RS,92924
+347,Barra do Pirai,RJ,92883
+348,Avare,SP,92805
+349,Cajamar,SP,92689
+350,Mogi Mirim,SP,92558
+351,Sao Joao da Boa Vista,SP,92547
+352,Serra Talhada,PE,92228
+353,Ponta Pora,MS,92017
+354,Paranavai,PR,92001
+355,Cruzeiro do Sul,AC,91888
+356,Manhuacu,MG,91886
+357,Pato Branco,PR,91836
+358,Cidade Ocidental,GO,91767
+359,Tucurui,PA,91306
+360,Sao Joao del-Rei,MG,90225
+361,Patrocinio,MG,89826
+362,Itapeva,SP,89728
+363,Caceres,MT,89681
+364,Saquarema,RJ,89559
+365,Guanambi,BA,87817
+366,Caratinga,MG,87360
+367,Cacoal,RO,86887
+368,Aruja,SP,86678
+369,Unai,MG,86619
+370,Gravata,PE,86516
+371,Navegantes,SC,86401
+372,Valenca,BA,85655
+373,Esmeraldas,MG,85598
+374,Redencao,PA,85597
+375,Primavera do Leste,MT,85146
+376,Gurupi,TO,85125
+377,Araripina,PE,85088
+378,Santa Ines,MA,85014
+379,Lorena,SP,84855
+380,Ijui,RS,84780
+381,Pinheiro,MA,84621
+382,Barra do Corda,MA,84532
+383,'Sant''Ana do Livramento',RS,84421
+384,Quixada,CE,84168
+385,Moju,PA,84094
+386,Lucas do Rio Verde,MT,83798
+387,Sao Bento do Sul,SC,83277
+388,Picos,PI,83090
+389,Bayeux,PB,82742
+390,Jacobina,BA,82590
+391,Macaiba,RN,82249
+392,Quixeramobim,CE,82177
+393,Concordia,SC,81646
+394,Sao Sebastiao,SP,81595
+395,Timoteo,MG,81579
+396,Pacatuba,CE,81524
+397,Tiangua,CE,81506
+398,Chapadinha,MA,81386
+399,Goiana,PE,81055
+400,Curvelo,MG,80665
+401,Aquiraz,CE,80645
+402,Seropedica,RJ,80596
+403,Serrinha,BA,80435
+404,Joao Monlevade,MG,80187
+405,Cachoeira do Sul,RS,80070
+406,Cianorte,PR,79527
+407,Belo Jardim,PE,79507
+408,Sao Roque,SP,79484
+409,Carpina,PE,79293
+410,Ceara-Mirim,RN,79115
+411,Matao,SP,79033
+412,Alfenas,MG,78970
+413,Tres Rios,RJ,78346
+414,Arcoverde,PE,77742
+415,Campo Limpo Paulista,SP,77632
+416,Canaa dos Carajas,PA,77079
+417,Santa Rosa,RS,76963
+418,Santo angelo,RS,76917
+419,Biguacu,SC,76773
+420,Vinhedo,SP,76540
+421,Vicosa,MG,76430
+422,Crateus,CE,76390
+423,Bebedouro,SP,76373
+424,Esteio,RS,76137
+425,Itapema,SC,75940
+426,Sapiranga,RS,75648
+427,Ibiuna,SP,75605
+428,Tres Coracoes,MG,75485
+429,Lagoa Santa,MG,75145
+430,Aracati,CE,75113
+431,Telemaco Borba,PR,75042
+432,Barbalha,CE,75033
+433,Cruzeiro,SP,74961
+434,Ouro Preto,MG,74821
+435,Lins,SP,74779
+436,Horizonte,CE,74755
+437,Senhor do Bonfim,BA,74523
+438,Irece,BA,74507
+439,Caninde,CE,74174
+440,Eusebio,CE,74170
+441,Grajau,MA,73872
+442,Cacador,SC,73720
+443,Goianesia,GO,73707
+444,Tefe,AM,73669
+445,Pirassununga,SP,73545
+446,Viana,ES,73423
+447,Castro,PR,73075
+448,Santa Izabel do Para,PA,73019
+449,Russas,CE,72928
+450,Cascavel,CE,72720
+451,Rio do Sul,SC,72587
+452,Gaspar,SC,72570
+453,Tailandia,PA,72493
+454,Alegrete,RS,72409
+455,Candeias,BA,72382
+456,Santo Antonio do Descoberto,GO,72127
+457,Casa Nova,BA,72086
+458,Itapira,SP,72022
+459,Ararangua,SC,71922
+460,Goianira,GO,71916
+461,Jaboticabal,SP,71821
+462,Sao Sebastiao do Paraiso,MG,71796
+463,Rolandia,PR,71670
+464,Palmeira dos indios,AL,71574
+465,Indaial,SC,71549
+466,Dias d''avila',BA,71485
+467,Campo Formoso,BA,71377
+468,Fernandopolis,SP,71186
+469,Pacajus,CE,70983
+470,Janauba,MG,70699
+471,Coari,AM,70616
+471,Itupeva,SP,70616
+473,Brumado,BA,70510
+474,Capanema,PA,70394
+475,Farroupilha,RS,70286
+476,Mineiros,GO,70081
+477,Alenquer,PA,69377
+478,Barra do Garcas,MT,69210
+479,Venancio Aires,RS,68763
+480,Peruibe,SP,68352
+481,Oriximina,PA,68294
+482,Formiga,MG,68248
+483,Valenca,RJ,68088
+484,Amparo,SP,68008
+485,Conceicao do Coite,BA,67825
+486,Mococa,SP,67681
+487,Tome-Acu,PA,67585
+488,Sousa,PB,67259
+489,Embu-Guacu,SP,66970
+490,Tabatinga,AM,66764
+491,Cabedelo,PB,66519
+492,Lencois Paulista,SP,66505
+493,Cataguases,MG,66261
+494,Itapetinga,BA,65897
+495,Barreirinhas,MA,65589
+496,Bom Jesus da Lapa,BA,65550
+497,Piripiri,PI,65538
+498,Sao Felix do Xingu,PA,65418
+499,Acarau,CE,65264
+500,Ouricuri,PE,65245
+501,Januaria,MG,65150
+502,Estancia,SE,65078
+503,Itaberaba,BA,65073
+504,Igarape-Miri,PA,64831
+505,Monte Mor,SP,64662
+506,Itaitinga,CE,64650
+507,Porto Nacional,TO,64418
+508,Montenegro,RS,64322
+509,Vacaria,RS,64197
+510,Bertioga,SP,64188
+511,Surubim,PE,64120
+512,Tupa,SP,63928
+513,Capao da Canoa,RS,63594
+514,Benevides,PA,63567
+515,Mirassol,SP,63337
+516,Cajazeiras,PB,63239
+517,Campo Bom,RS,62886
+518,Pesqueira,PE,62722
+519,Ico,CE,62642
+520,Pedro Leopoldo,MG,62580
+521,Portel,PA,62503
+522,Salgueiro,PE,62372
+523,Cristalina,GO,62337
+524,Camocim,CE,62326
+525,Camaqua,RS,62200
+526,Floriano,PI,62036
+527,Nova Odessa,SP,62019
+528,Mongagua,SP,61951
+529,Carazinho,RS,61804
+530,Bezerros,PE,61694
+531,Penapolis,SP,61679
+532,Extremoz,RN,61635
+533,Euclides da Cunha,BA,61456
+534,Morada Nova,CE,61443
+535,Mariana,MG,61387
+536,Taua,CE,61227
+537,Maues,AM,61204
+538,Iranduba,AM,61163
+539,Caico,RN,61146
+540,Boituva,SP,61081
+541,Novo Repartimento,PA,60732
+542,Itapecuru-Mirim,MA,60440
+543,Marechal Deodoro,AL,60370
+544,Cruz das Almas,BA,60348
+545,Ibitinga,SP,60033
+546,Monte Alegre,PA,60012
+547,Registro,SP,59947
+548,Escada,PE,59891
+549,Andradina,SP,59783
+550,Cosmopolis,SP,59773
+551,Vicosa do Ceara,CE,59712
+552,Sao Borja,RS,59676
+553,Itamaraju,BA,59605
+554,Coroata,MA,59566
+555,Limoeiro do Norte,CE,59560
+556,Jaguariuna,SP,59347
+557,Uniao dos Palmares,AL,59280
+558,Irati,PR,59250
+559,Icara,SC,59035
+560,Acara,PA,59023
+561,Cruz Alta,RS,58913
+562,Viseu,PA,58692
+563,Penedo,AL,58650
+564,Alta Floresta,MT,58613
+565,Frutal,MG,58588
+566,Sao Gabriel,RS,58487
+567,Dom Eliseu,PA,58484
+568,Trairi,CE,58415
+569,Batatais,SP,58402
+570,Ponte Nova,MG,57776
+571,Santa Luzia,MA,57635
+572,Guarabira,PB,57484
+573,Humaita,AM,57473
+574,Cachoeiras de Macacu,RJ,56943
+575,Ipira,BA,56876
+576,Paudalho,PE,56665
+577,Limoeiro,PE,56510
+578,Capitao Poco,PA,56506
+579,Porto Feliz,SP,56497
+580,Assu,RN,56496
+581,Rolim de Moura,RO,56406
+582,Rio Bonito,RJ,56276
+583,Santo Amaro,BA,56012
+584,Nova Mutum,MT,55839
+585,Marechal Candido Rondon,PR,55836
+586,Pirapora,MG,55606
+587,Buriticupu,MA,55499
+588,Videira,SC,55466
+589,Moreno,PE,55292
+590,Mafra,SC,55286
+591,Tres Pontas,MG,55255
+592,Olimpia,SP,55074
+593,Uniao da Vitoria,PR,55033
+594,Canoinhas,SC,55016
+595,Palmares,PE,54584
+596,Tramandai,RS,54387
+597,Medianeira,PR,54369
+598,Sao Goncalo do Amarante,CE,54143
+599,Ribeira do Pombal,BA,54010
+600,Manicore,AM,53914
+601,Extrema,MG,53482
+602,Itabirito,MG,53365
+603,Tutoia,MA,53356
+604,Granja,CE,53344
+605,Taquara,RS,53242
+606,Santa Isabel,SP,53174
+607,Rondon do Para,PA,53143
+608,Beberibe,CE,53114
+609,Piedade,SP,52970
+610,Sao Miguel do Guama,PA,52894
+611,Xinguara,PA,52893
+612,Congonhas,MG,52890
+613,Sao Francisco,MG,52762
+614,Sao Francisco do Sul,SC,52674
+615,Porto Ferreira,SP,52649
+616,Imbituba,SC,52579
+617,Paraiso do Tocantins,TO,52360
+618,Campo Belo,MG,52277
+619,Santo Estevao,BA,52276
+620,Taquaritinga,SP,52260
+621,obidos,PA,52229
+622,Sao Jose do Rio Pardo,SP,52205
+623,Inhumas,GO,52204
+624,Buique,PE,52097
+625,Parobe,RS,52058
+626,Pontes e Lacerda,MT,52018
+627,Caetite,BA,52012
+628,Sao Miguel dos Campos,AL,51990
+629,Louveira,SP,51847
+630,Sao Gabriel da Cachoeira,AM,51795
+631,Bom Despacho,MG,51737
+632,Guapimirim,RJ,51696
+633,Baiao,PA,51641
+634,Xanxere,SC,51607
+635,Ibipora,PR,51603
+636,Tijucas,SC,51592
+637,Artur Nogueira,SP,51456
+638,Viana,MA,51442
+639,Lagoa da Prata,MG,51412
+640,Morrinhos,GO,51351
+641,Delmiro Gouveia,AL,51318
+642,Sape,PB,51306
+643,Tremembe,SP,51173
+644,Leopoldina,MG,51145
+645,Barra,BA,51092
+646,Brejo Santo,CE,51090
+647,Guaxupe,MG,50911
+648,Tobias Barreto,SE,50905
+649,Juruti,PA,50881
+650,Vigia,PA,50832
+651,Jaru,RO,50591
+652,Navirai,MS,50457
+653,Vargem Grande Paulista,SP,50415
+654,Coruripe,AL,50414
+655,Boa Viagem,CE,50411
+656,Capivari,SP,50068
+657,Mairinque,SP,50027
+658,Itupiranga,PA,49754
+659,Cangucu,RS,49680
+660,Sao Bento do Una,PE,49449
+661,Prudentopolis,PR,49393
+662,Nova Venecia,ES,49065
+663,Canela,RS,48946
+664,Santiago,RS,48938
+665,Jales,SP,48776
+666,Tucano,BA,48736
+667,Brejo da Madre de Deus,PE,48648
+668,Nova Andradina,MS,48563
+669,Sao Joaquim da Barra,SP,48558
+670,Quirinopolis,GO,48447
+671,Araci,BA,48294
+672,Pocoes,BA,48293
+673,Palmas,PR,48247
+674,Catu,BA,48148
+675,Bocaiuva,MG,48032
+676,Barras,PI,47938
+677,Estancia Velha,RS,47924
+678,Campina Grande do Sul,PR,47825
+679,Monte Santo,BA,47780
+680,Diamantina,MG,47702
+681,Monte Carmelo,MG,47692
+682,Queimadas,PB,47658
+683,Sao Benedito,CE,47640
+684,Monte Alto,SP,47574
+685,Altos,PI,47453
+686,Osorio,RS,47396
+687,Sao Jose de Mipibu,RN,47286
+688,Sidrolandia,MS,47118
+689,Cabreuva,SP,47011
+690,Campos do Jordao,SP,46974
+691,Aquidauana,MS,46803
+692,Joao Pinheiro,MG,46801
+693,Guaramirim,SC,46711
+694,Santa Cruz do Rio Pardo,SP,46442
+695,Itapaje,CE,46426
+696,Sao Bento,MA,46395
+697,Capao Bonito,SP,46337
+698,Santana do Ipanema,AL,46220
+699,Seabra,BA,46160
+700,Timbauba,PE,46147
+701,Uniao,PI,46119
+702,Casimiro de Abreu,RJ,46110
+703,Timbo,SC,46099
+704,Jaguaquara,BA,45964
+705,Paicandu,PR,45962
+706,Campo Novo do Parecis,MT,45899
+707,Juina,MT,45869
+708,Igarape,MG,45847
+709,Campo Maior,PI,45793
+710,Breu Branco,PA,45712
+711,Mauriti,CE,45561
+712,Dracena,SP,45474
+713,Labrea,AM,45448
+714,Barra Velha,SC,45369
+715,Muana,PA,45368
+716,Araquari,SC,45283
+717,Jardinopolis,SP,45282
+718,Paraty,RJ,45243
+719,Jaragua,GO,45223
+720,Cornelio Procopio,PR,45206
+721,Presidente Dutra,MA,45155
+722,Marau,RS,45124
+723,Sao Francisco de Itabapoana,RJ,45059
+724,Maracaju,MS,45047
+725,Lapa,PR,45003
+726,Acopiara,CE,44962
+727,Dois Vizinhos,PR,44869
+728,Pederneiras,SP,44827
+729,Santana do Paraiso,MG,44800
+730,Sao Lourenco,MG,44798
+731,Salinopolis,PA,44772
+732,Xique-Xique,BA,44757
+733,Itaberai,GO,44734
+734,Cerquilho,SP,44695
+735,Conceicao do Araguaia,PA,44617
+736,Mamanguape,PB,44599
+737,Campo Verde,MT,44585
+738,Augusto Correa,PA,44573
+739,Itarare,SP,44438
+740,Lago da Pedra,MA,44403
+741,Santo Antonio da Platina,PR,44369
+742,Sao Miguel do Oeste,SC,44330
+743,Porangatu,GO,44317
+744,Bom Conselho,PE,44294
+745,Rio Grande da Serra,SP,44170
+746,Serrana,SP,43909
+747,Livramento de Nossa Senhora,BA,43903
+748,Salto de Pirapora,SP,43748
+749,Uruara,PA,43558
+750,Panambi,RS,43515
+751,Tarauaca,AC,43467
+752,Vargem Grande,MA,43261
+753,Pedreira,SP,43112
+754,Itarema,CE,42957
+755,Santo Antonio da Patrulha,RS,42947
+756,Laguna,SC,42785
+757,Simao Dias,SE,42578
+758,Mata de Sao Joao,BA,42566
+759,Jose de Freitas,PI,42559
+760,Uruacu,GO,42546
+761,Vera Cruz,BA,42529
+762,Barra de Sao Francisco,ES,42498
+763,Santos Dumont,MG,42406
+764,Sao Mateus do Sul,PR,42366
+765,Amontada,CE,42156
+766,Garca,SP,42110
+767,Paraiba do Sul,RJ,42063
+768,Guaratuba,PR,42062
+769,Guaraciaba do Norte,CE,42053
+770,Sao Lourenco do Sul,RS,41989
+771,Marataizes,ES,41929
+772,Macaubas,BA,41859
+773,Marialva,PR,41851
+774,Torres,RS,41751
+775,Coelho Neto,MA,41658
+776,Santa Maria de Jetiba,ES,41636
+777,Autazes,AM,41564
+778,Santa Helena,MA,41561
+779,aguas Belas,PE,41548
+780,Barra dos Coqueiros,SE,41511
+781,Arcos,MG,41416
+782,Paracambi,RJ,41375
+783,Sena Madureira,AC,41343
+784,Santo Antonio de Padua,RJ,41325
+785,Currais Novos,RN,41313
+786,Curuca,PA,41262
+787,Mangaratiba,RJ,41220
+788,Nossa Senhora da Gloria,SE,41212
+789,Toritama,PE,41137
+790,Paraguacu Paulista,SP,41120
+791,Pacaja,PA,41097
+792,Ipu,CE,41081
+793,Esperantina,PI,40970
+794,Sao Sebastiao do Passe,BA,40958
+795,Paranaiba,MS,40957
+796,Sao Gotardo,MG,40910
+797,Ze Doca,MA,40801
+798,Ipiau,BA,40706
+799,Itabaianinha,SE,40678
+800,Santa Rita do Sapucai,MG,40635
+801,Porto de Moz,PA,40597
+802,Remanso,BA,40586
+803,Santa Maria da Boa Vista,PE,40578
+804,Andradas,MG,40553
+805,Jacarezinho,PR,40375
+806,Almenara,MG,40364
+807,Colinas,MA,40316
+808,Afogados da Ingazeira,PE,40241
+809,Pedra Branca,CE,40187
+810,Santa Quiteria,CE,40183
+811,Salinas,MG,40178
+812,Gramado,RS,40134
+813,Vargem Grande do Sul,SP,40133
+814,Socorro,SP,40122
+815,Barreiros,PE,40121
+816,Curitibanos,SC,40045
+817,Armacao dos Buzios,RJ,40006
+818,Boa Esperanca,MG,39848
+819,Itapemirim,ES,39832
+820,Espirito Santo do Pinhal,SP,39816
+821,Capelinha,MG,39626
+822,Lajedo,PE,39582
+823,Eldorado do Sul,RS,39559
+824,Tucuma,PA,39550
+825,Sao Goncalo dos Campos,BA,39513
+826,Nova Vicosa,BA,39509
+827,Presidente Epitacio,SP,39505
+828,Itapolis,SP,39493
+829,Guajara-Mirim,RO,39387
+830,Amambai,MS,39325
+831,Guaira,SP,39279
+832,Oliveira,MG,39262
+833,Rio Negrinho,SC,39261
+834,Matinhos,PR,39259
+835,Visconde do Rio Branco,MG,39160
+836,Araioses,MA,39052
+837,Varzea Alegre,CE,38984
+838,Paracuru,CE,38980
+839,Sao Fidelis,RJ,38961
+840,Sao Raimundo Nonato,PI,38934
+841,Brumadinho,MG,38915
+842,Sao Mateus do Maranhao,MA,38829
+843,Caete,MG,38776
+844,Sao Francisco do Conde,BA,38733
+845,Ouro Branco,MG,38724
+846,Santa Maria da Vitoria,BA,38604
+847,Santa Helena de Goias,GO,38492
+848,Rosario,MA,38475
+849,Novo Horizonte,SP,38324
+850,Orlandia,SP,38319
+851,Iturama,MG,38295
+852,Sao Pedro,SP,38256
+853,Oeiras,PI,38161
+854,Sento Se,BA,38154
+855,Entre Rios,BA,38098
+856,Teotonio Vilela,AL,38053
+857,Mucuri,BA,37977
+858,Ulianopolis,PA,37972
+859,Pedro II,PI,37894
+860,Mateus Leme,MG,37841
+861,Santaluz,BA,37834
+862,Pentecoste,CE,37813
+863,Afua,PA,37765
+864,Mombaca,CE,37735
+865,Jacunda,PA,37707
+866,Custodia,PE,37699
+867,Massape,CE,37697
+868,Machado,MG,37684
+869,Agudos,SP,37680
+870,Tiete,SP,37663
+871,Jaiba,MG,37660
+872,Benjamin Constant,AM,37648
+873,Bom Jardim,PE,37629
+874,Jeremoabo,BA,37626
+875,Matozinhos,MG,37618
+876,Pontal,SP,37607
+877,Rio Brilhante,MS,37601
+878,Sirinhaem,PE,37596
+879,Ituverava,SP,37571
+880,Rio Branco do Sul,PR,37558
+881,Jarinu,SP,37535
+882,Atalaia,AL,37512
+883,Guariba,SP,37498
+884,Turiacu,MA,37491
+885,Bonito,PE,37474
+886,Cansancao,BA,37439
+887,Porteirinha,MG,37438
+888,Santa Cruz,RN,37313
+889,Sao Manuel,SP,37289
+890,Sao Caetano,PE,37126
+891,Amarante do Maranhao,MA,37085
+892,Pedreiras,MA,37050
+893,Santa Rita,MA,37035
+894,Dom Pedrito,RS,36981
+895,Campos Novos,SC,36932
+896,Castelo,ES,36930
+897,Sarzedo,MG,36844
+898,Missao Velha,CE,36822
+899,Assis Chateaubriand,PR,36808
+900,Ipueiras,CE,36798
+901,Mandaguari,PR,36716
+902,Jose Bonifacio,SP,36633
+903,Rosario do Sul,RS,36630
+904,Sao Joao da Barra,RJ,36573
+905,Barra do Choca,BA,36539
+906,Amargosa,BA,36521
+907,Ipero,SP,36459
+908,Tuntum,MA,36251
+909,Girau do Ponciano,AL,36102
+910,Apodi,RN,36093
+911,Piumhi,MG,36062
+912,Maragogipe,BA,35859
+913,Igarape-Acu,PA,35797
+914,Ruropolis,PA,35769
+915,Itaqui,RS,35768
+916,Alianca,PE,35741
+917,Ipora,GO,35684
+918,Goiatuba,GO,35664
+919,Prainha,PA,35577
+920,Boca do Acre,AM,35447
+921,Feijo,AC,35426
+922,Domingos Martins,ES,35416
+923,Pilar,AL,35370
+924,Rio Real,BA,35362
+925,Pilao Arcado,BA,35357
+926,Conceicao do Jacuipe,BA,35308
+927,Baturite,CE,35218
+928,Presidente Venceslau,SP,35201
+929,Bom Jesus do Itabapoana,RJ,35173
+930,Jaguariaiva,PR,35141
+931,Promissao,SP,35131
+932,Laranjal do Jari,AP,35114
+933,Pimenta Bueno,RO,35079
+934,Confresa,MT,35075
+935,Ouro Preto do Oeste,RO,35044
+936,Nanuque,MG,35038
+937,Charqueadas,RS,35012
+938,Palotina,PR,35011
+939,Prado,BA,35003
+940,Padre Bernardo,GO,34967
+941,Niquelandia,GO,34964
+942,Itambe,PE,34935
+943,Ilhabela,SP,34934
+944,Posse,GO,34914
+945,Juara,MT,34906
+946,Sao Jose do Belmonte,PE,34843
+947,Santa Fe do Sul,SP,34794
+948,Sao Luiz Gonzaga,RS,34752
+949,Adamantina,SP,34687
+950,Rio Pardo,RS,34654
+951,Bodoco,PE,34478
+952,Bela Vista de Goias,GO,34445
+953,'Itaporanga d''Ajuda',SE,34411
+954,Mae do Rio,PA,34353
+955,Sao Joaquim de Bicas,MG,34348
+956,Barra Bonita,SP,34346
+957,Garibaldi,RS,34335
+958,Aracuai,MG,34297
+959,Pomerode,SC,34289
+960,Almeirim,PA,34280
+961,Nova Cruz,RN,34269
+962,Colinas do Tocantins,TO,34233
+963,Serra do Ramalho,BA,34222
+964,Curaca,BA,34180
+965,Petrolandia,PE,34161
+966,Brejo,MA,34120
+967,Portao,RS,34071
+968,Sao Domingos do Maranhao,MA,34034
+969,Vassouras,RJ,33976
+970,Curralinho,PA,33903
+971,Itiuba,BA,33872
+972,Palmeira,PR,33855
+973,Sao Luis de Montes Belos,GO,33852
+974,Oeiras do Para,PA,33844
+975,Inhambupe,BA,33790
+976,Braco do Norte,SC,33773
+977,Varzea da Palma,MG,33744
+978,Jaguaribe,CE,33726
+979,Pitangueiras,SP,33674
+980,Penha,SC,33663
+981,Novo Progresso,PA,33638
+982,Morro do Chapeu,BA,33594
+983,Pitanga,PR,33567
+984,Ribeirao,PE,33507
+985,Fraiburgo,SC,33481
+986,Poco Redondo,SE,33439
+987,Riachao do Jacuipe,BA,33386
+988,Estreito,MA,33294
+989,Joao Camara,RN,33290
+990,Cravinhos,SP,33281
+991,Capim Grosso,BA,33235
+992,Palmeira das Missoes,RS,33216
+993,Eirunepe,AM,33170
+994,Bom Jardim,MA,33100
+995,Borba,AM,33080
+996,Taiobeiras,MG,33050
+997,Touros,RN,33035
+998,Americo Brasiliense,SP,33019
+999,Porto Uniao,SC,32970
+1000,Sao Paulo de Olivenca,AM,32967
+1001,Itamarandiba,MG,32948
+1002,Sao Desiderio,BA,32828
+1003,Urbano Santos,MA,32812
+1004,Sertania,PE,32811
+1005,Igrejinha,RS,32808
+1006,Teutonia,RS,32797
+1007,Bela Cruz,CE,32775
+1008,Ubajara,CE,32767
+1009,Ivaipora,PR,32720
+1010,Peixoto de Azevedo,MT,32714
+1011,Jaguarari,BA,32703
+1012,Sao Joao Batista,SC,32687
+1013,Canavieiras,BA,32683
+1014,Itaiba,PE,32650
+1015,Rorainopolis,RR,32647
+1016,Frederico Westphalen,RS,32627
+1017,Aparecida,SP,32569
+1018,Esplanada,BA,32554
+1019,Cacapava do Sul,RS,32515
+1020,Penalva,MA,32511
+1021,Pombal,PB,32473
+1022,Ourilandia do Norte,PA,32467
+1023,Correntina,BA,32457
+1024,Aracoiaba da Serra,SP,32443
+1025,Santana do Araguaia,PA,32413
+1026,Pires do Rio,GO,32373
+1027,Monteiro,PB,32277
+1028,Sao Gabriel da Palha,ES,32252
+1029,Guanhaes,MG,32244
+1030,Sao Bento,PB,32235
+1031,Laranjeiras do Sul,PR,32227
+1032,Paraipaba,CE,32216
+1033,Estrela,RS,32183
+1034,Gandu,BA,32178
+1034,Ibate,SP,32178
+1036,Matoes,MA,32174
+1036,Maragogi,AL,32174
+1038,Catende,PE,32156
+1039,Coxim,MS,32151
+1040,Miguel Alves,PI,32150
+1041,Pojuca,BA,32136
+1042,Campo Alegre,AL,32106
+1043,Guaira,PR,32097
+1044,Ouro Fino,MG,32094
+1045,Barrinha,SP,32092
+1046,Aguai,SP,32072
+1047,Sao Miguel Arcanjo,SP,32039
+1048,Brasilia de Minas,MG,32025
+1049,Nisia Floresta,RN,31942
+1050,Neropolis,GO,31932
+1051,Araguatins,TO,31918
+1051,Xaxim,SC,31918
+1053,Bagre,PA,31892
+1054,Palmeiras de Goias,GO,31858
+1055,Anapu,PA,31850
+1056,Exu,PE,31843
+1057,Gurupa,PA,31786
+1057,Sao Sebastiao,AL,31786
+1059,Descalvado,SP,31756
+1060,Jaguaruana,CE,31701
+1061,Itapicuru,BA,31679
+1062,Capela,SE,31645
+1063,Turilandia,MA,31638
+1064,Bariri,SP,31595
+1065,Cachoeira Paulista,SP,31564
+1066,Cururupu,MA,31558
+1067,Mandaguacu,PR,31457
+1068,Parambu,CE,31445
+1069,Forquilhinha,SC,31431
+1070,Pindare-Mirim,MA,31429
+1071,Colider,MT,31370
+1072,Rio das Pedras,SP,31328
+1073,Rio Negro,PR,31324
+1074,Bandeirantes,PR,31273
+1075,Osvaldo Cruz,SP,31272
+1076,Parnarama,MA,31250
+1077,Carangola,MG,31240
+1078,Guararema,SP,31236
+1079,Esperanca,PB,31231
+1080,Itaperucu,PR,31217
+1080,Pocone,MT,31217
+1082,Tangua,RJ,31086
+1083,Barreirinha,AM,31051
+1084,Pompeu,MG,31047
+1085,Guararapes,SP,31043
+1086,Guaranta do Norte,MT,31024
+1087,Sao Jose do Egito,PE,31004
+1088,Chapadao do Sul,MS,30993
+1089,Arraial do Cabo,RJ,30986
+1090,Santa Vitoria do Palmar,RS,30983
+1091,Irituia,PA,30955
+1092,Itatiaia,RJ,30908
+1093,Cicero Dantas,BA,30907
+1094,Flores da Cunha,RS,30892
+1095,Sao Luis do Quitunde,AL,30873
+1096,Vitorino Freire,MA,30845
+1097,Raposa,MA,30839
+1098,Vitoria do Mearim,MA,30805
+1099,Lavras da Mangabeira,CE,30802
+1100,Careiro,AM,30792
+1101,Barao de Cocais,MG,30778
+1102,Itapoa,SC,30750
+1103,Quedas do Iguacu,PR,30738
+1104,Alem Paraiba,MG,30717
+1105,Juatuba,MG,30716
+1106,Riacho de Santana,BA,30711
+1107,Dois Irmaos,RS,30709
+1108,'Machadinho d''Oeste',RO,30707
+1109,Nova Russas,CE,30699
+1110,Afonso Claudio,ES,30684
+1111,Baixo Guandu,ES,30674
+1112,Campo Alegre de Lourdes,BA,30671
+1113,Presidente Figueiredo,AM,30668
+1114,Catole do Rocha,PB,30661
+1115,Tabuleiro do Norte,CE,30652
+1116,Nazare da Mata,PE,30648
+1117,Luis Correia,PI,30641
+1118,Santana do Acarau,CE,30628
+1119,Caarapo,MS,30612
+1120,Sao Jose da Tapera,AL,30604
+1121,Sao Domingos do Capim,PA,30599
+1122,Pau dos Ferros,RN,30479
+1123,Camamu,BA,30469
+1124,Santa Barbara,MG,30466
+1125,Espinosa,MG,30443
+1126,Pontal do Parana,PR,30425
+1127,Carlos Barbosa,RS,30420
+1128,Ipixuna do Para,PA,30329
+1129,Trindade,PE,30321
+1130,Cabrobo,PE,30294
+1131,Campo Magro,PR,30160
+1132,Claudio,MG,30159
+1133,Joacaba,SC,30146
+1134,Floresta,PE,30137
+1135,Sombrio,SC,29991
+1135,Soledade,RS,29991
+1137,Anchieta,ES,29984
+1138,Garopaba,SC,29959
+1139,Imbituva,PR,29924
+1140,Serra Negra,SP,29894
+1141,Pinhao,PR,29886
+1142,Cruz,CE,29761
+1143,Buriti,MA,29685
+1144,Biritiba Mirim,SP,29683
+1145,Canguaretama,RN,29668
+1146,Pedras de Fogo,PB,29662
+1147,Paty do Alferes,RJ,29619
+1148,Sao Gabriel do Oeste,MS,29579
+1149,Limoeiro do Ajuru,PA,29569
+1150,Cambui,MG,29536
+1151,Arari,MA,29472
+1152,Candido Mota,SP,29449
+1153,Piraju,SP,29436
+1154,Espigao d''Oeste',RO,29414
+1155,Barra do Bugres,MT,29403
+1156,Guacui,ES,29358
+1157,Gloria do Goita,PE,29347
+1158,Paratinga,BA,29252
+1159,Cachoeira,BA,29250
+1160,agua Boa,MT,29219
+1161,Santa Cruz Cabralia,BA,29185
+1162,Alegre,ES,29177
+1163,Sao Miguel do Iguacu,PR,29122
+1164,Iguape,SP,29115
+1165,Nova Santa Rita,RS,29024
+1166,Carmo do Paranaiba,MG,29011
+1167,Ipubi,PE,29009
+1168,Sapezal,MT,28944
+1169,Jaguare,ES,28931
+1170,Candelaria,RS,28906
+1171,Tres Marias,MG,28895
+1172,Coromandel,MG,28894
+1173,Carinhanha,BA,28869
+1174,Santa Cruz das Palmeiras,SP,28864
+1175,Piracuruca,PI,28846
+1176,Ibaiti,PR,28830
+1177,Caetes,PE,28827
+1178,Bom Jesus,PI,28796
+1179,Carauari,AM,28742
+1180,Muritiba,BA,28707
+1181,Bom Jesus das Selvas,MA,28599
+1182,Tracuateua,PA,28595
+1183,Iuna,ES,28590
+1184,Rancharia,SP,28588
+1185,Jaciara,MT,28569
+1186,Cajati,SP,28515
+1187,Goioere,PR,28437
+1188,Conceicao das Alagoas,MG,28381
+1189,Prata,MG,28342
+1190,Passira,PE,28340
+1191,Ruy Barbosa,BA,28282
+1192,Rio Pardo de Minas,MG,28271
+1193,Maravilha,SC,28251
+1194,Cocal,PI,28212
+1195,Santo Antonio do Ica,AM,28211
+1196,Eldorado do Carajas,PA,28192
+1197,Itabela,BA,28165
+1198,Bom Jardim,RJ,28102
+1199,Conchal,SP,28101
+1200,Casa Branca,SP,28083
+1201,Irara,BA,28043
+1202,Anajas,PA,28011
+1203,Buritis,RO,27992
+1204,Mirandopolis,SP,27983
+1205,Morro Agudo,SP,27933
+1206,Iguaba Grande,RJ,27920
+1207,Melgaco,PA,27881
+1208,Ivinhema,MS,27821
+1209,Moncao,MA,27751
+1210,Itapissuma,PE,27749
+1211,Hidrolandia,GO,27742
+1212,Presidente Tancredo Neves,BA,27734
+1213,Lagoa Seca,PB,27730
+1214,Joao Alfredo,PE,27725
+1215,Itacare,BA,27704
+1216,Porto Belo,SC,27688
+1217,Tabira,PE,27681
+1218,Aparecida do Taboado,MS,27674
+1219,Lagoa Vermelha,RS,27659
+1220,Mutum,MG,27635
+1221,Maracas,BA,27620
+1222,Pilar do Sul,SP,27619
+1223,Conde,PB,27605
+1224,Pombos,PE,27552
+1225,Novo Oriente,CE,27545
+1226,Triunfo,RS,27498
+1227,Oiapoque,AP,27482
+1228,Pirai,RJ,27474
+1229,Santo Antonio do Taua,PA,27461
+1230,Conceicao da Barra,ES,27458
+1231,Mandirituba,PR,27439
+1232,Jardim,CE,27411
+1233,Juquitiba,SP,27404
+1234,Santa Rita de Cassia,BA,27390
+1235,Macau,RN,27369
+1236,Santo Antonio do Monte,MG,27295
+1237,Corrente,PI,27278
+1238,Santo Amaro da Imperatriz,SC,27272
+1239,Bady Bassitt,SP,27260
+1240,alvares Machado,SP,27255
+1241,Redencao,CE,27214
+1242,Mocajuba,PA,27198
+1243,Balneario Picarras,SC,27127
+1244,Medicilandia,PA,27094
+1245,Minacu,GO,27075
+1246,Nova Olinda do Norte,AM,27062
+1247,Nazare,BA,27060
+1248,Alexania,GO,27008
+1249,Novo Cruzeiro,MG,26975
+1250,Sao Bernardo,MA,26943
+1251,Tupanatinga,PE,26937
+1252,Barauna,RN,26913
+1253,Concordia do Para,PA,26881
+1253,Miracema,RJ,26881
+1255,Caninde de Sao Francisco,SE,26834
+1256,Imbe,RS,26824
+1257,'Mirassol d''Oeste',MT,26785
+1258,Solanea,PB,26774
+1259,Querencia,MT,26769
+1260,Goianinha,RN,26741
+1261,Vera Cruz,RS,26710
+1262,Coracao de Maria,BA,26692
+1263,Pirenopolis,GO,26690
+1264,Pitangui,MG,26685
+1265,Sacramento,MG,26670
+1266,Propria,SE,26618
+1267,Paripiranga,BA,26604
+1268,Jaguarao,RS,26603
+1269,Ibimirim,PE,26593
+1270,Nova Esperanca,PR,26585
+1271,Miguel Pereira,RJ,26582
+1272,Porto da Folha,SE,26576
+1273,Marapanim,PA,26573
+1274,Mantena,MG,26535
+1275,Ituporanga,SC,26525
+1276,Sooretama,ES,26502
+1277,Capao do Leao,RS,26487
+1278,Timbiras,MA,26484
+1279,agua Preta,PE,26461
+1280,Paranatinga,MT,26423
+1281,Goianesia do Para,PA,26362
+1282,Vicencia,PE,26359
+1283,Eloi Mendes,MG,26336
+1284,Caririacu,CE,26320
+1285,Ibotirama,BA,26309
+1286,Batalha,PI,26300
+1287,Laranjal Paulista,SP,26261
+1288,Igarapava,SP,26212
+1289,Itapuranga,GO,26113
+1290,Campos Gerais,MG,26105
+1291,Camanducaia,MG,26097
+1292,Sao Jose da Lapa,MG,26090
+1293,Alagoa Grande,PB,26062
+1294,Costa Rica,MS,26037
+1295,Piracaia,SP,26029
+1296,Barra da Estiva,BA,26026
+1297,Brasileia,AC,26000
+1298,Queimadas,BA,25988
+1299,Maracana,PA,25971
+1300,Sao Joaquim,SC,25939
+1301,Milagres,CE,25900
+1302,Formosa do Rio Preto,BA,25899
+1303,Fonte Boa,AM,25871
+1304,Canarana,MT,25858
+1305,Marco,CE,25799
+1306,Arapoti,PR,25777
+1307,Colniza,MT,25766
+1308,Lapao,BA,25736
+1309,Alto Alegre do Pindare,MA,25710
+1310,Nova Prata,RS,25692
+1311,Humberto de Campos,MA,25680
+1312,Sao Sebastiao da Boa Vista,PA,25643
+1313,Inaja,PE,25603
+1314,Sao Joao Nepomuceno,MG,25565
+1315,Jijoca de Jericoacoara,CE,25555
+1316,Aracoiaba,CE,25553
+1317,Ilha Solteira,SP,25549
+1318,Ipameri,GO,25548
+1319,Miranda,MS,25536
+1320,Jacutinga,MG,25525
+1321,Arame,MA,25517
+1322,Santa Helena,PR,25492
+1323,Sobradinho,BA,25475
+1323,Astorga,PR,25475
+1325,Tupaciguara,MG,25470
+1326,Nova Mamore,RO,25444
+1327,Sao Jose do Norte,RS,25443
+1328,Anage,BA,25438
+1329,Tres Passos,RS,25436
+1330,Craibas,AL,25397
+1331,Ibatiba,ES,25380
+1332,Coracao de Jesus,MG,25377
+1333,Luzilandia,PI,25375
+1334,Pirapozinho,SP,25348
+1335,Ibirapitanga,BA,25344
+1336,Anajatuba,MA,25322
+1337,Quijingue,BA,25272
+1338,Aimores,MG,25269
+1339,Guapore,RS,25268
+1340,Tanabi,SP,25265
+1341,Candido Sales,BA,25247
+1342,Urucui,PI,25203
+1343,Brodowski,SP,25201
+1344,Taquari,RS,25198
+1345,Murici,AL,25187
+1346,Itai,SP,25180
+1347,Jutai,AM,25172
+1348,Campos Sales,CE,25135
+1349,Bombinhas,SC,25058
+1350,Sao Joao dos Patos,MA,25020
+1351,Nepomuceno,MG,25018
+1352,Cocalzinho de Goias,GO,25016
+1353,Nossa Senhora das Dores,SE,24996
+1354,Ponta de Pedras,PA,24984
+1355,Rio Preto da Eva,AM,24936
+1356,Tres de Maio,RS,24916
+1357,Piracanjuba,GO,24883
+1358,Martinopolis,SP,24881
+1359,Joao Dourado,BA,24854
+1360,Santa Rita do Passa Quatro,SP,24833
+1361,Tamboril,CE,24815
+1362,Icatu,MA,24794
+1363,Sao Lourenco do Oeste,SC,24791
+1364,Guarai,TO,24775
+1365,Santana,BA,24755
+1366,Ubirata,PR,24749
+1367,Limoeiro de Anadia,AL,24740
+1368,Taquaritinga do Norte,PE,24736
+1369,Brasil Novo,PA,24718
+1370,Castro Alves,BA,24712
+1371,Joao Lisboa,MA,24709
+1372,Garrafao do Norte,PA,24703
+1373,Uaua,BA,24665
+1374,Miguel Calmon,BA,24661
+1375,Boquim,SE,24636
+1376,Aripuana,MT,24626
+1377,Santa Maria do Para,PA,24624
+1378,Iacu,BA,24607
+1379,Condado,PE,24587
+1380,Apiai,SP,24585
+1381,Rio Tinto,PB,24581
+1382,Reserva,PR,24573
+1383,Tapejara,RS,24557
+1384,Guabiruba,SC,24543
+1385,Ilha de Itamaraca,PE,24540
+1386,Alcobaca,BA,24530
+1387,Marau,BA,24527
+1388,Cordeiropolis,SP,24514
+1389,Dois Corregos,SP,24510
+1390,Ocara,CE,24493
+1391,Mimoso do Sul,ES,24475
+1392,Wenceslau Guimaraes,BA,24474
+1393,Sao Sebastiao do Cai,RS,24428
+1394,Tres Coroas,RS,24425
+1395,Pedra Azul,MG,24410
+1396,Minas Novas,MG,24405
+1397,Itambe,BA,24394
+1398,Bujaru,PA,24383
+1399,Valente,BA,24362
+1400,Taquarituba,SP,24350
+1401,Nova Xavantina,MT,24345
+1402,Canhotinho,PE,24329
+1403,Guaiuba,CE,24325
+1404,Pedro do Rosario,MA,24320
+1405,Ipixuna,AM,24311
+1406,Santa Luzia do Parua,MA,24307
+1407,Cantanhede,MA,24303
+1408,Pinheiral,RJ,24298
+1409,Satuba,AL,24278
+1410,Senador Pompeu,CE,24266
+1411,Santa Terezinha de Itaipu,PR,24262
+1412,Sao Geraldo do Araguaia,PA,24255
+1413,Valparaiso,SP,24241
+1414,Carutapera,MA,24238
+1415,Nova Soure,BA,24236
+1416,Canarana,BA,24206
+1417,Soure,PA,24204
+1418,Ortigueira,PR,24192
+1419,Quatro Barras,PR,24191
+1420,Forquilha,CE,24173
+1421,Amelia Rodrigues,BA,24138
+1422,Itapora,MS,24137
+1423,Salvaterra,PA,24129
+1424,Anastacio,MS,24114
+1425,Paraopeba,MG,24107
+1426,Espera Feliz,MG,24102
+1427,Pereira Barreto,SP,24095
+1428,Areia Branca,RN,24093
+1429,Vicosa,AL,24092
+1430,Monte Siao,MG,24089
+1431,Lagoa Grande,PE,24088
+1432,Porto Calvo,AL,24071
+1432,Goias,GO,24071
+1434,Carolina,MA,24062
+1435,Alto Alegre do Maranhao,MA,24048
+1436,Jacareacanga,PA,24042
+1437,Buritis,MG,24030
+1438,Independencia,CE,24024
+1439,Angatuba,SP,24022
+1440,Veranopolis,RS,24021
+1441,Jequitinhonha,MG,24007
+1442,Igaci,AL,23995
+1443,Cachoeira do Arari,PA,23981
+1443,Jardim,MS,23981
+1445,Laranjeiras,SE,23975
+1445,Capivari de Baixo,SC,23975
+1447,Ibiapina,CE,23965
+1448,Sao Goncalo do Sapucai,MG,23959
+1449,Bom Jesus de Goias,GO,23958
+1450,Santa Quiteria do Maranhao,MA,23957
+1451,Urucurituba,AM,23945
+1452,Itaporanga,PB,23940
+1453,Sao Joao da Ponte,MG,23930
+1454,Belo Oriente,MG,23928
+1455,Jucas,CE,23922
+1456,Umbauba,SE,23917
+1457,Iraucuba,CE,23915
+1457,Pinheiros,ES,23915
+1459,Buritizeiro,MG,23910
+1459,Sao Joao do Paraiso,MG,23910
+1461,Junqueiro,AL,23907
+1462,Porto Franco,MA,23903
+1463,Tacaratu,PE,23902
+1464,Brotas,SP,23898
+1465,Macaparana,PE,23879
+1465,Iraquara,BA,23879
+1467,Miranda do Norte,MA,23864
+1468,Matriz de Camaragibe,AL,23857
+1469,Sao Joao,PE,23837
+1470,Venda Nova do Imigrante,ES,23831
+1470,Cruzeiro do Oeste,PR,23831
+1472,Cajuru,SP,23830
+1473,Pao de Acucar,AL,23823
+1474,Encruzilhada do Sul,RS,23819
+1475,Novo Aripuana,AM,23818
+1476,Carandai,MG,23812
+1477,Boa Vista do Ramos,AM,23785
+1478,Agrestina,PE,23779
+1479,Aurora do Para,PA,23774
+1480,Manari,PE,23763
+1481,Aurora,CE,23714
+1482,Santo Antonio do Sudoeste,PR,23673
+1483,Orleans,SC,23661
+1484,Bonito,MS,23659
+1485,Conde,BA,23654
+1486,Pirai do Sul,PR,23651
+1487,Santa Gertrudes,SP,23611
+1488,Traipu,AL,23565
+1489,Tamandare,PE,23561
+1490,Codajas,AM,23549
+1491,Bambui,MG,23546
+1492,Sao Miguel,RN,23537
+1493,Corinto,MG,23532
+1494,Cupira,PE,23518
+1495,Mojui dos Campos,PA,23501
+1496,Quarai,RS,23500
+1497,Carmo do Cajuru,MG,23479
+1498,Francisco Sa,MG,23476
+1499,Raul Soares,MG,23423
+1500,Santa Rosa de Viterbo,SP,23411
+1501,Pindoretama,CE,23391
+1502,Planalto,BA,23334
+1503,Coronel Vivida,PR,23331
+1504,Capinzal,SC,23314
+1505,Nova Petropolis,RS,23300
+1506,Aldeias Altas,MA,23286
+1507,Carambei,PR,23283
+1507,Poxoreu,MT,23283
+1509,Santo Antonio de Posse,SP,23244
+1510,Loanda,PR,23225
+1511,Cambara,PR,23212
+1512,Itabaiana,PB,23182
+1513,Conceicao do Mato Dentro,MG,23163
+1514,Ribas do Rio Pardo,MS,23150
+1515,Bananeiras,PB,23134
+1516,Governador Nunes Freire,MA,23128
+1517,Igaracu do Tiete,SP,23106
+1518,Dom Pedro,MA,23053
+1519,Monte Alegre,RN,23031
+1519,Bataguassu,MS,23031
+1521,Panelas,PE,22991
+1522,Ivoti,RS,22983
+1523,Encantado,RS,22962
+1524,Itaocara,RJ,22919
+1525,Colorado,PR,22896
+1526,Capela do Alto,SP,22866
+1527,Sarandi,RS,22851
+1528,Siqueira Campos,PR,22811
+1529,Santa Teresa,ES,22808
+1530,Pedra,PE,22795
+1531,Morrinhos,CE,22753
+1532,Feira Grande,AL,22712
+1533,Inhapim,MG,22692
+1534,Abaete,MG,22675
+1535,Areia,PB,22633
+1535,Olindina,BA,22633
+1537,Tocantinopolis,TO,22615
+1538,Piranhas,AL,22609
+1539,Camacan,BA,22579
+1540,Senador Jose Porfirio,PA,22576
+1541,Itinga do Maranhao,MA,22513
+1542,Trizidela do Vale,MA,22484
+1543,Cacule,BA,22462
+1544,Buriti Bravo,MA,22455
+1545,Pirajui,SP,22431
+1546,Quissama,RJ,22393
+1547,Barreira,CE,22392
+1548,Cedro,CE,22344
+1549,Candeias do Jamari,RO,22310
+1550,Piuma,ES,22300
+1551,Monte Aprazivel,SP,22280
+1552,Valenca do Piaui,PI,22279
+1553,Silvania,GO,22245
+1554,Ibia,MG,22229
+1555,Medeiros Neto,BA,22194
+1556,Santo Antonio,RN,22177
+1557,Teodoro Sampaio,SP,22173
+1558,Riachao,MA,22145
+1559,Cunha,SP,22110
+1560,Sao Jose do Vale do Rio Preto,RJ,22080
+1561,Itaiopolis,SC,22051
+1562,Ceres,GO,22046
+1563,Matinha,MA,22034
+1564,Bom Jesus dos Perdoes,SP,22006
+1565,Ecoporanga,ES,21992
+1566,Pinhalzinho,SC,21972
+1567,Iracemapolis,SP,21967
+1568,Vertentes,PE,21959
+1569,Arroio do Meio,RS,21958
+1570,Serro,MG,21952
+1571,Diamantino,MT,21941
+1572,Mazagao,AP,21924
+1573,Itubera,BA,21902
+1574,Sao Miguel do Araguaia,GO,21900
+1575,Sao Francisco de Paula,RS,21893
+1576,Muzambinho,MG,21891
+1577,Pio XII,MA,21886
+1578,Mata Grande,AL,21844
+1579,Nova Alvorada do Sul,MS,21822
+1580,Orobo,PE,21808
+1581,Poco Verde,SE,21794
+1582,Alhandra,PB,21730
+1583,'Herval d''Oeste',SC,21724
+1584,Paraguacu,MG,21723
+1585,Guapiacu,SP,21711
+1586,Assare,CE,21697
+1587,Ibicarai,BA,21665
+1588,Riachao das Neves,BA,21642
+1589,Sao Miguel do Guapore,RO,21635
+1590,Bela Vista,MS,21613
+1591,Macarani,BA,21599
+1592,Ibiruba,RS,21583
+1593,Acreuna,GO,21568
+1594,Pedro Canario,ES,21522
+1594,Aracariguama,SP,21522
+1594,Ladario,MS,21522
+1597,Mari,PB,21512
+1598,Bastos,SP,21503
+1599,Parelhas,RN,21499
+1600,'Alta Floresta d''Oeste',RO,21494
+1601,Iguai,BA,21491
+1602,Cerqueira Cesar,SP,21469
+1603,Senador Guiomard,AC,21454
+1604,Tambau,SP,21435
+1605,Icapui,CE,21433
+1606,Feira Nova,PE,21427
+1607,Sao Joao do Piaui,PI,21421
+1608,Urucuca,BA,21420
+1609,Jandaia do Sul,PR,21408
+1610,Perdoes,MG,21384
+1611,Igreja Nova,AL,21372
+1612,Silva Jardim,RJ,21352
+1613,Rolante,RS,21253
+1614,Sao Sepe,RS,21219
+1615,Caapora,PB,21193
+1616,Boca da Mata,AL,21187
+1617,Teofilandia,BA,21176
+1618,Maracacume,MA,21149
+1619,Princesa Isabel,PB,21114
+1620,Conceicao de Macabu,RJ,21104
+1621,Alto Alegre,RR,21096
+1622,Sao Domingos do Araguaia,PA,21092
+1623,Santa Barbara do Para,PA,21087
+1623,Itapaci,GO,21087
+1625,Chopinzinho,PR,21085
+1626,Sao Marcos,RS,21084
+1627,Palmeirandia,MA,21059
+1628,Caxambu,MG,21056
+1629,Paulistana,PI,21055
+1630,Laje,BA,21052
+1631,Itapecerica,MG,21046
+1632,Itambacuri,MG,21042
+1633,Mirador,MA,21030
+1634,Sao Jeronimo,RS,21028
+1635,Alagoa Nova,PB,21013
+1636,Tanhacu,BA,21006
+1637,Cassilandia,MS,20988
+1638,Santa Vitoria,MG,20973
+1639,Caracarai,RR,20957
+1640,Carmo do Rio Claro,MG,20954
+1641,Coreau,CE,20953
+1642,Santa Barbara,BA,20952
+1643,Urussanga,SC,20919
+1644,Monte Santo de Minas,MG,20890
+1645,Quixere,CE,20874
+1646,Lajinha,MG,20835
+1647,Conselheiro Pena,MG,20824
+1648,Sao Jose da Laje,AL,20813
+1649,Conceicao da Feira,BA,20800
+1650,Ibicoara,BA,20785
+1651,Cordeiro,RJ,20783
+1652,Chaves,PA,20757
+1653,Beruri,AM,20718
+1654,Oliveira dos Brejinhos,BA,20715
+1655,Divino,MG,20706
+1656,Campestre,MG,20696
+1657,Olho d''agua das Flores',AL,20695
+1658,Sao Joao de Pirabas,PA,20689
+1659,Altinho,PE,20674
+1660,Apui,AM,20647
+1661,Riacho das Almas,PE,20639
+1662,Manhumirim,MG,20613
+1663,Fatima do Sul,MS,20609
+1664,Governador Mangabeira,BA,20605
+1665,Caravelas,BA,20580
+1666,Cha Grande,PE,20546
+1667,Capanema,PR,20481
+1668,Peritoro,MA,20479
+1669,Nova Esperanca do Piria,PA,20478
+1670,Junqueiropolis,SP,20448
+1671,Paraisopolis,MG,20445
+1672,Itatira,CE,20424
+1673,Lambari,MG,20414
+1674,Jaboticatubas,MG,20406
+1675,Potim,SP,20392
+1676,Jaguaruna,SC,20375
+1677,Porto Real,RJ,20373
+1678,Santa Luzia do Para,PA,20370
+1679,Paramirim,BA,20351
+1680,Flores,PE,20347
+1681,Paulo Ramos,MA,20341
+1682,Monte Azul,MG,20328
+1683,Sao Felipe,BA,20283
+1684,Salgado,SE,20279
+1685,Ervalia,MG,20255
+1686,Buri,SP,20250
+1687,Quiterianopolis,CE,20213
+1688,Pompeia,SP,20196
+1689,Uruburetama,CE,20189
+1690,Monte Alegre de Minas,MG,20170
+1691,Chorozinho,CE,20163
+1692,Medina,MG,20156
+1693,Regente Feijo,SP,20145
+1694,Nhamunda,AM,20136
+1695,Aquidaba,SE,20131
+1696,Belmonte,BA,20121
+1697,Matupa,MT,20091
+1698,Nova Hartz,RS,20088
+1699,Piata,BA,20086
+1700,Porto Real do Colegio,AL,20082
+1701,Barroso,MG,20080
+1702,Palmas de Monte Alto,BA,20078
+1703,Lucelia,SP,20061
+1703,Schroeder,SC,20061
+1705,Sao Joaquim do Monte,PE,20037
+1705,Mutuipe,BA,20037
+1707,Presidente Getulio,SC,20010
+1708,Rio Formoso,PE,20009
+1709,Tupancireta,RS,20005
+1710,Turmalina,MG,20000
+1711,Castilho,SP,19977
+1712,Vazante,MG,19975
+1713,Tibagi,PR,19961
+1714,Curionopolis,PA,19950
+1715,Carira,SE,19939
+1716,Candido Mendes,MA,19932
+1717,Cachoeirinha,PE,19899
+1718,Vila Rica,MT,19888
+1719,Andira,PR,19878
+1720,Ibirama,SC,19862
+1721,Rio Verde de Mato Grosso,MS,19818
+1722,Itaparica,BA,19789
+1723,Rubiataba,GO,19788
+1724,Araripe,CE,19783
+1725,Simonesia,MG,19750
+1726,Tres Barras,SC,19746
+1727,Crisopolis,BA,19729
+1728,Caraubas,RN,19727
+1729,Cuite,PB,19719
+1730,Oros,CE,19675
+1731,Rafael Jambeiro,BA,19662
+1732,Buriti dos Lopes,PI,19654
+1733,Careiro da Varzea,AM,19637
+1734,Cachoeira do Piria,PA,19630
+1735,Ampere,PR,19620
+1735,Jussara,GO,19620
+1737,Tapaua,AM,19599
+1738,Palmital,SP,19594
+1739,Buritirama,BA,19589
+1740,Bequimao,MA,19584
+1741,Engenheiro Coelho,SP,19566
+1742,Vargem Alta,ES,19563
+1743,Carai,MG,19548
+1744,Guapo,GO,19545
+1745,Ipanema,MG,19522
+1746,Sao Vicente Ferrer,MA,19498
+1747,Miguelopolis,SP,19441
+1748,Itaquirai,MS,19423
+1749,Nova Granada,SP,19419
+1750,Paranapanema,SP,19395
+1751,Cantagalo,RJ,19390
+1752,Barro,CE,19381
+1753,Pauini,AM,19373
+1754,Canto do Buriti,PI,19365
+1755,Presidente Medici,RO,19327
+1756,Boquira,BA,19322
+1757,Pacaraima,RR,19305
+1758,Mancio Lima,AC,19294
+1759,Castelo do Piaui,PI,19288
+1760,Rio Bananal,ES,19274
+1761,Tonantins,AM,19247
+1761,Realeza,PR,19247
+1763,Aracoiaba,PE,19243
+1763,Ourolandia,BA,19243
+1765,Pariquera-Acu,SP,19233
+1766,Mundo Novo,MS,19193
+1767,Wenceslau Braz,PR,19188
+1768,Cocos,BA,19151
+1768,Itaobim,MG,19151
+1770,Guaranesia,MG,19150
+1770,Papanduva,SC,19150
+1772,Contenda,PR,19128
+1772,Abadia de Goias,GO,19128
+1774,Encruzilhada,BA,19107
+1775,Butia,RS,19084
+1776,Pindobacu,BA,19083
+1777,Itatinga,SP,19070
+1778,Sao Jose de Piranhas,PB,19067
+1779,Guaratinga,BA,19049
+1780,Cesario Lange,SP,19048
+1781,Taquarana,AL,19032
+1782,agua Branca,AL,19008
+1783,Lagoa de Itaenga,PE,19003
+1784,Cafelandia,PR,18997
+1785,Chapada dos Guimaraes,MT,18990
+1786,Barao de Grajau,MA,18984
+1787,Lagoa Formosa,MG,18904
+1788,Montanha,ES,18900
+1789,Pancas,ES,18893
+1790,Manga,MG,18886
+1791,Formoso do Araguaia,TO,18881
+1792,Horizontina,RS,18851
+1793,Varzelandia,MG,18840
+1794,Barcelos,AM,18834
+1795,Sao Jose da Coroa Grande,PE,18825
+1796,Pastos Bons,MA,18802
+1797,Ibirataia,BA,18792
+1798,Terra Santa,PA,18782
+1799,Itajuipe,BA,18781
+1800,Presidente Olegario,MG,18765
+1801,Epitaciolandia,AC,18757
+1802,Altonia,PR,18742
+1803,Aroeiras,PB,18705
+1804,Canta,RR,18682
+1805,Afranio,PE,18674
+1806,Sao Raimundo das Mangabeiras,MA,18672
+1807,Placas,PA,18668
+1808,Carnaiba,PE,18644
+1809,Urucara,AM,18631
+1810,Ribeirao Branco,SP,18627
+1811,Ubaira,BA,18626
+1812,Sanharo,PE,18624
+1813,Seara,SC,18620
+1814,Carlos Chagas,MG,18615
+1815,Parnamirim,PE,18612
+1816,Reriutaba,CE,18606
+1816,Guara,SP,18606
+1818,Sao Gabriel,BA,18600
+1819,Miracema do Tocantins,TO,18566
+1820,Morros,MA,18554
+1821,Miracatu,SP,18553
+1822,Matipo,MG,18552
+1823,Garuva,SC,18545
+1824,Sao Joao Batista,MA,18544
+1825,Morro da Fumaca,SC,18537
+1826,Nordestina,BA,18523
+1827,Madre de Deus,BA,18504
+1828,Anicuns,GO,18503
+1829,Potirendaba,SP,18496
+1830,Colina,SP,18486
+1831,Alcantara,MA,18467
+1832,Lagoa da Canoa,AL,18457
+1833,Matelandia,PR,18450
+1834,aguas Formosas,MG,18448
+1835,Belo Campo,BA,18412
+1836,Governador Edison Lobao,MA,18411
+1837,Quitandinha,PR,18398
+1838,Aragarcas,GO,18390
+1839,Rio Maria,PA,18384
+1840,Itapororoca,PB,18382
+1841,Pirapora do Bom Jesus,SP,18370
+1842,Baependi,MG,18366
+1843,Sao Benedito do Rio Preto,MA,18364
+1844,Capoeiras,PE,18338
+1845,Picui,PB,18333
+1846,Riachao do Dantas,SE,18313
+1847,Esperantinopolis,MA,18311
+1848,Taio,SC,18310
+1849,Morretes,PR,18309
+1849,Pontalina,GO,18309
+1851,Belem do Sao Francisco,PE,18301
+1852,Alpinopolis,MG,18300
+1853,Aveiro,PA,18290
+1854,Paraibano,MA,18274
+1855,Conceicao,PB,18260
+1856,Xapuri,AC,18243
+1857,Comodoro,MT,18238
+1858,Julio de Castilhos,RS,18226
+1859,Baixa Grande,BA,18220
+1860,Farias Brito,CE,18217
+1860,Nazare Paulista,SP,18217
+1862,Gameleira,PE,18214
+1863,Serrita,PE,18207
+1864,Amaraji,PE,18205
+1865,Solonopole,CE,18179
+1866,Muniz Freire,ES,18153
+1867,Monte Azul Paulista,SP,18151
+1868,Campo do Brito,SE,18149
+1869,Una,BA,18131
+1870,Terra Roxa,PR,18119
+1871,Campos Belos,GO,18108
+1872,Varjota,CE,18105
+1873,Belterra,PA,18099
+1874,Mucajai,RR,18095
+1875,Antonina,PR,18091
+1876,Areia Branca,SE,18081
+1877,agua Azul do Norte,PA,18080
+1878,Pedra Preta,MT,18066
+1879,Taperoa,BA,18044
+1880,Fundao,ES,18014
+1881,Campina Verde,MG,18011
+1882,Bom Jesus do Tocantins,PA,18005
+1883,Carmopolis de Minas,MG,18003
+1884,Serra Preta,BA,17996
+1885,Itabera,SP,17983
+1886,Lagoa do Carro,PE,17981
+1887,Sao Joao do Rio do Peixe,PB,17964
+1888,Sapeacu,BA,17963
+1888,Santo Anastacio,SP,17963
+1890,Ponto Novo,BA,17938
+1891,aguas de Lindoia,SP,17930
+1892,Quipapa,PE,17928
+1893,Olho d''agua das Cunhas',MA,17919
+1894,Ituacu,BA,17914
+1895,Floresta do Araguaia,PA,17898
+1895,Nao-Me-Toque,RS,17898
+1897,Filadelfia,BA,17897
+1898,Fatima,BA,17895
+1899,Remigio,PB,17885
+1900,Luz,MG,17875
+1901,Ourem,PA,17855
+1901,Hidrolandia,CE,17855
+1903,Sao Jose dos Quatro Marcos,MT,17849
+1904,Porto Grande,AP,17848
+1905,Itapiuna,CE,17841
+1906,Sao Luis Gonzaga do Maranhao,MA,17818
+1907,Itanhem,BA,17813
+1908,Jucurutu,RN,17793
+1909,Cairu,BA,17761
+1910,Dianopolis,TO,17739
+1911,Sapucaia,RJ,17729
+1912,Formosa da Serra Negra,MA,17719
+1913,Pirapemas,MA,17714
+1914,Major Izidoro,AL,17700
+1915,Elias Fausto,SP,17699
+1916,Inga,PB,17692
+1917,Mairi,BA,17674
+1918,Paraibuna,SP,17667
+1919,Jaguaripe,BA,17659
+1920,Terenos,MS,17652
+1921,Marechal Floriano,ES,17641
+1922,Abare,BA,17639
+1923,Carire,CE,17632
+1924,Tijucas do Sul,PR,17621
+1925,Sao Francisco de Assis,RS,17618
+1926,Pio IX,PI,17613
+1927,Boqueirao,PB,17598
+1928,Ubaitaba,BA,17596
+1929,agua Branca,PI,17573
+1930,Terra Boa,PR,17568
+1931,Piritiba,BA,17566
+1932,Arroio Grande,RS,17558
+1933,Sao Miguel do Tapuio,PI,17554
+1934,Jaicos,PI,17527
+1935,Apicum-Acu,MA,17519
+1936,Malacacheta,MG,17516
+1937,Presidente Sarney,MA,17511
+1938,Piratini,RS,17504
+1939,Mendes,RJ,17502
+1940,Augustinopolis,TO,17484
+1941,Croata,CE,17481
+1942,Urucuia,MG,17479
+1943,Umirim,CE,17470
+1943,Corbelia,PR,17470
+1945,Pocinhos,PB,17469
+1946,Cafarnaum,BA,17466
+1947,Pecanha,MG,17446
+1948,Rio Pomba,MG,17443
+1949,Rosana,SP,17440
+1950,Nova Era,MG,17438
+1951,Matoes do Norte,MA,17432
+1952,Camocim de Sao Felix,PE,17419
+1953,Viradouro,SP,17414
+1954,Borda da Mata,MG,17404
+1955,Rio Claro,RJ,17401
+1956,Sao Domingos do Prata,MG,17392
+1956,Abelardo Luz,SC,17392
+1958,Padre Paraiso,MG,17334
+1959,Coaraci,BA,17333
+1960,Otacilio Costa,SC,17312
+1961,Mundo Novo,BA,17305
+1962,Aluminio,SP,17301
+1963,Fortim,CE,17294
+1964,Porciuncula,RJ,17288
+1965,Santo Antonio do Amparo,MG,17285
+1966,Arinos,MG,17272
+1967,Senges,PR,17270
+1968,Capistrano,CE,17254
+1969,Venturosa,PE,17251
+1970,Cocal do Sul,SC,17240
+1971,Amarante,PI,17234
+1972,Jaguaretama,CE,17232
+1972,Abadiania,GO,17232
+1974,Cipo,BA,17230
+1975,Resplendor,MG,17226
+1976,Lima Duarte,MG,17221
+1977,Passagem Franca,MA,17220
+1978,Carnaubal,CE,17210
+1978,Buritama,SP,17210
+1980,Itacarambi,MG,17208
+1981,Goncalves Dias,MA,17206
+1982,Carmo,RJ,17198
+1983,Banabuiu,CE,17195
+1984,Anori,AM,17194
+1985,Alto Araguaia,MT,17193
+1986,Araruna,PB,17189
+1987,Dormentes,PE,17188
+1988,Envira,AM,17186
+1989,Sume,PB,17166
+1990,Iati,PE,17165
+1991,Massaranduba,SC,17162
+1992,Pocao de Pedras,MA,17161
+1993,Tanque Novo,BA,17158
+1994,Cassia,MG,17155
+1995,Tejucuoca,CE,17154
+1995,Juquia,SP,17154
+1997,Bom Sucesso,MG,17151
+1997,Perdizes,MG,17151
+1999,Joaquim Gomes,AL,17150
+2000,Monsenhor Tabosa,CE,17149
+2001,Ipaba,MG,17136
+2002,Regeneracao,PI,17133
+2003,Correntes,PE,17131
+2004,Pouso Redondo,SC,17123
+2005,Manaquiri,AM,17107
+2006,Caconde,SP,17101
+2007,Cristinapolis,SE,17100
+2008,Cruz do Espirito Santo,PB,17095
+2009,Marechal Thaumaturgo,AC,17093
+2010,Mata Roma,MA,17090
+2011,Pradopolis,SP,17078
+2012,Jenipapo dos Vieiras,MA,17076
+2013,Sitio Novo,MA,17074
+2014,Guapiara,SP,17071
+2014,Cidreira,RS,17071
+2016,Serra Dourada,BA,17066
+2017,Crixas,GO,17065
+2018,Indiara,GO,17061
+2019,Paulino Neves,MA,17056
+2019,Coronel Joao Sa,BA,17056
+2021,Souto Soares,BA,17054
+2022,Condeuba,BA,17053
+2023,Itarantim,BA,17052
+2024,Porteiras,CE,17050
+2025,Ilhota,SC,17046
+2026,Ribeiropolis,SE,17033
+2027,Sao Simao,GO,17020
+2028,Piranga,MG,17018
+2029,Carius,CE,17015
+2030,Juazeirinho,PB,17007
+2031,Brasnorte,MT,17004
+2032,Itajobi,SP,16989
+2033,Fortuna,MA,16976
+2034,Ibitita,BA,16969
+2035,Bacabeira,MA,16966
+2036,Serafina Correa,RS,16961
+2037,Santana do Cariri,CE,16954
+2038,Tibau do Sul,RN,16929
+2039,Governador Celso Ramos,SC,16915
+2040,Carlopolis,PR,16905
+2041,Madalena,CE,16896
+2042,Sao Joao do Soter,MA,16889
+2043,Boa Vista do Tupim,BA,16873
+2044,Canutama,AM,16869
+2045,Macatuba,SP,16829
+2046,Altinopolis,SP,16818
+2047,Sao Paulo do Potengi,RN,16786
+2048,Vila Bela da Santissima Trindade,MT,16774
+2049,Pitimbu,PB,16751
+2050,agua Clara,MS,16741
+2051,Porto Acre,AC,16693
+2052,Sao Vicente Ferrer,PE,16677
+2053,Sao Caetano de Odivelas,PA,16666
+2054,Cafelandia,SP,16654
+2055,Aracagi,PB,16646
+2056,Fartura,SP,16641
+2057,Itapiranga,SC,16638
+2058,Salitre,CE,16633
+2059,Itororo,BA,16617
+2060,Piquet Carneiro,CE,16616
+2061,Ibipeba,BA,16603
+2061,Mangueirinha,PR,16603
+2063,Getulio Vargas,RS,16602
+2064,Placido de Castro,AC,16560
+2065,Cabaceiras do Paraguacu,BA,16559
+2066,Itaquitinga,PE,16554
+2067,Indiaroba,SE,16549
+2068,Santa Maria das Barreiras,PA,16548
+2069,Caiaponia,GO,16513
+2070,Xangri-la,RS,16463
+2071,Batalha,AL,16448
+2072,Pianco,PB,16441
+2073,Neopolis,SE,16426
+2074,Cajari,MA,16412
+2075,Belem,PB,16401
+2076,Sananduva,RS,16399
+2076,Orizona,GO,16399
+2078,Santa Margarida,MG,16395
+2079,Poco Fundo,MG,16390
+2080,Faxinal,PR,16389
+2081,Nova Resende,MG,16387
+2082,Caridade,CE,16377
+2083,Barra de Santo Antonio,AL,16365
+2084,Jussara,BA,16354
+2085,Demerval Lobao,PI,16352
+2085,Nova Olimpia,MT,16352
+2087,Central,BA,16348
+2088,Alto Paraiso,RO,16320
+2089,Tremedal,BA,16296
+2090,Bacuri,MA,16290
+2091,Sao Francisco do Guapore,RO,16286
+2092,Raposos,MG,16279
+2093,Utinga,BA,16277
+2094,Centro Novo do Maranhao,MA,16267
+2095,Japaratuba,SE,16209
+2096,Tocantins,MG,16185
+2097,Itirapina,SP,16148
+2098,Cerro Azul,PR,16134
+2099,Canudos,BA,16105
+2100,Jacupiranga,SP,16097
+2101,Ubata,BA,16094
+2102,Sao Lourenco da Serra,SP,16067
+2103,Cacimba de Dentro,PB,16064
+2104,Agudo,RS,16041
+2105,Cajueiro,AL,16024
+2106,Girua,RS,16013
+2107,Satiro Dias,BA,16008
+2108,Balneario Rincao,SC,15981
+2109,Cruz Machado,PR,15978
+2110,Campanha,MG,15935
+2111,Sertanopolis,PR,15930
+2112,Apora,BA,15922
+2113,Cumaru,PE,15920
+2114,Mirante do Paranapanema,SP,15917
+2115,Quixelo,CE,15910
+2116,Piacabucu,AL,15908
+2117,Marmeleiro,PR,15901
+2118,Mario Campos,MG,15900
+2119,Cerejeiras,RO,15890
+2120,Tapejara,PR,15869
+2121,Alvaraes,AM,15866
+2122,Tupi Paulista,SP,15854
+2123,Bonito,BA,15844
+2124,Jatauba,PE,15843
+2125,Balneario Arroio do Silva,SC,15820
+2126,Tapiramuta,BA,15818
+2127,Colonia Leopoldina,AL,15816
+2128,Conceicao do Almeida,BA,15794
+2129,Novo Airao,AM,15761
+2130,Ipora,PR,15746
+2131,Itatim,BA,15737
+2132,Mirangaba,BA,15734
+2132,Santa Juliana,MG,15734
+2134,Correia Pinto,SC,15727
+2135,Campina da Lagoa,PR,15723
+2136,Maruim,SE,15719
+2137,Nova Brasilandia d''Oeste',RO,15679
+2138,Balneario Gaivota,SC,15669
+2139,Colorado do Oeste,RO,15663
+2140,Frecheirinha,CE,15657
+2141,Palmitos,SC,15626
+2142,Vitoria do Xingu,PA,15607
+2143,Sao Pedro do Sul,RS,15577
+2144,Lagoa Nova,RN,15573
+2145,Canapi,AL,15559
+2146,Santa Cecilia,SC,15546
+2147,Charqueada,SP,15535
+2148,Bituruna,PR,15533
+2149,Maraa,AM,15529
+2150,Itariri,SP,15528
+2151,Igapora,BA,15527
+2152,Pedregulho,SP,15525
+2153,Gloria,BA,15524
+2154,Passa Quatro,MG,15515
+2155,Nobres,MT,15492
+2156,Rosario Oeste,MT,15453
+2157,Estrela de Alagoas,AL,15429
+2158,Tururu,CE,15412
+2159,Messias,AL,15405
+2160,Nova Olinda,CE,15399
+2161,Malhada,BA,15398
+2162,Cruzilia,MG,15362
+2163,Urandi,BA,15355
+2164,Campinapolis,MT,15347
+2165,Teolandia,BA,15332
+2166,Jupi,PE,15329
+2167,Santo Cristo,RS,15320
+2168,Sao Joao Evangelista,MG,15315
+2169,Atalaia do Norte,AM,15314
+2170,Itagiba,BA,15310
+2171,Guamare,RN,15295
+2172,Lagoa da Confusao,TO,15288
+2173,Pereiro,CE,15274
+2174,Corupa,SC,15267
+2175,Santo Antonio de Leverger,MT,15246
+2176,Candido de Abreu,PR,15244
+2177,Trairao,PA,15242
+2178,Itanhandu,MG,15236
+2179,Conchas,SP,15232
+2180,Pinhalzinho,SP,15224
+2181,Salto do Lontra,PR,15223
+2182,Sumidouro,RJ,15206
+2183,Barrocas,BA,15203
+2184,Salesopolis,SP,15202
+2185,Sao Felix do Coribe,BA,15194
+2186,Espumoso,RS,15173
+2187,Inhapi,AL,15167
+2188,Meruoca,CE,15157
+2189,Biritinga,BA,15146
+2190,America Dourada,BA,15137
+2191,Presidente Dutra,BA,15130
+2192,Jaguapita,PR,15122
+2193,Piratininga,SP,15108
+2194,Holambra,SP,15094
+2195,Natividade,RJ,15074
+2196,Clevelandia,PR,15070
+2197,Alvinopolis,MG,15059
+2198,Capela,AL,15032
+2199,Ferreiros,PE,15026
+2200,Brasilandia de Minas,MG,15020
+2201,Guarei,SP,15013
+2202,Andorinha,BA,15012
+2203,Dionisio Cerqueira,SC,15008
+2204,Salinas da Margarida,BA,14987
+2205,Candoi,PR,14973
+2206,Santa Brigida,BA,14965
+2207,Panorama,SP,14964
+2208,Santa Luzia,PB,14959
+2209,Inhuma,PI,14958
+2210,Vianopolis,GO,14956
+2211,Balneario Pinhal,RS,14955
+2212,Restinga Seca,RS,14939
+2213,Rodrigues Alves,AC,14938
+2214,Uirauna,PB,14930
+2215,Joselandia,MA,14924
+2216,Conceicao do Lago Acu,MA,14915
+2217,Balneario Barra do Sul,SC,14912
+2218,Sao Jose do Rio Claro,MT,14911
+2219,Sao Francisco do Para,PA,14894
+2220,Taruma,SP,14882
+2221,Pacaembu,SP,14877
+2222,Cujubim,RO,14863
+2223,Terra Rica,PR,14842
+2224,Bela Vista do Paraiso,PR,14833
+2225,Botelhos,MG,14828
+2226,Buerarema,BA,14804
+2227,Itamonte,MG,14786
+2227,Araputanga,MT,14786
+2229,Sitio do Quinto,BA,14773
+2230,Lago Verde,MA,14769
+2230,Tabatinga,SP,14769
+2232,Mozarlandia,GO,14750
+2233,Entre Rios de Minas,MG,14746
+2234,Pindai,BA,14731
+2235,Tarumirim,MG,14709
+2236,Triunfo,PE,14705
+2237,Senador La Rocque,MA,14700
+2238,Tapes,RS,14695
+2239,Coremas,PB,14683
+2240,Capinopolis,MG,14655
+2241,Capitao Leonidas Marques,PR,14648
+2242,Ibitiara,BA,14637
+2243,Teixeira,PB,14631
+2243,Rio Piracicaba,MG,14631
+2245,Cambuci,RJ,14616
+2246,Arroio dos Ratos,RS,14601
+2247,Nova Ponte,MG,14598
+2248,Severinia,SP,14576
+2249,Barroquinha,CE,14567
+2250,Pindorama,SP,14542
+2251,Fronteira,MG,14540
+2252,Bom Jesus do Galho,MG,14536
+2253,Rio Paranaiba,MG,14532
+2254,Frei Paulo,SE,14530
+2255,Sonora,MS,14516
+2256,Reboucas,PR,14514
+2257,Patrocinio Paulista,SP,14512
+2258,agua Fria,BA,14497
+2258,Tenente Portela,RS,14497
+2260,Presidente Bernardes,SP,14490
+2261,Araruna,PR,14485
+2262,Jacarau,PB,14477
+2263,Ipua,SP,14454
+2264,Jacaraci,BA,14436
+2265,Uarini,AM,14431
+2266,Itau de Minas,MG,14406
+2267,Davinopolis,MA,14404
+2268,Ladainha,MG,14383
+2269,Lauro Muller,SC,14381
+2270,Planalto,PR,14374
+2271,Tapurah,MT,14370
+2272,Jitauna,BA,14355
+2273,Simoes,PI,14350
+2274,Sao Pedro da agua Branca,MA,14338
+2275,Monte Alegre de Sergipe,SE,14336
+2276,Nova Olinda do Maranhao,MA,14314
+2277,Santo Antonio dos Lopes,MA,14304
+2278,Coronel Sapucaia,MS,14289
+2279,Puxinana,PB,14277
+2280,Imbau,PR,14249
+2281,Maria da Fe,MG,14247
+2282,Brazopolis,MG,14246
+2283,Sabinopolis,MG,14240
+2283,Manoel Ribas,PR,14240
+2285,Turvo,PR,14231
+2286,Borborema,SP,14226
+2286,Sobradinho,RS,14226
+2288,Caldas,MG,14217
+2289,Antas,BA,14206
+2290,Adustina,BA,14201
+2291,Miraima,CE,14196
+2292,Nina Rodrigues,MA,14176
+2293,Sao Jose do Cedro,SC,14167
+2294,Mirandiba,PE,14166
+2295,Santa Isabel do Rio Negro,AM,14164
+2296,Alto Santo,CE,14155
+2297,Ipiranga,PR,14142
+2298,Massaranduba,PB,14139
+2299,Astolfo Dutra,MG,14138
+2300,Ipanguacu,RN,14131
+2301,Milha,CE,14123
+2302,Matias Barbosa,MG,14121
+2303,Curua,PA,14117
+2304,Capitao Eneas,MG,14108
+2305,Lagoa Real,BA,14105
+2306,Tavares,PB,14101
+2307,Valentim Gentil,SP,14098
+2308,Itaporanga,SP,14085
+2309,Joao Neiva,ES,14079
+2310,Aiuaba,CE,14076
+2310,Lagoa dos Gatos,PE,14076
+2312,Italva,RJ,14073
+2313,Santa Izabel do Oeste,PR,14070
+2314,Taperoa,PB,14068
+2315,Montalvania,MG,14060
+2316,Pedro Afonso,TO,14055
+2317,Sao Joao d''Alianca',GO,14041
+2318,aguas Vermelhas,MG,14037
+2319,Cumaru do Norte,PA,14036
+2320,Acarape,CE,14027
+2321,Rio Azul,PR,14025
+2322,Acrelandia,AC,14021
+2323,Jatoba,PE,14020
+2324,Santa Adelia,SP,14018
+2325,Santa Maria do Cambuca,PE,14013
+2326,Taguatinga,TO,14011
+2327,Martinho Campos,MG,14003
+2328,Iracema,CE,14001
+2328,Candeias,MG,14001
+2330,Cristopolis,BA,13993
+2331,Coribe,BA,13990
+2332,Normandia,RR,13986
+2333,Mirinzal,MA,13978
+2333,Bicas,MG,13978
+2333,Felixlandia,MG,13978
+2336,Jardim de Piranhas,RN,13977
+2337,Santa Branca,SP,13975
+2338,Igarape do Meio,MA,13974
+2339,Soledade,PB,13968
+2340,Goianapolis,GO,13967
+2341,Anadia,AL,13966
+2342,Nova Ipixuna,PA,13955
+2343,Pedro Alexandre,BA,13954
+2344,Santo Amaro do Maranhao,MA,13949
+2345,Aracatu,BA,13936
+2346,Ibicui,BA,13934
+2347,Governador Eugenio Barros,MA,13930
+2348,Rio Bonito do Iguacu,PR,13929
+2349,Amajari,RR,13927
+2349,Abre Campo,MG,13927
+2351,Bonfim,RR,13923
+2352,Papagaios,MG,13920
+2353,Mansidao,BA,13919
+2354,Alterosa,MG,13915
+2355,Alto Parana,PR,13909
+2356,Santo Augusto,RS,13902
+2357,Grao Mogol,MG,13901
+2358,Mogeiro,PB,13899
+2359,Santa Luzia,BA,13896
+2360,Joaima,MG,13888
+2361,Joaquim Pires,PI,13886
+2362,Areado,MG,13881
+2363,Simplicio Mendes,PI,13870
+2364,Tracunhaem,PE,13867
+2365,Ibipitanga,BA,13863
+2366,Manoel Vitorino,BA,13860
+2367,Saboeiro,CE,13854
+2368,Carmopolis,SE,13853
+2369,Carapebus,RJ,13847
+2370,Itaguara,MG,13846
+2371,Santa Cruz,PE,13841
+2371,Ribeira do Amparo,BA,13841
+2373,Primavera,PE,13838
+2374,Saloa,PE,13836
+2374,Barra do Mendes,BA,13836
+2374,Alfredo Chaves,ES,13836
+2377,Paripueira,AL,13835
+2378,Itaipava do Grajau,MA,13828
+2379,Pedro Velho,RN,13824
+2380,Guajara,AM,13815
+2381,Iguatemi,MS,13808
+2382,Magalhaes de Almeida,MA,13807
+2383,Passo de Camaragibe,AL,13804
+2384,Itagi,BA,13803
+2385,Graca,CE,13801
+2386,Varzea da Roca,BA,13800
+2387,Carmo de Minas,MG,13797
+2387,Assai,PR,13797
+2389,Acajutiba,BA,13795
+2390,Anapurus,MA,13793
+2391,Itapetim,PE,13791
+2392,Cacu,GO,13774
+2393,Guape,MG,13772
+2394,Gurinhem,PB,13766
+2395,Nova Aurora,PR,13765
+2396,Feliz,RS,13764
+2397,Maranhaozinho,MA,13761
+2398,Sao Pedro do Piaui,PI,13755
+2399,Uiramuta,RR,13751
+2400,Uruoca,CE,13746
+2401,Itinga,MG,13745
+2401,Muqui,ES,13745
+2403,Urupes,SP,13744
+2403,Flores de Goias,GO,13744
+2405,Tacaimbo,PE,13738
+2406,Ataleia,MG,13736
+2407,Guaraniacu,PR,13735
+2408,Angical,BA,13732
+2409,Ibateguara,AL,13731
+2410,Uruana,GO,13729
+2411,Vila Valerio,ES,13728
+2412,Nova Trento,SC,13727
+2413,Sao Joao do Triunfo,PR,13726
+2414,Alagoinha,PB,13725
+2415,Morungaba,SP,13720
+2416,Nonoai,RS,13719
+2417,Nova Canaa,BA,13715
+2418,Sideropolis,SC,13714
+2419,Ipaussu,SP,13712
+2420,Irupi,ES,13710
+2421,Ipecaeta,BA,13709
+2422,Cerro Largo,RS,13705
+2423,Presidente Kennedy,ES,13696
+2424,Auriflama,SP,13692
+2425,Boa Nova,BA,13690
+2425,Itapagipe,MG,13690
+2427,Quatis,RJ,13682
+2428,Maribondo,AL,13679
+2429,Mucambo,CE,13666
+2429,Pote,MG,13666
+2431,Sao Joao do Araguaia,PA,13664
+2431,Nova Veneza,SC,13664
+2433,Deodapolis,MS,13663
+2434,Itapui,SP,13659
+2435,Pien,PR,13655
+2436,Retirolandia,BA,13651
+2436,Mirabela,MG,13651
+2438,Jurema,PE,13648
+2439,Curiuva,PR,13647
+2440,Umburanas,BA,13642
+2441,Alexandria,RN,13640
+2442,Frei Miguelinho,PE,13636
+2443,Nova Bandeirantes,MT,13635
+2444,Mirai,MG,13633
+2445,Jiquirica,BA,13629
+2446,Boninal,BA,13622
+2446,Engenheiro Caldas,MG,13622
+2448,Sao Felix do Araguaia,MT,13621
+2449,Santa Luzia do Itanhi,SE,13616
+2450,Primeira Cruz,MA,13614
+2450,Serra Branca,PB,13614
+2450,Baianopolis,BA,13614
+2453,Brejo do Cruz,PB,13613
+2453,Oroco,PE,13613
+2455,Boa Esperanca,ES,13608
+2456,Elesbao Veloso,PI,13607
+2457,Itaguacu,ES,13589
+2458,Camapua,MS,13583
+2459,Olinda Nova do Maranhao,MA,13577
+2459,Upanema,RN,13577
+2461,Mascote,BA,13544
+2462,Alagoinha,PE,13542
+2463,Sao Ludgero,SC,13509
+2464,Alto Longa,PI,13479
+2465,Itaete,BA,13472
+2466,Caapiranga,AM,13469
+2467,Barro Alto,BA,13453
+2468,Mambore,PR,13452
+2469,Sao Simao,SP,13442
+2470,Uibai,BA,13432
+2471,Mallet,PR,13428
+2472,Ilha Comprida,SP,13419
+2473,Sitio do Mato,BA,13408
+2474,Japoata,SE,13407
+2475,Balsa Nova,PR,13395
+2476,Varzea Nova,BA,13377
+2477,Peabiru,PR,13346
+2478,Serrolandia,BA,13335
+2479,Bocaiuva do Sul,PR,13299
+2480,Tangara,RN,13281
+2481,Baixa Grande do Ribeiro,PI,13272
+2482,Joaquim Nabuco,PE,13269
+2483,Palmeirais,PI,13264
+2484,Arez,RN,13251
+2485,Paraiso do Norte,PR,13245
+2486,Pe de Serra,BA,13243
+2487,Sao Miguel do Tocantins,TO,13241
+2488,Ivai,PR,13229
+2489,Nioaque,MS,13220
+2490,Rio de Contas,BA,13184
+2491,Santa Tereza do Oeste,PR,13174
+2492,Quata,SP,13163
+2493,Mulungu do Morro,BA,13152
+2494,Igrapiuna,BA,13151
+2495,Rio do Antonio,BA,13146
+2496,Bom Principio,RS,13142
+2497,'Alvorada d''Oeste',RO,13117
+2498,Sao Benedito do Sul,PE,13113
+2499,Santa Leopoldina,ES,13106
+2500,Serra do Mel,RN,13091
+2501,Andarai,BA,13080
+2501,Caldeirao Grande,BA,13080
+2503,Eldorado,SP,13069
+2504,Cotegipe,BA,13063
+2505,Ribeirao do Pinhal,PR,13060
+2506,Alto Garcas,MT,13052
+2507,Dom Feliciano,RS,13051
+2508,Monte Belo,MG,13046
+2509,Antonio Prado,RS,13045
+2510,Turvo,SC,13043
+2511,Palmital,PR,13033
+2512,Sao Joao das Missoes,MG,13024
+2513,Ubaporanga,MG,13017
+2514,Candiba,BA,13016
+2515,Brejetuba,ES,12985
+2516,Cha de Alegria,PE,12984
+2517,Campos Altos,MG,12979
+2518,Boa Esperanca do Sul,SP,12978
+2519,Wanderley,BA,12968
+2520,Casinhas,PE,12967
+2521,Itatiaiucu,MG,12966
+2522,Cardoso Moreira,RJ,12958
+2522,Florida Paulista,SP,12958
+2524,Tartarugalzinho,AP,12945
+2525,Brejoes,BA,12943
+2526,Nossa Senhora do Livramento,MT,12940
+2527,Apuiares,CE,12928
+2528,Nova Londrina,PR,12923
+2529,Paranhos,MS,12921
+2530,Buritirana,MA,12918
+2531,Bujari,AC,12917
+2532,Barra de Santa Rosa,PB,12904
+2533,Passo de Torres,SC,12897
+2534,Crissiumal,RS,12886
+2535,Sangao,SC,12882
+2536,Cidelandia,MA,12878
+2537,Lontras,SC,12873
+2538,Chapadao do Ceu,GO,12870
+2539,Colares,PA,12868
+2540,Porto Murtinho,MS,12859
+2541,Pedra Branca do Amapari,AP,12847
+2542,Palmares do Sul,RS,12844
+2543,Picarra,PA,12832
+2544,Canelinha,SC,12821
+2545,Joanopolis,SP,12815
+2545,Nova Crixas,GO,12815
+2547,Buenos Aires,PE,12808
+2548,Nova Timboteua,PA,12806
+2549,Vera,MT,12800
+2550,Rio Casca,MG,12789
+2551,Santa Maria do Suacui,MG,12788
+2552,Mantenopolis,ES,12770
+2553,Lagoa Dourada,MG,12769
+2554,Rodeio,SC,12757
+2555,Serra Azul,SP,12746
+2556,Ilicinea,MG,12741
+2557,Sete Barras,SP,12730
+2558,Mar de Espanha,MG,12721
+2559,Miranorte,TO,12701
+2560,Nova Prata do Iguacu,PR,12699
+2561,Itapeva,MG,12692
+2562,Maracai,SP,12673
+2563,Taguai,SP,12669
+2564,Bom Repouso,MG,12649
+2565,Rio Vermelho,MG,12641
+2566,Fortaleza dos Nogueiras,MA,12640
+2567,Dores do Indaia,MG,12630
+2568,Costa Marques,RO,12627
+2569,Bonito,PA,12622
+2570,Presidente Janio Quadros,BA,12621
+2571,Cedral,SP,12618
+2572,agua Boa,MG,12589
+2573,Lucena,PB,12560
+2574,Conceicao do Rio Verde,MG,12541
+2575,Montividiu,GO,12521
+2576,Poco das Trincheiras,AL,12518
+2577,Campinorte,GO,12510
+2578,Pacatuba,SE,12502
+2579,Campo Alegre,SC,12501
+2580,Piquete,SP,12490
+2581,Alto do Rodrigues,RN,12484
+2582,Chaval,CE,12462
+2583,Santana do Matos,RN,12456
+2584,Engenheiro Beltrao,PR,12454
+2585,Gravatal,SC,12435
+2586,Goiatins,TO,12433
+2587,Jequeri,MG,12419
+2588,Poco Branco,RN,12390
+2589,Marilandia,ES,12387
+2590,Ribeirao Claro,PR,12364
+2591,Chapada Gaucha,MG,12355
+2592,'Itapejara d''Oeste',PR,12344
+2593,Centro do Guilherme,MA,12342
+2594,Duartina,SP,12328
+2595,Iconha,ES,12326
+2596,Cambuquira,MG,12313
+2597,Pilar,PB,12311
+2597,Itaguacu da Bahia,BA,12311
+2599,Heliopolis,BA,12309
+2600,Senador Rui Palmeira,AL,12303
+2601,Campestre do Maranhao,MA,12301
+2602,Bom Retiro do Sul,RS,12294
+2603,Cananeia,SP,12289
+2604,Pendencias,RN,12278
+2605,Perdigao,MG,12268
+2606,Luiz Antonio,SP,12265
+2607,Barra de Guabiraba,PE,12263
+2608,Teixeiras,MG,12255
+2609,Sao Joao do Caru,MA,12251
+2610,Engenheiro Paulo de Frontin,RJ,12242
+2611,Carnaubeira da Penha,PE,12239
+2612,Itiquira,MT,12236
+2613,Barra do Ribeiro,RS,12225
+2614,Bom Lugar,MA,12212
+2614,Arara,PB,12212
+2616,Chavantes,SP,12211
+2617,Brejinho,RN,12202
+2618,Paranatama,PE,12199
+2619,Cristais,MG,12197
+2620,Rialma,GO,12165
+2621,agua Doce do Maranhao,MA,12142
+2622,Mucuge,BA,12137
+2623,Porto Alegre do Norte,MT,12127
+2624,Choro,CE,12113
+2625,Santa Filomena,PE,12106
+2626,Mostardas,RS,12090
+2627,Ipaumirim,CE,12083
+2628,Nova Laranjeiras,PR,12074
+2629,Poranga,CE,12065
+2630,Sao Francisco do Maranhao,MA,12064
+2631,Nilo Pecanha,BA,12063
+2632,Arroio do Tigre,RS,12058
+2633,Porto,PI,12052
+2634,agua Doce do Norte,ES,12042
+2635,Mato Verde,MG,12038
+2636,Iapu,MG,12030
+2637,Tomar do Geru,SE,12012
+2638,Jardim Alegre,PR,12004
+2639,Manoel Urbano,AC,11996
+2640,Tabocas do Brejo Velho,BA,11979
+2641,Banzae,BA,11958
+2642,Ibaretama,CE,11956
+2643,Seberi,RS,11950
+2644,Joaquim Tavora,PR,11945
+2645,Governador Dix-Sept Rosado,RN,11938
+2646,Conceicao do Castelo,ES,11937
+2647,Lagoa do Ouro,PE,11933
+2648,Andrelandia,MG,11927
+2649,Aragoiania,GO,11890
+2650,Sao Joao,PR,11886
+2651,Dom Basilio,BA,11884
+2652,Cachoeira de Minas,MG,11883
+2653,Imarui,SC,11881
+2654,Perola,PR,11878
+2655,Sao Goncalo do Rio Abaixo,MG,11850
+2656,Paulista,PB,11834
+2656,Licinio de Almeida,BA,11834
+2658,Areal,RJ,11828
+2659,Tapiratiba,SP,11816
+2660,Jataizinho,PR,11813
+2661,Virgem da Lapa,MG,11804
+2662,Serra do Salitre,MG,11801
+2663,Axixa,MA,11790
+2664,Sao Goncalo do Para,MG,11770
+2665,Brotas de Macaubas,BA,11765
+2666,Bela Vista do Maranhao,MA,11750
+2667,Edeia,GO,11747
+2668,Ibiracu,ES,11723
+2669,Piranhas,GO,11712
+2670,Ubai,MG,11708
+2671,Nova Canaa do Norte,MT,11707
+2672,Ibira,SP,11690
+2673,Luiz Alves,SC,11684
+2674,Sao Bento do Sapucai,SP,11674
+2675,Paranaita,MT,11671
+2676,Sao Sebastiao do Uatuma,AM,11670
+2677,Jardim do Serido,RN,11655
+2678,Angicos,RN,11632
+2679,Porecatu,PR,11624
+2680,Ielmo Marinho,RN,11615
+2681,Ibicuitinga,CE,11611
+2681,Xexeu,PE,11611
+2683,Pirauba,MG,11610
+2684,Bernardino de Campos,SP,11607
+2685,Cruzeiro do Sul,RS,11600
+2686,Loreto,MA,11597
+2687,Brasilandia,MS,11579
+2688,Ipaporanga,CE,11575
+2688,Jeronimo Monteiro,ES,11575
+2690,Santa Cruz da Baixa Verde,PE,11567
+2691,Silves,AM,11559
+2692,Aracas,BA,11557
+2693,Monte Negro,RO,11548
+2694,Carmo da Cachoeira,MG,11547
+2695,Malhador,SE,11533
+2696,Nova Ubirata,MT,11530
+2697,Quatipuru,PA,11524
+2698,Jucati,PE,11517
+2699,Cachoeira Alta,GO,11513
+2700,Salgado de Sao Felix,PB,11505
+2701,Estiva,MG,11502
+2702,Itaipulandia,PR,11485
+2703,Juscimeira,MT,11480
+2704,Alto Alegre dos Parecis,RO,11479
+2705,Palestina,SP,11476
+2706,Lebon Regis,SC,11472
+2707,Cidade Gaucha,PR,11467
+2708,Prudente de Morais,MG,11466
+2709,Ouro Branco,AL,11446
+2709,Florestopolis,PR,11446
+2711,Montanhas,RN,11444
+2712,Saubara,BA,11438
+2713,Caetanopolis,MG,11435
+2714,Taipu,RN,11422
+2715,Lagoa Grande do Maranhao,MA,11411
+2715,Sales Oliveira,SP,11411
+2717,Cabo Verde,MG,11410
+2718,Marcelandia,MT,11396
+2719,Eldorado,MS,11386
+2720,Santa Fe,PR,11378
+2721,Campo do Meio,MG,11377
+2722,Capinzal do Norte,MA,11374
+2723,Alcantaras,CE,11369
+2724,Presidente Juscelino,MA,11356
+2725,Cardoso,SP,11345
+2726,Pimenteiras,PI,11341
+2727,Machados,PE,11333
+2728,Gouveia,MG,11331
+2729,Santana do Mundau,AL,11323
+2729,Tabapua,SP,11323
+2731,Lima Campos,MA,11297
+2732,Estiva Gerbi,SP,11295
+2733,Vitoria do Jari,AP,11291
+2734,Pedro de Toledo,SP,11281
+2735,Curimata,PI,11270
+2736,Caetanos,BA,11266
+2737,Avanhandava,SP,11263
+2738,Bocaina,SP,11259
+2739,Roncador,PR,11251
+2740,Sao Joao do Manhuacu,MG,11246
+2741,Guaicara,SP,11239
+2742,Betania,PE,11232
+2743,Resende Costa,MG,11230
+2743,Mineiros do Tiete,SP,11230
+2745,Aratuba,CE,11224
+2745,Antonio Carlos,SC,11224
+2747,Pinheiro Machado,RS,11214
+2748,Bom Jesus,RS,11202
+2749,Sao Tiago,MG,11192
+2749,Faxinal dos Guedes,SC,11192
+2751,Pacoti,CE,11186
+2752,Araguana,MA,11181
+2753,Aurelino Leal,BA,11179
+2754,Moreira Sales,PR,11175
+2755,Seringueiras,RO,11171
+2756,Novo Horizonte,BA,11162
+2757,Capela de Santana,RS,11159
+2758,Divinolandia,SP,11158
+2759,Cacequi,RS,11157
+2760,Antonio Cardoso,BA,11146
+2761,Planura,MG,11145
+2762,Mortugaba,BA,11143
+2763,Tres Barras do Parana,PR,11135
+2764,Itanhomi,MG,11128
+2765,Sao Jose do Campestre,RN,11121
+2766,Iuiu,BA,11118
+2767,Alto Parnaiba,MA,11109
+2768,Peri Mirim,MA,11108
+2769,Capitao de Campos,PI,11100
+2769,Dois Irmaos do Buriti,MS,11100
+2771,Ararenda,CE,11096
+2771,Gararu,SE,11096
+2773,Antonio Carlos,MG,11095
+2774,Laranja da Terra,ES,11094
+2775,Calcado,PE,11093
+2776,Santo Amaro das Brotas,SE,11092
+2777,Ceu Azul,PR,11087
+2778,Juruaia,MG,11084
+2779,Congonhal,MG,11083
+2780,Iguaracy,PE,11081
+2781,Quebrangulo,AL,11080
+2782,Pirapetinga,MG,11077
+2783,Milagres,BA,11071
+2784,Rio Novo do Sul,ES,11069
+2785,Santa Mariana,PR,11066
+2786,Missal,PR,11064
+2787,General Carneiro,PR,11062
+2788,Floresta Azul,BA,11059
+2789,Arroio do Sal,RS,11057
+2790,Moita Bonita,SE,11050
+2791,Fagundes,PB,11049
+2792,Jacinto,MG,11042
+2793,Sao Sebastiao de Lagoa de Roca,PB,11040
+2794,Aperibe,RJ,11034
+2795,Anguera,BA,11031
+2796,Sao Felix,BA,11026
+2797,Botupora,BA,11024
+2798,Quilombo,SC,11022
+2799,Carmo da Mata,MG,11019
+2800,Cotriguacu,MT,11011
+2801,Governador Lindenberg,ES,11009
+2802,Patu,RN,11007
+2802,Recreio,MG,11007
+2804,Cerro Cora,RN,11000
+2805,Itirucu,BA,10999
+2806,Sete Quedas,MS,10994
+2807,Agrolandia,SC,10990
+2808,Ribeirao Bonito,SP,10989
+2809,Duas Barras,RJ,10980
+2810,Pirai do Norte,BA,10974
+2811,Guiratinga,MT,10966
+2812,Tres Cachoeiras,RS,10962
+2813,Cunha Pora,SC,10953
+2814,Ibiraci,MG,10948
+2815,Itamarati,AM,10937
+2816,Cantagalo,PR,10933
+2817,Bueno Brandao,MG,10911
+2818,Groairas,CE,10910
+2819,Alto Taquari,MT,10904
+2820,Passa e Fica,RN,10896
+2821,Gilbues,PI,10892
+2822,Alto Rio Doce,MG,10891
+2823,Saire,PE,10887
+2824,Sao Roque do Canaa,ES,10886
+2825,Pirangi,SP,10885
+2826,Gentio do Ouro,BA,10884
+2826,Coroaci,MG,10884
+2828,Ponto dos Volantes,MG,10883
+2829,Conceicao dos Ouros,MG,10880
+2830,Sao Jose do Calcado,ES,10878
+2831,Fernando Falcao,MA,10873
+2832,Avelino Lopes,PI,10866
+2833,Rio dos Cedros,SC,10865
+2834,Antonio Goncalves,BA,10862
+2835,Primavera,PA,10851
+2836,Martinopole,CE,10846
+2837,Afonso Bezerra,RN,10839
+2838,Urubici,SC,10834
+2839,Roseira,SP,10832
+2839,Centenario do Sul,PR,10832
+2841,Sitio Novo do Tocantins,TO,10830
+2841,Igaratinga,MG,10830
+2841,Sao Jeronimo da Serra,PR,10830
+2844,Sao Luis do Curu,CE,10822
+2845,Dario Meira,BA,10820
+2846,Amatura,AM,10819
+2847,Olivenca,AL,10812
+2848,Coite do Noia,AL,10810
+2849,Tacuru,MS,10808
+2850,Eugenopolis,MG,10801
+2851,Terra Nova,BA,10798
+2852,Guaraciaba,SC,10796
+2853,Barbosa Ferraz,PR,10795
+2854,Itainopolis,PI,10790
+2855,Lencois,BA,10774
+2856,Itamogi,MG,10770
+2857,Pedralva,MG,10760
+2858,Iramaia,BA,10752
+2859,Aral Moreira,MS,10748
+2860,Capela do Alto Alegre,BA,10744
+2861,Jurua,AM,10742
+2862,Porto Walter,AC,10735
+2862,Vera Cruz,RN,10735
+2864,Angelica,MS,10729
+2865,Urupa,RO,10725
+2866,Governador Newton Bello,MA,10713
+2867,Bataypora,MS,10712
+2868,Candiota,RS,10710
+2869,Tamarana,PR,10707
+2870,Mara Rosa,GO,10700
+2871,Querencia do Norte,PR,10685
+2872,Iretama,PR,10684
+2873,Icarai de Minas,MG,10677
+2874,Sao Joao do Ivai,PR,10667
+2875,Capim Branco,MG,10663
+2876,Monte Alegre do Piaui,PI,10660
+2876,Novo Triunfo,BA,10660
+2878,Parauna,GO,10659
+2879,Caroebe,RR,10656
+2880,Ponte Serrada,SC,10649
+2881,Santa Terezinha de Goias,GO,10645
+2882,Matias Olimpio,PI,10641
+2883,Jacinto Machado,SC,10624
+2884,Espirito Santo,RN,10620
+2885,Terra Nova do Norte,MT,10616
+2886,Calcoene,AP,10612
+2887,Canapolis,MG,10608
+2888,Pires Ferreira,CE,10606
+2889,Igarata,SP,10605
+2890,erico Cardoso,BA,10604
+2891,Urucania,MG,10600
+2892,Acari,RN,10597
+2892,Itarana,ES,10597
+2894,Tapera,RS,10592
+2895,Ninheira,MG,10588
+2896,Iaciara,GO,10584
+2897,Parapua,SP,10580
+2898,Chorrocho,BA,10579
+2898,Jaguari,RS,10579
+2900,Arenapolis,MT,10576
+2901,Pariconha,AL,10573
+2902,Lagoa do Mato,MA,10572
+2903,Mulungu,CE,10569
+2903,Porto Firme,MG,10569
+2905,Santana do Maranhao,MA,10567
+2906,Catanduvas,SC,10566
+2907,Corumba de Goias,GO,10562
+2908,Presidente Vargas,MA,10549
+2909,Parana,TO,10542
+2910,Moreilandia,PE,10540
+2910,Atilio Vivacqua,ES,10540
+2912,Wanderlandia,TO,10522
+2913,Feliz Natal,MT,10521
+2914,Benedito Novo,SC,10520
+2915,Cedro,PE,10518
+2916,Xambioa,TO,10517
+2917,Vargem,SP,10512
+2918,Jesuitas,PR,10506
+2919,Cristino Castro,PI,10503
+2920,Pocao,PE,10500
+2921,Itatuba,PB,10499
+2922,Rio do Pires,BA,10497
+2923,Buriti Alegre,GO,10495
+2924,Delta,MG,10494
+2925,Santa Maria de Itabira,MG,10485
+2926,Cacimbinhas,AL,10482
+2927,Alfredo Wagner,SC,10481
+2928,Saude,BA,10478
+2929,Itaipe,MG,10463
+2930,Bofete,SP,10460
+2931,Floresta,PR,10458
+2932,Macajuba,BA,10454
+2933,Porangaba,SP,10451
+2934,Catanduvas,PR,10446
+2935,Fervedouro,MG,10445
+2936,Catunda,CE,10444
+2936,Gloria de Dourados,MS,10444
+2938,Muquem do Sao Francisco,BA,10443
+2939,Santa Teresinha,BA,10441
+2939,Sao Sebastiao da Grama,SP,10441
+2941,Iacanga,SP,10437
+2942,Manaira,PB,10434
+2943,Pedras de Maria da Cruz,MG,10433
+2944,Ibiassuce,BA,10429
+2945,Firminopolis,GO,10419
+2946,Roca Sales,RS,10418
+2947,Urai,PR,10406
+2947,Planalto,RS,10406
+2949,Terra Alta,PA,10400
+2950,Uchoa,SP,10394
+2951,Capixaba,AC,10392
+2951,Imaculada,PB,10392
+2953,Coronel Freitas,SC,10388
+2954,Constantina,RS,10385
+2955,Paramoti,CE,10384
+2955,Caem,BA,10384
+2955,Senhora dos Remedios,MG,10384
+2958,Dona Ines,PB,10380
+2958,Capitolio,MG,10380
+2960,Belem de Maria,PE,10378
+2961,Cristina,MG,10374
+2962,Merces,MG,10373
+2963,Conceicao da Aparecida,MG,10371
+2963,Barro Alto,GO,10371
+2965,Sarapui,SP,10369
+2966,Nova Olinda,TO,10367
+2967,Vila Nova dos Martirios,MA,10362
+2967,Itabirinha,MG,10362
+2969,Jaguaribara,CE,10356
+2970,Rio do Fogo,RN,10351
+2971,Guaraci,SP,10350
+2972,Itape,BA,10341
+2973,Palmeiras,BA,10339
+2974,Chapada do Norte,MG,10337
+2974,Sao Luiz do Paraitinga,SP,10337
+2976,Sao Miguel das Matas,BA,10334
+2976,Terra de Areia,RS,10334
+2978,Carlinda,MT,10332
+2979,Matina,BA,10330
+2980,Sao Domingos,SE,10327
+2980,Santo Antonio do Jacinto,MG,10327
+2982,Alvorada do Sul,PR,10326
+2983,Inhangapi,PA,10325
+2983,Ananas,TO,10325
+2983,Pintadas,BA,10325
+2986,Itaueira,PI,10323
+2987,Arvorezinha,RS,10322
+2988,Caracol,PI,10318
+2988,Araua,SE,10318
+2990,Sao Romao,MG,10315
+2991,Virginopolis,MG,10314
+2992,General Salgado,SP,10312
+2993,Riolandia,SP,10309
+2994,Rodelas,BA,10308
+2995,Buriti do Tocantins,TO,10307
+2996,Alto Paraiso de Goias,GO,10306
+2997,Jordania,MG,10304
+2997,Maurilandia,GO,10304
+2999,Trajano de Moraes,RJ,10302
+3000,Santa Ines,BA,10300
+3000,Santo Antonio das Missoes,RS,10300
+3002,Rubim,MG,10298
+3003,Bonfinopolis,GO,10296
+3004,Ouroeste,SP,10294
+3005,Sao Vicente do Serido,PB,10291
+3006,Guimaraes,MA,10290
+3007,Arraias,TO,10287
+3008,Irineopolis,SC,10285
+3009,Sao Geraldo,MG,10282
+3009,Sao Carlos,SC,10282
+3011,Itapitanga,BA,10279
+3012,Novo Oriente de Minas,MG,10275
+3013,Potiragua,BA,10274
+3014,Guadalupe,PI,10270
+3015,Saudades,SC,10265
+3016,Axixa do Tocantins,TO,10262
+3016,Nazaria,PI,10262
+3016,Tenente Ananias,RN,10262
+3019,Rio Acima,MG,10261
+3020,Fronteiras,PI,10259
+3021,Monsenhor Gil,PI,10255
+3021,Maxaranguape,RN,10255
+3023,Bom Jesus do Norte,ES,10254
+3024,Bonito de Santa Fe,PB,10252
+3025,Jaqueira,PE,10247
+3026,Santa Terezinha,PE,10244
+3027,Catarina,CE,10243
+3028,Palmacia,CE,10242
+3029,Angelim,PE,10241
+3030,Sucupira do Norte,MA,10238
+3031,Agudos do Sul,PR,10233
+3032,Santa Maria Madalena,RJ,10232
+3032,Getulina,SP,10232
+3034,Governador Archer,MA,10231
+3034,Igarape Grande,MA,10231
+3036,Canapolis,BA,10225
+3037,Duque Bacelar,MA,10223
+3038,Sao Miguel do Gostoso,RN,10221
+3039,Campo Redondo,RN,10215
+3040,Divisopolis,MG,10213
+3040,Juruena,MT,10213
+3042,Cabeceiras do Piaui,PI,10212
+3042,Pantano Grande,RS,10212
+3044,Cedral,MA,10208
+3045,Senador Alexandre Costa,MA,10207
+3045,Centralina,MG,10207
+3045,Varre-Sai,RJ,10207
+3048,Bonito de Minas,MG,10204
+3048,Porto Esperidiao,MT,10204
+3050,Salto do Jacui,RS,10203
+3051,Serrano do Maranhao,MA,10202
+3052,Cortes,PE,10198
+3053,Florania,RN,10196
+3054,Irani,SC,10195
+3055,Arataca,BA,10191
+3056,Pescaria Brava,SC,10190
+3057,Mirante,BA,10187
+3057,Sao Jose do Jacuipe,BA,10187
+3059,Godofredo Viana,MA,10186
+3060,Vera Cruz,SP,10176
+3061,Bela Vista de Minas,MG,10167
+3062,Itapiranga,AM,10162
+3063,Areiopolis,SP,10130
+3064,Serra Caiada,RN,10125
+3065,Cajapio,MA,10121
+3066,Parnagua,PI,10103
+3067,Ribeirao Cascalheira,MT,10089
+3068,Primeiro de Maio,PR,10082
+3069,Sao Sebastiao do Maranhao,MG,10079
+3070,Umarizal,RN,10078
+3071,Mondai,SC,10066
+3072,Abaiara,CE,10038
+3073,Iracema,RR,10023
+3074,Novo Lino,AL,10020
+3075,Juripiranga,PB,10012
+3076,Dores de Campos,MG,10007
+3077,Sao Tome,RN,9972
+3078,Bananal,SP,9969
+3079,Anama,AM,9962
+3080,Bom Jesus,RN,9952
+3081,Caraibas,BA,9940
+3081,Guia Lopes da Laguna,MS,9940
+3083,Porto Xavier,RS,9938
+3084,Ipupiara,BA,9935
+3085,Santa Maria do Oeste,PR,9934
+3086,Beneditinos,PI,9929
+3087,Grossos,RN,9924
+3088,Setubinha,MG,9917
+3089,Varzedo,BA,9913
+3090,Sao Joao do Paraiso,MA,9904
+3091,Vale do Sol,RS,9897
+3092,Triunfo,PB,9892
+3093,Manduri,SP,9871
+3094,Lajes,RN,9866
+3095,Nhandeara,SP,9852
+3096,Mariluz,PR,9847
+3097,Aramari,BA,9833
+3098,Berilo,MG,9826
+3099,Tabapora,MT,9818
+3100,Apiuna,SC,9811
+3101,Dois Riachos,AL,9805
+3102,Murici dos Portelas,PI,9797
+3103,Santa Rosa do Sul,SC,9792
+3104,Ronda Alta,RS,9777
+3105,Barracao,PR,9759
+3106,Guaraciaba,MG,9753
+3107,Ribeirao do Largo,BA,9740
+3108,Redentora,RS,9738
+3109,Cachoeira Grande,MA,9732
+3110,Campo Grande,RN,9730
+3110,Bom Jesus da Serra,BA,9730
+3112,Alto Piquiri,PR,9727
+3113,Nova Floresta,PB,9724
+3114,Carnaubais,RN,9714
+3115,aguia Branca,ES,9711
+3115,Sao Domingos,GO,9711
+3117,Carmo do Rio Verde,GO,9710
+3118,Vitorino,PR,9706
+3119,Neves Paulista,SP,9699
+3120,Lavinia,SP,9689
+3121,Ventania,PR,9681
+3122,Inacio Martins,PR,9670
+3123,Jucurucu,BA,9655
+3124,Palmares Paulista,SP,9650
+3125,Nova Bassano,RS,9649
+3126,Campo Ere,SC,9623
+3127,Flexeiras,AL,9618
+3128,Branquinha,AL,9603
+3129,Balsamo,SP,9596
+3130,Claudia,MT,9593
+3131,Ferros,MG,9590
+3132,Cavalcante,GO,9583
+3133,Petrolina de Goias,GO,9573
+3134,Paranacity,PR,9557
+3135,Fontoura Xavier,RS,9550
+3136,Teixeira Soares,PR,9547
+3137,Chapada,RS,9540
+3138,Maravilha,AL,9534
+3139,Ibitirama,ES,9520
+3140,Lago do Junco,MA,9506
+3141,Wagner,BA,9503
+3142,Nova Veneza,GO,9481
+3143,Dumont,SP,9471
+3144,Jequia da Praia,AL,9470
+3145,Casca,RS,9465
+3146,Quixabeira,BA,9461
+3147,Sigefredo Pacheco,PI,9460
+3147,Cambira,PR,9460
+3149,Carneirinho,MG,9422
+3150,Ipiranga do Piaui,PI,9420
+3151,'Estrela d''Oeste',SP,9417
+3152,Anisio de Abreu,PI,9407
+3153,Maua da Serra,PR,9383
+3154,Sao Jorge d''Oeste',PR,9378
+3155,Pau Brasil,BA,9370
+3156,Pureza,RN,9362
+3157,Sebastiao Laranjeiras,BA,9360
+3158,Maraial,PE,9359
+3159,Palhano,CE,9346
+3160,Pirpirituba,PB,9340
+3161,agua Branca,PB,9335
+3161,Torrinha,SP,9335
+3161,Ipora do Oeste,SC,9335
+3164,Chupinguaia,RO,9324
+3165,Peixe,TO,9317
+3166,Nova Europa,SP,9311
+3167,Antonio Joao,MS,9303
+3168,Barros Cassal,RS,9296
+3169,Porto de Pedras,AL,9295
+3169,Rosario do Catete,SE,9295
+3171,Jandaira,BA,9285
+3172,Jaborandi,BA,9275
+3173,Ilha Grande,PI,9274
+3174,Cristais Paulista,SP,9272
+3175,Marcionilio Souza,BA,9267
+3176,Rinopolis,SP,9259
+3177,Mirante da Serra,RO,9235
+3178,Juru,PB,9234
+3179,Nossa Senhora Aparecida,SE,9232
+3180,Sao Domingos,SC,9226
+3181,Baia da Traicao,PB,9224
+3182,Jordao,AC,9222
+3183,Japaratinga,AL,9219
+3183,Antonio Dias,MG,9219
+3185,Brejo de Areia,MA,9218
+3186,Araujos,MG,9199
+3187,Cerro Grande do Sul,RS,9178
+3188,Arceburgo,MG,9177
+3189,Itapebi,BA,9174
+3190,Verdejante,PE,9169
+3191,Corumbaiba,GO,9164
+3192,Douradina,PR,9161
+3193,Dom Inocencio,PI,9159
+3193,Queluz,SP,9159
+3195,Entre-Ijuis,RS,9158
+3196,Piripa,BA,9152
+3197,Cachoeira dos indios,PB,9151
+3198,Buenopolis,MG,9150
+3199,Japura,PR,9144
+3200,Ipuiuna,MG,9135
+3201,Cajobi,SP,9133
+3202,Herculandia,SP,9125
+3203,Umbuzeiro,PB,9124
+3204,Piranguinho,MG,9120
+3205,Monte Carlo,SC,9117
+3206,Mata Verde,MG,9112
+3207,Cachoeira de Pajeu,MG,9110
+3208,Brejolandia,BA,9108
+3209,Montes Altos,MA,9106
+3210,Rincao,SP,9098
+3211,Rondon,PR,9097
+3212,Brejao,PE,9079
+3213,Luis Gomes,RN,9070
+3214,Morada Nova de Minas,MG,9067
+3215,Paulo Lopes,SC,9063
+3216,Sao Francisco do Brejao,MA,9051
+3216,Boa Saude,RN,9051
+3218,Salto Grande,SP,9050
+3219,Prados,MG,9048
+3220,Praia Norte,TO,9044
+3221,Coqueiral,MG,9023
+3222,Lamarao,BA,9015
+3223,Marcacao,PB,8999
+3223,Carneiros,AL,8999
+3225,Icaraima,PR,8991
+3226,Santana do Manhuacu,MG,8987
+3227,Penaforte,CE,8972
+3228,Lagoa Grande,MG,8969
+3229,Miradouro,MG,8968
+3230,Rafard,SP,8965
+3231,Rio das Flores,RJ,8954
+3232,Natuba,PB,8945
+3233,Acucena,MG,8943
+3234,Colmeia,TO,8941
+3235,Caputira,MG,8936
+3236,Deputado Irapuan Pinheiro,CE,8932
+3237,Terra Nova,PE,8920
+3238,Santa Isabel do Ivai,PR,8912
+3239,Vila Pavao,ES,8911
+3240,Virginia,MG,8908
+3241,'Palmeira d''Oeste',SP,8903
+3242,Ibirapua,BA,8896
+3243,Matias Cardoso,MG,8895
+3244,Tasso Fragoso,MA,8862
+3245,Japura,AM,8858
+3245,Sao Joao da Baliza,RR,8858
+3247,Campo Novo de Rondonia,RO,8844
+3248,Caturama,BA,8841
+3249,Armazem,SC,8834
+3250,Potengi,CE,8833
+3250,Urania,SP,8833
+3252,Baia Formosa,RN,8825
+3253,Sabaudia,PR,8822
+3253,Campos de Julio,MT,8822
+3255,Milagres do Maranhao,MA,8818
+3256,Sao Sebastiao do Oeste,MG,8815
+3257,Alvorada,TO,8802
+3258,Mulungu,PB,8791
+3259,Lontra,MG,8790
+3260,Treze Tilias,SC,8787
+3261,Satubinha,MA,8784
+3262,Vicentinopolis,GO,8768
+3263,Dobrada,SP,8759
+3264,Lago dos Rodrigues,MA,8758
+3265,Riacho dos Machados,MG,8756
+3265,Montes Claros de Goias,GO,8756
+3267,Natividade,TO,8754
+3268,Riachuelo,SE,8748
+3269,Leopoldo de Bulhoes,GO,8745
+3270,Comendador Levy Gasparian,RJ,8741
+3271,Queimada Nova,PI,8738
+3272,Pereiras,SP,8737
+3273,Maiquinique,BA,8731
+3274,Faro,PA,8728
+3275,Cosmorama,SP,8719
+3276,Santanopolis,BA,8716
+3277,California,PR,8710
+3278,Sao Jose do Cerrito,SC,8708
+3279,Sao Pedro do Ivai,PR,8690
+3280,Limeira do Oeste,MG,8687
+3281,Aratuipe,BA,8677
+3281,Marilandia do Sul,PR,8677
+3283,Catuipe,RS,8674
+3284,Malhada de Pedras,BA,8670
+3285,Sao Joao do Sul,SC,8668
+3286,Rodeiro,MG,8664
+3287,Paula Candido,MG,8659
+3288,Campos Lindos,TO,8653
+3289,Gaucha do Norte,MT,8642
+3290,Belo Vale,MG,8627
+3290,Monte Alegre do Sul,SP,8627
+3292,Santa Cruz de Monte Castelo,PR,8613
+3293,Tombos,MG,8609
+3294,Apiacas,MT,8590
+3295,Sao Domingos do Norte,ES,8589
+3296,Sinimbu,RS,8578
+3297,Bodoquena,MS,8567
+3298,Pimenta,MG,8563
+3299,Itapua do Oeste,RO,8548
+3300,Marcolandia,PI,8533
+3301,Descanso,SC,8530
+3302,Piedade de Caratinga,MG,8529
+3303,Nossa Senhora dos Remedios,PI,8525
+3303,Ararica,RS,8525
+3305,Rio Novo,MG,8518
+3306,Carbonita,MG,8512
+3307,Nova Campina,SP,8497
+3308,Riacho dos Cavalos,PB,8493
+3309,Sao Miguel dos Milagres,AL,8482
+3310,Arapora,MG,8479
+3311,Guimarania,MG,8478
+3312,Passa Tempo,MG,8473
+3313,Campo Florido,MG,8466
+3314,Belagua,MA,8460
+3314,Santa Rita de Caldas,MG,8460
+3316,Santa Barbara do Leste,MG,8458
+3317,Alvorada do Norte,GO,8446
+3318,Orizania,MG,8437
+3319,Brasileira,PI,8436
+3320,Sao Domingos,BA,8426
+3320,Tomazina,PR,8426
+3322,Guatambu,SC,8425
+3323,Bom Retiro,SC,8418
+3324,Pratapolis,MG,8406
+3325,Inocencia,MS,8404
+3326,Alto Jequitiba,MG,8397
+3327,Martins Soares,MG,8396
+3328,Redencao do Gurgueia,PI,8394
+3329,Delfinopolis,MG,8393
+3330,Santo Antonio do Aracangua,SP,8379
+3331,Jauru,MT,8367
+3332,Cardeal da Silva,BA,8365
+3333,Tuparendi,RS,8363
+3334,Pocrane,MG,8350
+3335,Olho d''agua do Casado',AL,8349
+3336,Monsenhor Paulo,MG,8340
+3337,Nova Santa Rosa,PR,8322
+3338,Ilha das Flores,SE,8321
+3339,Congonhinhas,PR,8320
+3340,Lagoa Salgada,RN,8319
+3340,Ascurra,SC,8319
+3342,Nova Monte Verde,MT,8313
+3343,Nova Gloria,GO,8310
+3344,Aruana,GO,8300
+3345,Peixe-Boi,PA,8285
+3345,Anita Garibaldi,SC,8285
+3347,Praia Grande,SC,8270
+3348,Lagoa Alegre,PI,8256
+3349,Moraujo,CE,8254
+3350,Mataraca,PB,8244
+3351,Francisco Santos,PI,8237
+3352,Sobrado,PB,8236
+3353,Frei Inocencio,MG,8226
+3354,Vera Cruz do Oeste,PR,8215
+3355,Coronel Murta,MG,8200
+3356,Nazario,GO,8189
+3357,Sao Joao do Arraial,PI,8186
+3358,Martins,RN,8179
+3358,Gado Bravo,PB,8179
+3358,Nazareno,MG,8179
+3361,Coluna,MG,8163
+3362,Saltinho,SP,8161
+3363,Itaquara,BA,8153
+3364,Japora,MS,8148
+3365,Campo Grande,AL,8143
+3365,Tangara,SC,8143
+3367,Pains,MG,8142
+3367,Selviria,MS,8142
+3369,Araguacu,TO,8133
+3370,Arealva,SP,8130
+3371,Japonvar,MG,8127
+3372,Mambai,GO,8124
+3373,Santa Barbara do Sul,RS,8122
+3374,Francisco Alves,PR,8116
+3375,Magalhaes Barata,PA,8115
+3376,Theobroma,RO,8113
+3377,Santa Cruz de Minas,MG,8109
+3377,Vista Alegre do Alto,SP,8109
+3379,Varzea do Poco,BA,8101
+3380,Assis Brasil,AC,8100
+3381,Quatigua,PR,8099
+3382,Sao Vicente do Sul,RS,8097
+3383,Dourado,SP,8096
+3384,Cezarina,GO,8090
+3385,Campo Limpo de Goias,GO,8081
+3386,Tupassi,PR,8077
+3387,Desterro,PB,8067
+3387,Tuneiras do Oeste,PR,8067
+3389,Santa Terezinha,SC,8066
+3390,Sao Sebastiao da Amoreira,PR,8063
+3391,Figueira,PR,8062
+3392,Barra de Santana,PB,8059
+3393,Guajeru,BA,8050
+3394,Feira Nova do Maranhao,MA,8048
+3394,Araponga,MG,8048
+3396,Pavao,MG,8047
+3397,Itobi,SP,8046
+3398,Florestal,MG,8045
+3399,Madeiro,PI,8032
+3400,Serranopolis,GO,8027
+3401,Planaltino,BA,8022
+3402,Tacima,PB,8010
+3402,Iaras,SP,8010
+3404,Alto Paraguai,MT,8009
+3405,Itapirapua,GO,8007
+3406,Cruzeta,RN,8005
+3406,Tuparetama,PE,8005
+3408,Governador Jorge Teixeira,RO,8001
+3409,Morpara,BA,7996
+3409,Tapirai,SP,7996
+3411,Sao Domingos do Azeitao,MA,7992
+3411,Carnauba dos Dantas,RN,7992
+3413,Paverama,RS,7978
+3414,Nova Fatima,BA,7967
+3415,Aparecida,PB,7960
+3416,Cajueiro da Praia,PI,7957
+3417,Pauliceia,SP,7955
+3418,Delfim Moreira,MG,7952
+3419,Formoso,MG,7949
+3420,Barra de Sao Miguel,AL,7944
+3420,Terezopolis de Goias,GO,7944
+3422,Amapa,AP,7943
+3423,Bandeirantes,MS,7940
+3424,Vere,PR,7932
+3424,Laurentino,SC,7932
+3426,Euclides da Cunha Paulista,SP,7924
+3426,Boa Vista da Aparecida,PR,7924
+3428,Sanclerlandia,GO,7918
+3429,Pirambu,SE,7913
+3430,Terra Roxa,SP,7904
+3431,Marcelino Vieira,RN,7896
+3432,Tiros,MG,7883
+3433,Babaculandia,TO,7880
+3434,Dom Aquino,MT,7872
+3435,Jati,CE,7861
+3436,Guamiranga,PR,7856
+3437,Reduto,MG,7848
+3438,Brejo Grande,SE,7841
+3439,Palmitinho,RS,7839
+3440,Jacana,RN,7834
+3440,Siriri,SE,7834
+3442,Bom Jardim de Goias,GO,7826
+3443,Muribeca,SE,7822
+3444,Lagoa de Dentro,PB,7819
+3444,Icem,SP,7819
+3446,Durande,MG,7817
+3447,Ipumirim,SC,7816
+3448,Maracaja,SC,7815
+3448,Ipiranga do Norte,MT,7815
+3450,Elisio Medrado,BA,7808
+3451,Juarez Tavora,PB,7796
+3452,Sao Jose da Barra,MG,7793
+3453,Vale do Anari,RO,7788
+3454,Cachoeira Dourada,GO,7782
+3455,Nova Itarana,BA,7780
+3456,Ouro Verde,SP,7779
+3457,Guiricema,MG,7778
+3458,Isaias Coelho,PI,7774
+3459,Candeal,BA,7772
+3460,Juranda,PR,7771
+3461,Camutanga,PE,7750
+3461,Sao Sebastiao do Alto,RJ,7750
+3463,Rio do Oeste,SC,7747
+3464,Tiradentes,MG,7744
+3465,Monte Castelo,SC,7736
+3465,Itaucu,GO,7736
+3467,Borrazopolis,PR,7735
+3468,Ipuacu,SC,7730
+3469,Brejinho,PE,7720
+3470,Angelandia,MG,7718
+3471,Tanquinho,BA,7717
+3472,Ouricangas,BA,7716
+3472,Senador Firmino,MG,7716
+3474,Guarani,MG,7714
+3475,Filadelfia,TO,7712
+3476,Sao Rafael,RN,7711
+3477,Verdelandia,MG,7672
+3478,Santa Cecilia,PB,7670
+3479,Novo Horizonte do Oeste,RO,7667
+3480,Reginopolis,SP,7662
+3481,Glorinha,RS,7658
+3482,Desterro de Entre Rios,MG,7653
+3482,Anaurilandia,MS,7653
+3484,Sao Joao Batista do Gloria,MG,7652
+3485,Ametista do Sul,RS,7650
+3486,Formosa do Oeste,PR,7635
+3487,Sao Jose da Bela Vista,SP,7626
+3488,Serrania,MG,7621
+3489,Iepe,SP,7619
+3490,Jaci,SP,7613
+3491,General Camara,RS,7612
+3492,Paranaiguara,GO,7607
+3493,Palma Sola,SC,7605
+3494,Ariranha,SP,7602
+3495,Portalegre,RN,7601
+3496,Serra Negra do Norte,RN,7597
+3497,Santa Terezinha,MT,7596
+3498,Ponte Alta do Tocantins,TO,7586
+3499,Cubati,PB,7580
+3500,Monsenhor Hipolito,PI,7577
+3501,Boa Vista do Gurupi,MA,7574
+3502,Cabeceiras,GO,7560
+3503,Vertente do Lerio,PE,7558
+3504,Trindade do Sul,RS,7556
+3505,Moema,MG,7548
+3506,Cordisburgo,MG,7547
+3507,Cordeiros,BA,7546
+3508,Itanhanga,MT,7539
+3509,Nova Redencao,BA,7538
+3510,Itaicaba,CE,7536
+3511,Esperantina,TO,7530
+3512,Tarrafas,CE,7529
+3513,Corumbiara,RO,7519
+3514,Jerico,PB,7516
+3515,Campo do Tenente,PR,7508
+3516,Castanheira,MT,7506
+3517,Minas do Leao,RS,7505
+3518,Jacui,MG,7495
+3519,Lajedo do Tabocal,BA,7494
+3520,Baldim,MG,7492
+3521,Salete,SC,7489
+3522,Pedro Osorio,RS,7484
+3523,Irai,RS,7482
+3524,Macaubal,SP,7481
+3525,Jatoba,MA,7471
+3526,Sao Mamede,PB,7470
+3527,Tocantinia,TO,7459
+3528,Assuncao do Piaui,PI,7452
+3529,Munhoz,MG,7451
+3530,Ribeirao Grande,SP,7450
+3531,Santa Cruz do Arari,PA,7445
+3532,Guaracai,SP,7441
+3533,Buriti dos Montes,PI,7434
+3533,Bonfim,MG,7434
+3533,Alto Rio Novo,ES,7434
+3536,Guaraquecaba,PR,7430
+3537,Arneiroz,CE,7429
+3538,Jangada,MT,7426
+3539,Major Vieira,SC,7425
+3540,Campo Alegre de Goias,GO,7422
+3541,Ribamar Fiquene,MA,7420
+3542,'Santa Luzia d''Oeste',RO,7419
+3542,Campo Largo do Piaui,PI,7419
+3544,Maquine,RS,7418
+3545,Guarani das Missoes,RS,7415
+3546,Curral de Dentro,MG,7406
+3547,Paulo de Faria,SP,7400
+3548,Pedrinhas,SE,7396
+3549,Caraa,RS,7394
+3550,Nuporanga,SP,7391
+3551,Riachuelo,RN,7389
+3552,Santo Antonio de Goias,GO,7386
+3553,Jussiape,BA,7379
+3554,Sao Goncalo do Abaete,MG,7375
+3555,Inimutaba,MG,7371
+3556,aguas da Prata,SP,7369
+3557,Francisco Badaro,MG,7366
+3558,Treze de Maio,SC,7362
+3559,Cristalandia do Piaui,PI,7356
+3560,Sud Mennucci,SP,7355
+3561,Confins,MG,7350
+3562,Santana do Sao Francisco,SE,7346
+3563,Sericita,MG,7345
+3564,Timbo Grande,SC,7342
+3565,Lagoa de Pedras,RN,7338
+3566,Laje do Muriae,RJ,7336
+3567,Maravilhas,MG,7333
+3568,Pedra Bonita,MG,7320
+3568,Guatapara,SP,7320
+3570,Bilac,SP,7319
+3571,Sao Luiz do Anaua,RR,7315
+3572,Abaira,BA,7301
+3572,Inconfidentes,MG,7301
+3574,Cristal,RS,7299
+3575,Itaja,RN,7292
+3576,Bom Jesus do Araguaia,MT,7280
+3577,Trombudo Central,SC,7274
+3578,Senador Sa,CE,7262
+3579,Campo Belo do Sul,SC,7257
+3580,Macurure,BA,7256
+3581,Marilena,PR,7253
+3581,Barao de Melgaco,MT,7253
+3583,Antonina do Norte,CE,7245
+3584,Abatia,PR,7241
+3585,Conego Marinho,MG,7237
+3586,Nova Fatima,PR,7225
+3587,Cacimbas,PB,7223
+3587,Apiaca,ES,7223
+3589,Sao Pedro do Turvo,SP,7217
+3590,Santa Fe do Araguaia,TO,7216
+3591,Toledo,MG,7214
+3592,Nazarezinho,PB,7203
+3593,Ouvidor,GO,7200
+3594,Parai,RS,7194
+3595,Muniz Ferreira,BA,7190
+3596,Perobal,PR,7189
+3597,Monteiropolis,AL,7184
+3597,Joia,RS,7184
+3599,Irai de Minas,MG,7180
+3600,aguas de Santa Barbara,SP,7177
+3601,Lavrinhas,SP,7171
+3602,Amapa do Maranhao,MA,7170
+3603,Claro dos Pocoes,MG,7166
+3603,Sao Pedro dos Ferros,MG,7166
+3605,Luis Domingues,MA,7161
+3606,Joviania,GO,7159
+3607,Lavras do Sul,RS,7157
+3608,Pardinho,SP,7153
+3608,Araguapaz,GO,7153
+3610,Santa Lucia,SP,7149
+3610,Augusto Pestana,RS,7149
+3612,Barao de Cotegipe,RS,7144
+3613,Ibirajuba,PE,7140
+3614,Jaraguari,MS,7139
+3615,Santo Antonio do Pinhal,SP,7133
+3616,Guidoval,MG,7131
+3617,Sao Roque de Minas,MG,7129
+3618,Pium,TO,7128
+3618,Areial,PB,7128
+3620,Sao Jose da Lagoa Tapada,PB,7126
+3621,Lassance,MG,7124
+3622,Coimbra,MG,7117
+3622,Alpestre,RS,7117
+3624,Teodoro Sampaio,BA,7110
+3625,Central do Maranhao,MA,7094
+3626,Irapuru,SP,7085
+3627,Pintopolis,MG,7084
+3628,Sao Joao do Oriente,MG,7070
+3628,Sao Jose de Uba,RJ,7070
+3628,Faina,GO,7070
+3631,Ita,SC,7067
+3632,Sao Miguel de Taipu,PB,7066
+3633,Governador Luiz Rocha,MA,7063
+3634,Lajeado Novo,MA,7057
+3635,Sao Miguel das Missoes,RS,7056
+3636,Dirceu Arcoverde,PI,7054
+3637,Itamari,BA,7051
+3638,Doutor Severiano,RN,7044
+3639,Quintana,SP,7038
+3640,Ouro,SC,7032
+3641,Palmeirina,PE,7031
+3642,Catuji,MG,7030
+3642,Santana de Pirapama,MG,7030
+3644,Maraja do Sena,MA,7027
+3644,Santa Rita do Pardo,MS,7027
+3646,Divinopolis do Tocantins,TO,7024
+3646,Santana da Boa Vista,RS,7024
+3648,Antonio Olinto,PR,7018
+3649,Lindoia,SP,7014
+3649,Denise,MT,7014
+3651,Meleiro,SC,7006
+3652,Ijaci,MG,7003
+3652,Catigua,SP,7003
+3654,Natividade da Serra,SP,6999
+3655,Colonia do Piaui,PI,6994
+3656,Imbe de Minas,MG,6986
+3657,Clementina,SP,6982
+3658,Palmeiropolis,TO,6975
+3659,Maetinga,BA,6973
+3660,Capim,PB,6970
+3661,Varjao de Minas,MG,6969
+3662,Granito,PE,6967
+3663,Boa Vista do Burica,RS,6966
+3664,Sao Jose dos Basilios,MA,6957
+3665,Luisburgo,MG,6956
+3665,Doverlandia,GO,6956
+3667,Serra dos Aimores,MG,6944
+3668,Pedro Gomes,MS,6941
+3669,Pontal do Araguaia,MT,6932
+3670,'Pau-d''Arco',PA,6931
+3670,Alfredo Vasconcelos,MG,6931
+3672,Santa Luzia do Norte,AL,6919
+3672,Novo Sao Joaquim,MT,6919
+3674,Apuarema,BA,6913
+3675,Sao Thome das Letras,MG,6904
+3676,Alpercata,MG,6903
+3677,Boa Hora,PI,6902
+3678,Casserengue,PB,6889
+3679,Montezuma,MG,6888
+3680,Santa Clara do Sul,RS,6887
+3681,Palestina do Para,PA,6885
+3681,Arandu,SP,6885
+3683,Salvador do Sul,RS,6879
+3684,Livramento,PB,6877
+3685,Barra do Turvo,SP,6876
+3685,Taquarivai,SP,6876
+3687,Umari,CE,6871
+3688,Irapua,SP,6867
+3689,Riachinho,MG,6863
+3690,Pedra Lavrada,PB,6859
+3691,Nova Tebas,PR,6848
+3692,Dionisio,MG,6847
+3693,Renascenca,PR,6845
+3694,Estrela do Sul,MG,6840
+3695,Macambira,SE,6838
+3696,Sao Jose do Ouro,RS,6834
+3697,Ipeuna,SP,6831
+3697,Ivate,PR,6831
+3699,Serra Redonda,PB,6828
+3700,Angical do Piaui,PI,6827
+3701,Iguatama,MG,6826
+3702,Itacaja,TO,6819
+3702,Alagoinha do Piaui,PI,6819
+3704,Careacu,MG,6816
+3705,Piloes,PB,6815
+3706,Sao Vicente de Minas,MG,6804
+3706,Tres Fronteiras,SP,6804
+3708,Manoel Viana,RS,6801
+3709,Laguna Carapa,MS,6799
+3710,Junco do Serido,PB,6793
+3711,Nova Cantu,PR,6790
+3712,Erval Seco,RS,6787
+3713,Ouro Verde do Oeste,PR,6785
+3714,Brejo Grande do Araguaia,PA,6783
+3714,Bom Jardim de Minas,MG,6783
+3716,Altaneira,CE,6782
+3717,Aurora,SC,6780
+3718,Tuiuti,SP,6778
+3719,Ibiraiaras,RS,6776
+3720,Santo Antonio da Alegria,SP,6775
+3721,Santa Rita de Minas,MG,6773
+3722,Ipigua,SP,6761
+3723,aguas Mornas,SC,6743
+3724,Sao Tomas de Aquino,MG,6740
+3725,General Sampaio,CE,6734
+3726,Cuitegi,PB,6730
+3727,Juti,MS,6729
+3728,Santa Rosa do Purus,AC,6723
+3729,Ajuricaba,RS,6720
+3730,Petrolandia,SC,6716
+3731,Nova Porteirinha,MG,6706
+3732,Marizopolis,PB,6705
+3733,Faxinal do Soturno,RS,6702
+3734,Piracema,MG,6700
+3735,Santa Filomena do Maranhao,MA,6697
+3736,Sapopema,PR,6695
+3737,Conquista,MG,6694
+3738,Nova Alianca,SP,6693
+3739,Monte Alegre de Goias,GO,6692
+3740,Santana da Vargem,MG,6691
+3741,Jussara,PR,6690
+3741,Luiziana,PR,6690
+3743,Nova Lacerda,MT,6670
+3744,Ferreira Gomes,AP,6666
+3745,Nazare do Piaui,PI,6665
+3745,Campestre,AL,6665
+3747,Comercinho,MG,6660
+3748,'Lagoa d''Anta',RN,6654
+3748,Rodeio Bonito,RS,6654
+3750,Barro Duro,PI,6640
+3751,Itumirim,MG,6638
+3752,Lagamar,MG,6631
+3753,Santo Antonio do Retiro,MG,6629
+3753,Colombia,SP,6629
+3755,Cabeceira Grande,MG,6627
+3756,Espirito Santo do Dourado,MG,6611
+3757,Caicara,PB,6602
+3758,Sao Jose do Piaui,PI,6597
+3759,Dores do Rio Preto,ES,6596
+3760,Guairaca,PR,6587
+3760,Sao Carlos do Ivai,PR,6587
+3762,Bom Sucesso,PR,6581
+3763,Antonio Martins,RN,6577
+3764,Paulo Jacinto,AL,6576
+3764,Roque Gonzales,RS,6576
+3766,Santana dos Garrotes,PB,6569
+3767,Pouso Alto,MG,6566
+3767,Goioxim,PR,6566
+3767,Pinhalao,PR,6566
+3770,Jandaira,RN,6562
+3770,Capetinga,MG,6562
+3772,Pedra Bela,SP,6557
+3773,Sao Bras,AL,6555
+3773,Maripa,PR,6555
+3775,Quixaba,PE,6554
+3776,Periquito,MG,6553
+3776,Reserva do Iguacu,PR,6553
+3778,Taiuva,SP,6548
+3779,Boqueirao do Piaui,PI,6545
+3780,Milton Brandao,PI,6542
+3781,Guarda-Mor,MG,6539
+3782,Tarabai,SP,6536
+3783,Novo Mundo,MT,6520
+3784,Paraiso do Sul,RS,6519
+3785,Divinolandia de Minas,MG,6516
+3786,Terezinha,PE,6513
+3787,agua Doce,SC,6508
+3788,Sao Jorge do Patrocinio,PR,6504
+3789,Nova Ibia,BA,6501
+3790,Almas,TO,6499
+3791,Ponto Belo,ES,6497
+3792,Felisburgo,MG,6489
+3793,Machacalis,MG,6487
+3794,Jequitai,MG,6484
+3795,Aratiba,RS,6483
+3796,Vale do Paraiso,RO,6479
+3797,Erere,CE,6474
+3797,Roteiro,AL,6474
+3799,Ministro Andreazza,RO,6466
+3800,Barao,RS,6461
+3801,Rio do Campo,SC,6452
+3802,Condado,PB,6451
+3803,Altamira do Maranhao,MA,6447
+3804,Sales,SP,6437
+3805,Serrinha,RN,6436
+3806,Matureia,PB,6433
+3807,Guaranta,SP,6427
+3807,Independencia,RS,6427
+3809,Morro do Chapeu do Piaui,PI,6425
+3810,Acaua,PI,6420
+3811,Formigueiro,RS,6413
+3812,Condor,RS,6406
+3813,Restinga,SP,6404
+3814,Jambeiro,SP,6397
+3815,Santa Albertina,SP,6393
+3816,Sao Sebastiao da Bela Vista,MG,6387
+3817,Cocal dos Alves,PI,6386
+3818,Ibirarema,SP,6385
+3819,Padre Marcos,PI,6382
+3820,Galia,SP,6380
+3821,Boa Ventura de Sao Roque,PR,6378
+3821,Sao Francisco de Goias,GO,6378
+3823,Boa Vista,PB,6377
+3824,Cristalandia,TO,6371
+3824,Mariopolis,PR,6371
+3826,Cambara do Sul,RS,6361
+3827,Engenheiro Navarro,MG,6354
+3828,Itagimirim,BA,6347
+3829,Indaiabira,MG,6346
+3830,Paulo Frontin,PR,6343
+3831,Santa Maria do Herval,RS,6340
+3832,Vicentina,MS,6336
+3833,Sao Miguel do Anta,MG,6334
+3834,Lagoa de Sao Francisco,PI,6331
+3835,Dois Irmaos do Tocantins,TO,6327
+3835,Doutor Camargo,PR,6327
+3837,Divisa Alegre,MG,6321
+3838,Dom Expedito Lopes,PI,6320
+3839,Sapucai-Mirim,MG,6311
+3840,Sao Vicente,RN,6310
+3841,Caibi,SC,6304
+3842,Naque,MG,6303
+3843,Palmopolis,MG,6301
+3844,Diamante,PB,6299
+3845,Sao Joao do Oeste,SC,6295
+3846,Candido Godoi,RS,6294
+3847,Caicara do Norte,RN,6293
+3848,Ibiai,MG,6286
+3849,Canitar,SP,6283
+3850,Grao-Para,SC,6277
+3851,Abadia dos Dourados,MG,6272
+3851,Jandaia,GO,6272
+3853,Belem do Brejo do Cruz,PB,6268
+3853,Nossa Senhora de Lourdes,SE,6268
+3855,Chui,RS,6262
+3856,Taciba,SP,6260
+3857,Adrianopolis,PR,6256
+3858,Fernandes Pinheiro,PR,6255
+3859,Rio das Antas,SC,6253
+3860,Cuite de Mamanguape,PB,6251
+3861,Lindolfo Collor,RS,6248
+3862,Boqueirao do Leao,RS,6247
+3863,Pedro Avelino,RN,6242
+3864,Inhauma,MG,6239
+3865,Pedrao,BA,6235
+3866,Aiuruoca,MG,6233
+3867,Galileia,MG,6222
+3868,Jaborandi,SP,6221
+3868,Perola d''Oeste',PR,6221
+3870,Betania do Piaui,PI,6220
+3870,Sussuapara,PI,6220
+3870,Cocalinho,MT,6220
+3873,Tunas do Parana,PR,6219
+3874,Ibema,PR,6218
+3875,Luislandia,MG,6210
+3876,Senador Amaral,MG,6206
+3877,Caatiba,BA,6205
+3877,Echapora,SP,6205
+3879,Nova Uniao,RO,6200
+3880,Jeceaba,MG,6197
+3880,Sao Jose do Jacuri,MG,6197
+3882,Sao Sebastiao do Anta,MG,6194
+3883,Herval,RS,6191
+3884,Ichu,BA,6190
+3885,Vidal Ramos,SC,6189
+3885,Mundo Novo,GO,6189
+3887,Sao Francisco de Paula,MG,6187
+3888,Silveiras,SP,6186
+3889,Santo Inacio,PR,6181
+3890,Silvianopolis,MG,6179
+3891,Pacuja,CE,6175
+3892,Central de Minas,MG,6171
+3892,Indianopolis,MG,6171
+3894,Ribeiro Goncalves,PI,6164
+3895,Mendonca,SP,6159
+3896,Colonia do Gurgueia,PI,6150
+3897,Santa Barbara de Goias,GO,6149
+3898,Afonso Cunha,MA,6144
+3898,Coronel Bicaco,RS,6144
+3900,Alambari,SP,6141
+3901,Abel Figueiredo,PA,6136
+3902,Heliodora,MG,6134
+3903,Corrego Fundo,MG,6133
+3904,Iacri,SP,6131
+3905,Santo Antonio do Jardim,SP,6126
+3906,Alecrim,RS,6123
+3907,Santa Ernestina,SP,6118
+3908,Santarem Novo,PA,6116
+3909,Sao Joao da Serra,PI,6114
+3910,Itambe,PR,6111
+3911,Salto da Divisa,MG,6110
+3912,Saudade do Iguacu,PR,6108
+3913,Irajuba,BA,6101
+3913,Itaruma,GO,6101
+3915,Jenipapo de Minas,MG,6100
+3916,Paraiso,SP,6099
+3917,Novo Oriente do Piaui,PI,6097
+3918,Dona Euzebia,MG,6093
+3919,Santa Filomena,PI,6087
+3920,Camalau,PB,6085
+3920,Oriente,SP,6085
+3922,Sao Cristovao do Sul,SC,6084
+3923,Chale,MG,6075
+3924,Alto Horizonte,GO,6072
+3925,Olho d''agua',PB,6060
+3926,Vale Real,RS,6058
+3927,Itueta,MG,6055
+3927,Agronomica,SC,6055
+3929,Malta,PB,6046
+3929,Morro Redondo,RS,6046
+3931,Pirangucu,MG,6041
+3932,Sao Jose da Boa Vista,PR,6040
+3933,Itaju do Colonia,BA,6037
+3933,General Carneiro,MT,6037
+3935,aguas de Chapeco,SC,6036
+3936,Morro Reuter,RS,6029
+3937,Sao Juliao,PI,6025
+3937,Passo do Sobrado,RS,6025
+3939,Orindiuva,SP,6024
+3940,Graca Aranha,MA,6023
+3941,Campo Grande do Piaui,PI,6020
+3942,Encanto,RN,6016
+3943,Segredo,RS,6009
+3944,Vereda,BA,6003
+3945,Eneas Marques,PR,5999
+3946,Mamonas,MG,5997
+3947,Jose Boiteux,SC,5985
+3948,Imbuia,SC,5982
+3949,Hulha Negra,RS,5976
+3950,Feira Nova,SE,5975
+3951,Potiretama,CE,5974
+3952,Senador Eloi de Souza,RN,5965
+3953,Sao Jose do Xingu,MT,5964
+3954,Laranjal,MG,5963
+3955,Anta Gorda,RS,5957
+3956,Sao Joao do Sabugi,RN,5956
+3956,Nortelandia,MT,5956
+3958,Porto Rico do Maranhao,MA,5954
+3958,Campina do Monte Alegre,SP,5954
+3958,Inaciolandia,GO,5954
+3961,Santa Cruz,PB,5947
+3962,Felipe Guerra,RN,5944
+3963,Bandeira do Sul,MG,5943
+3963,Anchieta,SC,5943
+3965,Fernando Prestes,SP,5942
+3966,Santa Helena de Minas,MG,5938
+3967,Belo Monte,AL,5936
+3968,Mercedes,PR,5931
+3969,Araguacema,TO,5927
+3970,Santa Rita do Araguaia,GO,5924
+3971,Itanagra,BA,5914
+3972,Bonfim do Piaui,PI,5913
+3973,Cha Preta,AL,5910
+3974,Nova Uniao,MG,5909
+3975,Itambaraca,PR,5908
+3976,Barra de Sao Miguel,PB,5906
+3977,Tenente Laurentino Cruz,RN,5891
+3977,Sao Jose dos Ramos,PB,5891
+3979,Bossoroca,RS,5890
+3980,Barao do Triunfo,RS,5889
+3981,Jussari,BA,5888
+3982,Tumiritinga,MG,5886
+3983,Jequitiba,MG,5883
+3984,Campina das Missoes,RS,5882
+3985,Fazenda Nova,GO,5877
+3986,Bela Vista do Toldo,SC,5872
+3987,Americo de Campos,SP,5870
+3987,Janiopolis,PR,5870
+3989,Santa Helena,PB,5865
+3989,Maria Helena,PR,5865
+3991,Sertao Santana,RS,5863
+3992,Sao Joao do Jaguaribe,CE,5855
+3993,Divisa Nova,MG,5851
+3994,Sapucaia,PA,5847
+3995,Sao Paulo das Missoes,RS,5846
+3995,Nova Maringa,MT,5846
+3997,Bernardo do Mearim,MA,5840
+3998,Santo Antonio de Lisboa,PI,5839
+3999,Graccho Cardoso,SE,5834
+4000,Barro Preto,BA,5833
+4000,Nova Olimpia,PR,5833
+4002,Santa Cruz do Piaui,PI,5831
+4003,Darcinopolis,TO,5827
+4004,Santa Rita do Itueto,MG,5826
+4005,Vila Propicio,GO,5815
+4006,Montadas,PB,5812
+4007,Cerrito,RS,5808
+4008,Jose da Penha,RN,5803
+4009,Rio Grande do Piaui,PI,5801
+4010,Xambre,PR,5798
+4011,'Tanque d''Arca',AL,5796
+4012,Alto Caparao,MG,5795
+4013,Luzerna,SC,5794
+4014,Botumirim,MG,5790
+4015,Juvenilia,MG,5789
+4016,Nova Olinda,PB,5787
+4017,Sao Pedro do Iguacu,PR,5784
+4018,Sao Pedro dos Crentes,MA,5783
+4019,Vargem Alegre,MG,5780
+4020,Itirapua,SP,5779
+4021,Sao Pedro,RN,5776
+4021,Sao Pedro de Alcantara,SC,5776
+4023,Barra do Rocha,BA,5775
+4024,Piratuba,SC,5769
+4025,Pedro Regis,PB,5766
+4026,Ouro Verde de Minas,MG,5757
+4027,Caldas Brandao,PB,5753
+4028,Tapira,PR,5745
+4029,Brejo dos Santos,PB,5742
+4029,Simolandia,GO,5742
+4031,Pranchita,PR,5737
+4032,Machadinho,RS,5735
+4033,Pato Bragado,PR,5733
+4034,Sao Francisco de Sales,MG,5732
+4035,Salgadinho,PE,5727
+4036,Alto Boa Vista,MT,5715
+4037,Narandiba,SP,5713
+4038,Palma,MG,5707
+4039,Baixio,CE,5704
+4040,Serra de Sao Bento,RN,5703
+4041,Doutor Ulysses,PR,5697
+4042,Britania,GO,5695
+4043,Monte do Carmo,TO,5694
+4044,Rubelita,MG,5679
+4045,Pinhao,SE,5677
+4045,Taiacu,SP,5677
+4047,Anhembi,SP,5674
+4048,Barra Longa,MG,5666
+4048,Paula Freitas,PR,5666
+4050,Gaurama,RS,5665
+4051,Sao Bento do Tocantins,TO,5654
+4051,Guaramiranga,CE,5654
+4053,Sao Raimundo do Doca Bezerra,MA,5650
+4054,Coronel Domingos Soares,PR,5649
+4055,Igaracy,PB,5648
+4056,Itaverava,MG,5642
+4057,Grandes Rios,PR,5641
+4058,Frei Gaspar,MG,5640
+4058,Barbosa,SP,5640
+4060,Bom Principio do Piaui,PI,5636
+4061,Ibiara,PB,5631
+4061,Feira da Mata,BA,5631
+4061,Bom Jesus do Amparo,MG,5631
+4064,Caraubas do Piaui,PI,5630
+4065,Sao Domingos das Dores,MG,5626
+4066,Sertaneja,PR,5616
+4067,Jacobina do Piaui,PI,5613
+4067,Soledade de Minas,MG,5613
+4069,Mendes Pimentel,MG,5606
+4070,Laranjal,PR,5600
+4071,Itaubal,AP,5599
+4071,Riversul,SP,5599
+4073,Nova Esperanca do Sudoeste,PR,5597
+4074,Porto dos Gauchos,MT,5593
+4075,Poloni,SP,5592
+4076,Luminarias,MG,5586
+4076,Sao Joao do Caiua,PR,5586
+4076,Nova Palma,RS,5586
+4079,Estacao,RS,5582
+4080,Coqueiro Seco,AL,5581
+4080,Cipotanea,MG,5581
+4082,Alcantil,PB,5578
+4082,Douradina,MS,5578
+4084,Patrocinio do Muriae,MG,5576
+4085,Sao Francisco de Assis do Piaui,PI,5572
+4085,Itaara,RS,5572
+4087,Sambaiba,MA,5568
+4087,Rio Manso,MG,5568
+4089,Bertolinia,PI,5562
+4090,Gongogi,BA,5555
+4091,Pai Pedro,MG,5551
+4092,Arapoema,TO,5550
+4093,Tucunduva,RS,5542
+4094,Sertao,RS,5541
+4095,Pirajuba,MG,5537
+4096,Bonfinopolis de Minas,MG,5528
+4097,Sao Joao da Fronteira,PI,5522
+4098,Piacatu,SP,5519
+4099,Santana do Itarare,PR,5514
+4100,Guaimbe,SP,5512
+4101,Paraiso das aguas,MS,5510
+4102,Tufilandia,MA,5507
+4103,Caldeirao Grande do Piaui,PI,5503
+4104,Caxingo,PI,5496
+4105,Severiano Melo,RN,5487
+4106,Senhora de Oliveira,MG,5483
+4107,Sao Martinho,RS,5481
+4108,Catas Altas,MG,5473
+4109,Benedito Leite,MA,5469
+4110,Mucurici,ES,5466
+4110,Caiua,SP,5466
+4112,Datas,MG,5465
+4113,Geminiano,PI,5445
+4114,Rosario do Ivai,PR,5435
+4115,Crucilandia,MG,5434
+4116,Rafael Fernandes,RN,5432
+4117,Rio Espera,MG,5429
+4118,Jaboti,PR,5427
+4119,Patos do Piaui,PI,5425
+4120,Aramina,SP,5420
+4121,Conceicao do Para,MG,5415
+4121,Macuco,RJ,5415
+4123,Coroados,SP,5400
+4124,Ipe,RS,5399
+4125,Sao Jose do Goiabal,MG,5396
+4126,Joca Marques,PI,5394
+4127,Sao Francisco do Piaui,PI,5392
+4128,Cedro de Sao Joao,SE,5391
+4129,Julio Borges,PI,5388
+4130,Timbe do Sul,SC,5386
+4131,Olhos-d''agua',MG,5385
+4132,Tibau,RN,5382
+4133,Harmonia,RS,5378
+4134,Santa Carmem,MT,5374
+4135,Vitor Meireles,SC,5370
+4136,Aroazes,PI,5369
+4137,Ubarana,SP,5365
+4138,Botuvera,SC,5363
+4139,Equador,RN,5360
+4140,Angelina,SC,5358
+4141,Brauna,SP,5356
+4142,Jacuipe,AL,5352
+4143,Cabixi,RO,5351
+4143,Picada Cafe,RS,5351
+4145,Bocaina de Minas,MG,5348
+4146,Lagoao,RS,5341
+4147,Progresso,RS,5340
+4148,Iguaracu,PR,5338
+4149,Santa Luz,PI,5336
+4150,Cabaceiras,PB,5335
+4151,Couto Magalhaes,TO,5331
+4151,Sao Joao do Manteninha,MG,5331
+4153,Piloezinhos,PB,5329
+4154,Alvorada do Gurgueia,PI,5322
+4155,Itau,RN,5320
+4156,Sao Jose da Vitoria,BA,5315
+4157,Santana do Riacho,MG,5313
+4158,Amaral Ferrador,RS,5310
+4159,Sentinela do Sul,RS,5306
+4160,Caiana,MG,5304
+4161,Aragominas,TO,5290
+4162,Fartura do Piaui,PI,5284
+4162,Campinas do Sul,RS,5284
+4164,Cana Verde,MG,5272
+4165,Crisolita,MG,5265
+4166,Americano do Brasil,GO,5259
+4167,Sao Felipe d''Oeste',RO,5258
+4168,Caturite,PB,5254
+4168,Curral de Cima,PB,5254
+4170,Bacurituba,MA,5252
+4171,Santa Maria da Serra,SP,5243
+4172,Varzea,RN,5233
+4173,Sao Tome,PR,5232
+4174,Gonzaga,MG,5230
+4175,Nossa Senhora de Nazare,PI,5228
+4175,Porto do Mangue,RN,5228
+4175,Calumbi,PE,5228
+4175,Dom Silverio,MG,5228
+4179,Massape do Piaui,PI,5218
+4179,Almadina,BA,5218
+4181,Juazeiro do Piaui,PI,5214
+4182,Landri Sales,PI,5213
+4183,Tavares,RS,5212
+4184,Figueiropolis,TO,5211
+4185,Solidao,PE,5210
+4186,Manoel Emidio,PI,5209
+4187,Boa Ventura,PB,5207
+4188,Rochedo,MS,5199
+4189,Ibertioga,MG,5198
+4190,Gurinhata,MG,5192
+4190,Salto do Itarare,PR,5192
+4192,Madre de Deus de Minas,MG,5191
+4193,Caturai,GO,5184
+4194,Veredinha,MG,5181
+4195,Entre Folhas,MG,5179
+4195,Barra do Chapeu,SP,5179
+4197,Lindoeste,PR,5175
+4198,Itaguatins,TO,5172
+4199,Sao Jorge do Ivai,PR,5168
+4200,Nova Erechim,SC,5155
+4201,Alianca do Tocantins,TO,5147
+4202,Junco do Maranhao,MA,5146
+4203,Diamante do Norte,PR,5142
+4204,Rio Preto,MG,5141
+4205,Jesuania,MG,5138
+4206,Sobralia,MG,5137
+4207,Felicio dos Santos,MG,5133
+4208,Ubirajara,SP,5132
+4209,Tiradentes do Sul,RS,5129
+4210,Pratania,SP,5126
+4211,Moeda,MG,5125
+4212,Cristalia,MG,5121
+4213,Sao Nicolau,RS,5118
+4214,Coronel Ezequiel,RN,5117
+4214,Japi,RN,5117
+4216,Sabino,SP,5112
+4217,Silvanopolis,TO,5108
+4218,Selbach,RS,5107
+4219,Sardoa,MG,5104
+4220,Sao Pedro do Suacui,MG,5103
+4221,Indiana,SP,5090
+4222,Jacare dos Homens,AL,5083
+4222,Divino de Sao Lourenco,ES,5083
+4222,Lagoinha,SP,5083
+4225,Ibiracatu,MG,5081
+4226,Curral Novo do Piaui,PI,5073
+4227,Padre Carvalho,MG,5058
+4228,Varzea Branca,PI,5055
+4229,Sertaozinho,PB,5054
+4230,Guaraciama,MG,5051
+4231,Caparao,MG,5048
+4232,Mesquita,MG,5040
+4233,Caracol,MS,5036
+4234,Sao Jose de Caiana,PB,5034
+4234,Franciscopolis,MG,5034
+4236,Caridade do Piaui,PI,5033
+4237,Dores de Guanhaes,MG,5029
+4237,Tupandi,RS,5029
+4239,Nova Colinas,MA,5021
+4240,Itauba,MT,5020
+4241,Piedade dos Gerais,MG,5019
+4242,Acorizal,MT,5014
+4243,Santana de Mangueira,PB,5010
+4244,Serranopolis do Iguacu,PR,5007
+4245,Aguiar,PB,5003
+4246,Quinta do Sol,PR,5001
+4247,Lagoa do Barro do Piaui,PI,4995
+4248,Ritapolis,MG,4994
+4249,Rondinha,RS,4991
+4250,Dores do Turvo,MG,4987
+4251,Sucupira do Riachao,MA,4985
+4251,Jaramataia,AL,4985
+4251,Turvelandia,GO,4985
+4254,Damiao,PB,4982
+4255,Campo Novo,RS,4975
+4256,Goiandira,GO,4973
+4257,Japira,PR,4972
+4258,Brochier,RS,4966
+4259,Barao do Monte Alto,MG,4964
+4260,Itaguari,GO,4963
+4261,Nova Araca,RS,4954
+4261,agua Fria de Goias,GO,4954
+4263,Palmeira do Piaui,PI,4952
+4264,Santa Fe de Goias,GO,4951
+4265,Honorio Serpa,PR,4941
+4266,Agricolandia,PI,4940
+4267,Campinas do Piaui,PI,4938
+4268,Turvolandia,MG,4935
+4269,Congo,PB,4933
+4270,Conceicao do Caninde,PI,4932
+4271,Canas,SP,4931
+4272,Erval Grande,RS,4930
+4273,Descoberto,MG,4928
+4274,Foz do Jordao,PR,4926
+4275,Pequizeiro,TO,4921
+4276,Oratorios,MG,4917
+4277,Tunapolis,SC,4916
+4278,Ouro Branco,RN,4913
+4279,Cocal de Telha,PI,4911
+4280,Dom Cavati,MG,4904
+4280,Itaguaru,GO,4904
+4282,Curvelandia,MT,4903
+4283,Dom Joaquim,MG,4899
+4283,Vermelho Novo,MG,4899
+4285,Campos Novos Paulista,SP,4888
+4286,Serraria,PB,4885
+4286,Sao Pedro da Uniao,MG,4885
+4286,Erval Velho,SC,4885
+4289,Tamboara,PR,4880
+4290,Firmino Alves,BA,4873
+4291,Palmeiras do Tocantins,TO,4872
+4291,Lunardelli,PR,4872
+4293,Nova Esperanca do Sul,RS,4865
+4294,Vieiropolis,PB,4864
+4295,Mato Leitao,RS,4859
+4296,Aparecida do Rio Negro,TO,4856
+4297,Currais,PI,4854
+4297,Braganey,PR,4854
+4299,Presidente Bernardes,MG,4850
+4300,Caseara,TO,4847
+4300,Santa Maria,RN,4847
+4300,Rio Fortuna,SC,4847
+4303,Barrolandia,TO,4846
+4304,Minador do Negrao,AL,4845
+4305,Rio Sono,TO,4841
+4305,Sao Jose do Divino,PI,4841
+4305,Granjeiro,CE,4841
+4305,Rio Negro,MS,4841
+4309,Sao Goncalo do Piaui,PI,4837
+4309,Patis,MG,4837
+4309,Sao Luiz do Norte,GO,4837
+4312,Caicara,RS,4836
+4313,Congonhas do Norte,MG,4831
+4313,Barracao,RS,4831
+4315,Guaruja do Sul,SC,4829
+4316,Romelandia,SC,4823
+4317,Sao Joao da Lagoa,MG,4822
+4318,Lupionopolis,PR,4813
+4319,Lagoa do Piaui,PI,4810
+4320,alvaro de Carvalho,SP,4808
+4320,Salmourao,SP,4808
+4322,Bento Fernandes,RN,4807
+4323,Parazinho,RN,4801
+4324,Sao Francisco do Gloria,MG,4800
+4325,Palmeirante,TO,4798
+4326,Logradouro,PB,4797
+4326,Espigao Alto do Iguacu,PR,4797
+4328,Gameleiras,MG,4793
+4329,Florai,PR,4792
+4330,'Lambari d''Oeste',MT,4790
+4331,Lajes Pintadas,RN,4787
+4332,Corguinho,MS,4783
+4333,Cordilheira Alta,SC,4781
+4333,Liberato Salzano,RS,4781
+4335,Onda Verde,SP,4771
+4336,Viadutos,RS,4769
+4337,Riqueza,SC,4768
+4338,Ingazeira,PE,4765
+4339,Barauna,PB,4762
+4339,Amapora,PR,4762
+4341,Combinado,TO,4756
+4342,Santa Maria do Salto,MG,4755
+4342,Santa Rita de Jacutinga,MG,4755
+4344,Nipoa,SP,4750
+4345,Guaraci,PR,4748
+4346,Janduis,RN,4746
+4347,Itabi,SE,4745
+4348,Bandeira,MG,4741
+4349,Catuti,MG,4739
+4350,Goianorte,TO,4738
+4350,Riachao do Poco,PB,4738
+4352,Liberdade,MG,4737
+4353,Rosario da Limeira,MG,4734
+4354,Goncalves,MG,4727
+4355,Brejinho de Nazare,TO,4725
+4356,Marcos Parente,PI,4724
+4357,Belem,AL,4722
+4358,Novo Horizonte do Sul,MS,4721
+4359,Aricanduva,MG,4719
+4360,Tres Palmeiras,RS,4716
+4361,Canaa,MG,4715
+4361,Boraceia,SP,4715
+4363,Sao Bento Abade,MG,4713
+4364,Pingo-d''agua',MG,4706
+4365,Caibate,RS,4704
+4366,Gaviao Peixoto,SP,4702
+4367,Luiziania,SP,4701
+4368,Marumbi,PR,4699
+4369,Mata,RS,4698
+4370,Presidente Medici,MA,4696
+4371,Natercia,MG,4691
+4372,Riachao do Bacamarte,PB,4690
+4373,Almino Afonso,RN,4687
+4374,Funilandia,MG,4686
+4375,Santa Cruz da Vitoria,BA,4681
+4375,Humaita,RS,4681
+4377,Ribeirao do Sul,SP,4677
+4378,Serra do Navio,AP,4673
+4378,Santa Cruz do Escalvado,MG,4673
+4380,Mirassolandia,SP,4669
+4381,Cristiano Otoni,MG,4667
+4382,Vicente Dutra,RS,4665
+4383,Bom Sucesso,PB,4661
+4384,Formoso,GO,4660
+4385,Serrinha dos Pintos,RN,4659
+4386,Claraval,MG,4658
+4387,Sitio Novo,RN,4654
+4387,Mossamedes,GO,4654
+4389,Santa Rosa do Tocantins,TO,4653
+4390,Santa Rosa do Piaui,PI,4650
+4391,Fruta de Leite,MG,4647
+4392,Rio do Prado,MG,4639
+4393,Alegrete do Piaui,PI,4634
+4394,Vargem Grande do Rio Pardo,MG,4633
+4395,Guapirama,PR,4626
+4396,Campo Alegre do Fidalgo,PI,4616
+4397,Marianopolis do Tocantins,TO,4615
+4398,Caxambu do Sul,SC,4614
+4399,Nova Independencia,SP,4609
+4400,Ribeirao Corrente,SP,4608
+4401,Piedade do Rio Grande,MG,4604
+4402,Cacique Doble,RS,4603
+4403,Lobato,PR,4601
+4403,Mucum,RS,4601
+4405,Chuvisca,RS,4597
+4406,Marlieria,MG,4592
+4407,Nova Guarita,MT,4590
+4408,Analandia,SP,4589
+4409,Capitao Andrade,MG,4585
+4410,Kalore,PR,4582
+4411,Ipira,SC,4578
+4412,Vargem Bonita,SC,4576
+4413,Entre Rios do Oeste,PR,4575
+4414,Maraba Paulista,SP,4573
+4415,Meridiano,SP,4572
+4416,Matinhas,PB,4571
+4416,Novorizonte,MG,4571
+4418,Sao Jose do Serido,RN,4558
+4418,Boa Esperanca,PR,4558
+4420,'Diamante d''Oeste',PR,4557
+4421,Virgolandia,MG,4552
+4422,Lindoia do Sul,SC,4549
+4423,Ressaquinha,MG,4548
+4424,Sao Roberto,MA,4544
+4425,Amparo do Serra,MG,4541
+4426,Pinheirinho do Vale,RS,4540
+4427,Augusto de Lima,MG,4538
+4428,Alcinopolis,MS,4537
+4429,Sao Jose da Varginha,MG,4536
+4429,Nova Itaberaba,SC,4536
+4431,Rio Branco,MT,4535
+4432,Ibiaca,RS,4527
+4433,Nazare,TO,4521
+4434,Arraial,PI,4520
+4434,Lagoa do Sitio,PI,4520
+4436,Caldazinha,GO,4507
+4437,Japaraiba,MG,4506
+4438,Francinopolis,PI,4505
+4439,Marquinho,PR,4504
+4440,Francisco Dumont,MG,4503
+4441,Aguiarnopolis,TO,4497
+4441,Jerumenha,PI,4497
+4443,Jatoba do Piaui,PI,4494
+4443,Redencao da Serra,SP,4494
+4443,Cruzeiro do Sul,PR,4494
+4446,Fenix,PR,4492
+4447,Catingueira,PB,4491
+4448,Canabrava do Norte,MT,4485
+4449,Avai,SP,4483
+4450,Itaguaje,PR,4481
+4451,Quatro Pontes,PR,4480
+4451,Turvania,GO,4480
+4453,Pindorama do Tocantins,TO,4478
+4454,Fortaleza dos Valos,RS,4477
+4455,Barra do Ouro,TO,4476
+4456,Bom Jesus da Penha,MG,4474
+4457,Cafezal do Sul,PR,4473
+4457,Riozinho,RS,4473
+4459,Doutor Mauricio Cardoso,RS,4470
+4460,Sao Miguel do Passa-Quatro,GO,4464
+4461,Sao Joao do Itaperiu,SC,4463
+4462,Cutias,AP,4461
+4462,Sao Joao da Urtiga,RS,4461
+4462,Tabai,RS,4461
+4465,Divinopolis de Goias,GO,4457
+4466,Bertopolis,MG,4451
+4467,Indianopolis,PR,4448
+4468,Aiquara,BA,4447
+4468,Sao Jose do Hortencio,RS,4447
+4470,Sebastiao Leal,PI,4446
+4471,Alfredo Marcondes,SP,4445
+4472,Volta Grande,MG,4443
+4473,Braunas,MG,4441
+4474,Ponte Alta,SC,4437
+4475,Sao Joao da Ponta,PA,4430
+4476,Miraguai,RS,4427
+4477,Jurema,PI,4425
+4477,Macambara,RS,4425
+4479,Sao Valerio,TO,4422
+4479,Carvalhos,MG,4422
+4481,Varzea Grande,PI,4417
+4482,Lagoa,PB,4415
+4482,Cravolandia,BA,4415
+4484,Flores do Piaui,PI,4414
+4485,Curralinhos,PI,4413
+4485,Vila Maria,RS,4413
+4487,Francisco Ayres,PI,4412
+4487,Novais,SP,4412
+4489,Sao Lourenco do Piaui,PI,4410
+4490,Conceicao de Ipanema,MG,4409
+4491,Dom Macedo Costa,BA,4407
+4492,Sao Felix de Balsas,MA,4402
+4492,Santa Terezinha,PB,4402
+4494,Serranopolis de Minas,MG,4399
+4495,Salto Veloso,SC,4390
+4495,Gouvelandia,GO,4390
+4497,Paulistas,MG,4389
+4497,Planalto,SP,4389
+4499,Sao Joao da Varjota,PI,4383
+4500,Monte Formoso,MG,4381
+4501,Itaja,GO,4380
+4502,Arabuta,SC,4378
+4503,Eliseu Martins,PI,4377
+4503,Morro Cabeca no Tempo,PI,4377
+4505,Joao Ramalho,SP,4371
+4506,Flor da Serra do Sul,PR,4364
+4507,Capela Nova,MG,4362
+4508,Gaviao,BA,4360
+4508,Porto Lucena,RS,4360
+4510,Sao Braz do Piaui,PI,4358
+4511,Aguanil,MG,4357
+4512,Buritizal,SP,4356
+4513,Adolfo,SP,4351
+4514,Fronteira dos Vales,MG,4345
+4515,Leme do Prado,MG,4341
+4516,Divina Pastora,SE,4340
+4517,Monte Horebe,PB,4338
+4518,Presidente Castelo Branco,PR,4336
+4519,Contendas do Sincora,BA,4333
+4520,Ocaucu,SP,4331
+4521,Olho d''agua Grande',AL,4330
+4522,Joanesia,MG,4329
+4523,Sao Bentinho,PB,4327
+4524,Palestina,AL,4325
+4524,Apore,GO,4325
+4526,David Canabarro,RS,4321
+4527,Nova Iorque,MA,4320
+4527,Marcelino Ramos,RS,4320
+4529,Pareci Novo,RS,4319
+4530,Araguana,TO,4310
+4530,Jabora,SC,4310
+4532,Itapirapua Paulista,SP,4306
+4533,Cabralia Paulista,SP,4299
+4534,Jampruca,MG,4296
+4535,Fazenda Vilanova,RS,4291
+4536,Itacuruba,PE,4284
+4537,Coronel Macedo,SP,4280
+4538,Santa Cruz da Conceicao,SP,4277
+4539,Guaribas,PI,4276
+4540,Messias Targino,RN,4274
+4541,Corrego do Bom Jesus,MG,4272
+4541,Novo Barreiro,RS,4272
+4543,Jose Raydan,MG,4268
+4544,Paraiso,SC,4267
+4544,Santo Antonio da Barra,GO,4267
+4546,Sao Joao do Tigre,PB,4263
+4547,Bras Pires,MG,4260
+4548,Nova Palmeira,PB,4259
+4549,Teixeiropolis,RO,4256
+4550,Witmarsum,SC,4255
+4551,Julio Mesquita,SP,4254
+4552,Itacambira,MG,4252
+4553,Coronel Jose Dias,PI,4250
+4554,Duere,TO,4248
+4555,Guzolandia,SP,4246
+4556,Couto de Magalhaes de Minas,MG,4245
+4556,Pedras Grandes,SC,4245
+4558,Sao Joao da Canabrava,PI,4242
+4558,Rodolfo Fernandes,RN,4242
+4560,Barra do Quarai,RS,4241
+4561,Nova Santa Helena,MT,4239
+4562,Coronel Joao Pessoa,RN,4237
+4563,Bernardo Sayao,TO,4229
+4563,Santo Antonio do Grama,MG,4229
+4565,Sao Joao do Cariri,PB,4226
+4565,Divinesia,MG,4226
+4567,Marilac,MG,4224
+4567,Paineiras,MG,4224
+4567,Taquaracu de Minas,MG,4224
+4570,Monte Castelo,SP,4222
+4571,Ramilandia,PR,4221
+4571,Dona Emma,SC,4221
+4573,Ponte Alta do Bom Jesus,TO,4220
+4574,Itutinga,MG,4217
+4575,Sampaio,TO,4215
+4575,Vila Boa,GO,4215
+4577,Borborema,PB,4214
+4577,Santana do Jacare,MG,4214
+4579,Santa Barbara do Tugurio,MG,4208
+4580,Berizal,MG,4201
+4580,Quarto Centenario,PR,4201
+4582,Nova Nazare,MT,4200
+4583,Corumbatai,SP,4195
+4584,Maximiliano de Almeida,RS,4191
+4584,Sao Pedro da Cipa,MT,4191
+4586,Nova Santa Barbara,PR,4184
+4587,Jardim do Mulato,PI,4180
+4588,Divino das Laranjeiras,MG,4178
+4589,Sao Jose dos Ausentes,RS,4172
+4590,Acegua,RS,4170
+4591,Riacho Frio,PI,4165
+4592,Torixoreu,MT,4164
+4593,Sao Francisco do Oeste,RN,4161
+4594,Alvorada de Minas,MG,4159
+4595,Espirito Santo do Turvo,SP,4157
+4595,Ilopolis,RS,4157
+4597,Pequi,MG,4155
+4598,Assuncao,PB,4152
+4599,Cacaulandia,RO,4150
+4600,Ciriaco,RS,4149
+4601,Socorro do Piaui,PI,4141
+4602,Sao Jose do Sabugi,PB,4138
+4602,Glicerio,SP,4138
+4602,Monteiro Lobato,SP,4138
+4605,Passagem Franca do Piaui,PI,4135
+4606,Sao Jose do Alegre,MG,4133
+4606,Cruzeiro do Iguacu,PR,4133
+4608,Riacho de Santana,RN,4127
+4608,Pontalinda,SP,4127
+4608,Populina,SP,4127
+4608,Tejupa,SP,4127
+4612,Parecis,RO,4125
+4612,Santana do Piaui,PI,4125
+4614,Frutuoso Gomes,RN,4122
+4615,Tapira,MG,4118
+4616,Coivaras,PI,4117
+4617,Pedra do Indaia,MG,4112
+4617,Arambare,RS,4112
+4619,Sao Sebastiao do Tocantins,TO,4100
+4620,Santo Antonio do Leste,MT,4099
+4621,Porto Amazonas,PR,4098
+4622,Jundia,AL,4092
+4623,Bela Vista do Piaui,PI,4091
+4624,Paes Landim,PI,4088
+4624,Cajuri,MG,4088
+4626,'Aparecida d''Oeste',SP,4086
+4627,Guarani de Goias,GO,4085
+4628,Sao Jose de Espinharas,PB,4083
+4629,Ribeirao Vermelho,MG,4080
+4629,Modelo,SC,4080
+4631,Bocaina,PI,4078
+4632,Nova Santa Rita,PI,4076
+4633,Domingos Mourao,PI,4075
+4633,Lafaiete Coutinho,BA,4075
+4633,Salgado Filho,PR,4075
+4636,Planaltina do Parana,PR,4070
+4636,Porteirao,GO,4070
+4638,Senador Georgino Avelino,RN,4065
+4639,Wall Ferraz,PI,4059
+4640,Ouro Verde de Goias,GO,4057
+4641,Ribeira do Piaui,PI,4055
+4642,Goiana,MG,4053
+4643,Carrancas,MG,4049
+4643,Rifaina,SP,4049
+4645,Iporanga,SP,4046
+4646,'Pau-d''Arco',TO,4043
+4647,Matrincha,GO,4042
+4648,Bugre,MG,4041
+4649,Santa Efigenia de Minas,MG,4039
+4650,Bom Jesus do Tocantins,TO,4038
+4651,Indiapora,SP,4035
+4652,Motuca,SP,4034
+4652,Passos Maia,SC,4034
+4654,Bannach,PA,4031
+4654,Paranapua,SP,4031
+4654,Bela Vista da Caroba,PR,4031
+4657,Colinas do Sul,GO,4030
+4658,Campo Bonito,PR,4027
+4659,Bom Jardim da Serra,SC,4026
+4659,Braco do Trombudo,SC,4026
+4659,Taquaral de Goias,GO,4026
+4662,Anhumas,SP,4023
+4663,Tabuleiro,MG,4014
+4664,Senador Modestino Goncalves,MG,4008
+4665,Cariri do Tocantins,TO,4007
+4666,Poco de Jose de Moura,PB,4006
+4667,Campos Verdes,GO,4005
+4668,Edealina,GO,4001
+4669,Barra d''Alcantara',PI,3995
+4670,Brazabrantes,GO,3992
+4671,Capivari do Sul,RS,3991
+4672,Sao Bras do Suacui,MG,3989
+4673,Barcelona,RN,3986
+4673,Iraceminha,SC,3986
+4675,Miravania,MG,3985
+4676,Cuparaque,MG,3983
+4676,Passa-Sete,RS,3983
+4678,Lupercio,SP,3981
+4679,Atalaia,PR,3980
+4679,Bom Jesus do Sul,PR,3980
+4679,Rianapolis,GO,3980
+4682,Itapura,SP,3979
+4683,Piedade de Ponte Nova,MG,3976
+4684,Alvarenga,MG,3975
+4685,Capitao Gervasio Oliveira,PI,3974
+4685,Cantagalo,MG,3974
+4687,Sao Joao do Pacui,MG,3972
+4688,Novo Acordo,TO,3969
+4688,Jose Goncalves de Minas,MG,3969
+4688,Marques de Souza,RS,3969
+4691,Feliz Deserto,AL,3963
+4691,Materlandia,MG,3963
+4691,Macedonia,SP,3963
+4694,Riachinho,TO,3960
+4695,Sao Jose das Palmeiras,PR,3957
+4696,Munhoz de Mello,PR,3951
+4697,Caraubas,PB,3944
+4698,Lidianopolis,PR,3938
+4699,Santa Rosa de Lima,SE,3937
+4700,Campina do Simao,PR,3936
+4701,Parana,RN,3934
+4702,Nova Brasilandia,MT,3932
+4703,Zortea,SC,3930
+4704,Major Sales,RN,3924
+4705,Mariana Pimentel,RS,3916
+4706,Prata,PB,3915
+4706,Santo Antonio do Itambe,MG,3915
+4706,alvares Florence,SP,3915
+4709,Chiapetta,RS,3913
+4710,agua Santa,RS,3912
+4711,Santa Cruz de Salinas,MG,3910
+4711,Quinze de Novembro,RS,3910
+4713,Acaiaca,MG,3909
+4714,Olho-d''agua do Borges',RN,3905
+4715,Brejo do Piaui,PI,3904
+4716,Medeiros,MG,3900
+4717,Santopolis do Aguapei,SP,3899
+4718,Conceicao do Tocantins,TO,3887
+4718,Balbinos,SP,3887
+4720,Crominia,GO,3883
+4721,Pau d''Arco do Piaui',PI,3880
+4722,Ewbank da Camara,MG,3875
+4723,Rio Quente,GO,3864
+4724,Jeriquara,SP,3863
+4724,Vila Nova do Sul,RS,3863
+4726,Joaquim Felicio,MG,3854
+4727,Sao Jose do Barreiro,SP,3853
+4728,Florinea,SP,3851
+4728,Palminopolis,GO,3851
+4730,Cotipora,RS,3846
+4731,Lajedao,BA,3845
+4732,Alto Alegre,SP,3841
+4733,Uniao do Sul,MT,3838
+4734,Rubineia,SP,3833
+4735,Poco Dantas,PB,3830
+4736,Uniao de Minas,MG,3828
+4737,Tocos do Moji,MG,3826
+4738,Cumbe,SE,3824
+4739,Matutina,MG,3814
+4740,Paqueta,PI,3813
+4741,Virmond,PR,3811
+4742,Rio Branco do Ivai,PR,3808
+4743,Sao Jose da Safira,MG,3806
+4744,Pinhal Grande,RS,3805
+4745,Presidente Alves,SP,3804
+4746,Pracuuba,AP,3803
+4747,Cerro Branco,RS,3802
+4748,Aracu,GO,3799
+4749,Araguaiana,MT,3795
+4750,Sao Bento do Trairi,RN,3792
+4750,Serra Azul de Minas,MG,3792
+4752,Canhoba,SE,3791
+4753,Treviso,SC,3782
+4754,Jaboticaba,RS,3779
+4754,Montividiu do Norte,GO,3779
+4756,Ipiacu,MG,3775
+4757,Damianopolis,GO,3770
+4758,Santo Antonio do Aventureiro,MG,3769
+4759,Juramento,MG,3768
+4760,Corumbatai do Sul,PR,3760
+4760,'Conquista d''Oeste',MT,3760
+4762,Campestre de Goias,GO,3755
+4763,Leopolis,PR,3752
+4764,Ponto Chique,MG,3747
+4764,Santana do Deserto,MG,3747
+4764,Putinga,RS,3747
+4767,Pejucara,RS,3745
+4768,Minduri,MG,3741
+4769,Jundia,RN,3739
+4769,Pedra Branca,PB,3739
+4771,Murutinga do Sul,SP,3737
+4772,Ibarama,RS,3732
+4773,Ibiquera,BA,3725
+4774,Sandolandia,TO,3723
+4774,Ibirapuita,RS,3723
+4776,Mombuca,SP,3722
+4777,Novo Planalto,GO,3716
+4777,Varjao,GO,3716
+4779,Campo Azul,MG,3714
+4780,Caiabu,SP,3712
+4781,Prado Ferreira,PR,3709
+4782,Brasilandia do Sul,PR,3708
+4782,Campinacu,GO,3708
+4784,Sarutaia,SP,3704
+4785,Vieiras,MG,3700
+4786,Dom Bosco,MG,3697
+4787,Cachoeira da Prata,MG,3693
+4788,Itamarati de Minas,MG,3690
+4788,Jaquirana,RS,3690
+4790,Tunas,RS,3681
+4791,Salto do Ceu,MT,3679
+4792,Nossa Senhora das Gracas,PR,3669
+4793,Nova Modica,MG,3663
+4794,Xavantina,SC,3653
+4795,Alegria,RS,3651
+4796,Professor Jamil,GO,3649
+4797,Santo Inacio do Piaui,PI,3646
+4797,Vila Flores,RS,3646
+4799,Sandovalina,SP,3645
+4800,Santa Lucia,PR,3644
+4801,Vista Serrana,PB,3641
+4802,Doutor Pedrinho,SC,3637
+4803,Vargeao,SC,3634
+4804,Saltinho,SC,3632
+4805,Josenopolis,MG,3630
+4806,Paim Filho,RS,3629
+4807,Pavussu,PI,3628
+4808,Taquarussu,MS,3625
+4809,Pedra Grande,RN,3618
+4809,Itaju,SP,3618
+4811,Inubia Paulista,SP,3615
+4812,Campos Borges,RS,3613
+4813,Anitapolis,SC,3593
+4814,Altamira do Parana,PR,3590
+4815,Jatei,MS,3586
+4816,Mae d''agua',PB,3583
+4817,Olivedos,PB,3580
+4818,Parau,RN,3579
+4818,Malhada dos Bois,SE,3579
+4820,Itapiratins,TO,3577
+4820,Areias,SP,3577
+4822,Itauna do Sul,PR,3572
+4823,Pescador,MG,3570
+4824,Novo Cabrais,RS,3568
+4825,Mutunopolis,GO,3564
+4826,Porto Vitoria,PR,3562
+4827,Conceicao da Barra de Minas,MG,3560
+4828,Pratinha,MG,3559
+4829,Arroio Trinta,SC,3556
+4830,Bom Sucesso de Itarare,SP,3555
+4831,Urutai,GO,3553
+4832,Diogo de Vasconcelos,MG,3549
+4833,Sao Pedro da Serra,RS,3548
+4834,Hidrolina,GO,3545
+4835,Figueirao,MS,3539
+4836,Santa Isabel,GO,3538
+4837,Barao de Antonina,SP,3531
+4838,Nova Marilandia,MT,3529
+4839,Lajedinho,BA,3527
+4839,Arapua,PR,3527
+4839,Novo Brasil,GO,3527
+4842,Santa Fe de Minas,MG,3522
+4843,Cruzeiro da Fortaleza,MG,3521
+4844,Natalandia,MG,3520
+4845,Hugo Napoleao,PI,3518
+4846,Lagoa do Tocantins,TO,3516
+4847,Bocaina do Sul,SC,3515
+4848,Mariapolis,SP,3513
+4849,Rancho Alegre,PR,3512
+4850,Rondolandia,MT,3505
+4851,Bernardino Batista,PB,3504
+4851,Cristianopolis,GO,3504
+4853,Sao Fernando,RN,3492
+4854,Lucrecia,RN,3490
+4855,Santana de Cataguases,MG,3489
+4856,Coronel Xavier Chaves,MG,3486
+4857,Fortaleza de Minas,MG,3477
+4858,Pinheiro Preto,SC,3473
+4859,Rio Crespo,RO,3471
+4860,Santana dos Montes,MG,3469
+4861,Fatima,TO,3467
+4862,Nova Roma do Sul,RS,3466
+4863,Presidente Juscelino,MG,3465
+4864,Sao Jose do Divino,MG,3464
+4865,Conselheiro Mairinck,PR,3461
+4866,Gameleira de Goias,GO,3456
+4867,Tabocao,TO,3455
+4868,Altair,SP,3451
+4869,Calmon,SC,3443
+4870,Sulina,PR,3440
+4871,Santa Cruz dos Milagres,PI,3435
+4872,Sao Miguel do Aleixo,SE,3434
+4872,Catolandia,BA,3434
+4874,Belem do Piaui,PI,3423
+4875,Itaoca,SP,3422
+4876,Recursolandia,TO,3421
+4877,Turucu,RS,3419
+4878,Sao Jose de Princesa,PB,3416
+4879,Canavieira,PI,3414
+4880,Sao Jose dos Cordeiros,PB,3411
+4880,Verissimo,MG,3411
+4882,Suzanapolis,SP,3408
+4883,Bandeirantes do Tocantins,TO,3407
+4884,Severiano de Almeida,RS,3406
+4885,Quadra,SP,3405
+4885,Sao Martinho,SC,3405
+4887,Entre Rios,SC,3402
+4888,aurea,RS,3396
+4889,Pongai,SP,3395
+4890,Santa Amelia,PR,3394
+4891,Frei Lagonegro,MG,3391
+4892,Maripa de Minas,MG,3387
+4892,Taparuba,MG,3387
+4894,Romaria,MG,3386
+4895,Santa Rosa da Serra,MG,3382
+4896,Triunfo Potiguar,RN,3376
+4897,Muricilandia,TO,3367
+4898,Ibitiura de Minas,MG,3365
+4898,Santa Cecilia do Pavao,PR,3365
+4900,Nova Rosalandia,TO,3362
+4901,Bias Fortes,MG,3361
+4902,Lajeado,TO,3357
+4903,Santa Monica,PR,3356
+4904,Salgadinho,PB,3355
+4905,Heitorai,GO,3354
+4906,Pequeri,MG,3351
+4906,Baliza,GO,3351
+4908,Jari,RS,3349
+4908,Novo Horizonte do Norte,MT,3349
+4910,Sossego,PB,3345
+4911,Pedrinopolis,MG,3344
+4912,Aurora do Tocantins,TO,3342
+4913,Carvalhopolis,MG,3341
+4914,Jacutinga,RS,3338
+4915,Jau do Tocantins,TO,3334
+4916,Jundiai do Sul,PR,3333
+4917,Leoberto Leal,SC,3330
+4918,Duas Estradas,PB,3327
+4919,Carrasco Bonito,TO,3318
+4920,Cerro Negro,SC,3317
+4921,Lagoa dos Patos,MG,3313
+4922,Pedra do Anta,MG,3311
+4923,Sao Geraldo da Piedade,MG,3305
+4924,Sao Bento do Norte,RN,3304
+4924,Gramado Xavier,RS,3304
+4926,Serra Alta,SC,3303
+4927,Santa Rita de Ibitipoca,MG,3301
+4928,Bonopolis,GO,3299
+4929,Sao Jose do Peixe,PI,3297
+4930,Pontao,RS,3296
+4931,Santa Tereza de Goias,GO,3293
+4932,Marapoama,SP,3292
+4933,Cacimba de Areia,PB,3291
+4934,Aurilandia,GO,3284
+4935,Uruana de Minas,MG,3282
+4936,Nova America da Colina,PR,3280
+4936,Portelandia,GO,3280
+4938,Sao Sebastiao do Umbuzeiro,PB,3279
+4938,Rancho Queimado,SC,3279
+4940,Santa Rita do Trivelato,MT,3276
+4941,Telha,SE,3274
+4942,Ibicare,SC,3269
+4943,Caicara do Rio do Vento,RN,3268
+4943,Braga,RS,3268
+4943,Amaralina,GO,3268
+4946,Mato Rico,PR,3267
+4946,Tio Hugo,RS,3267
+4948,Queiroz,SP,3265
+4949,Barreiras do Piaui,PI,3264
+4949,Piquerobi,SP,3264
+4949,Sao Valentim,RS,3264
+4952,Vitoria das Missoes,RS,3260
+4953,Colorado,RS,3258
+4954,Gastao Vidigal,SP,3252
+4955,Belmiro Braga,MG,3244
+4956,Sao Francisco,SE,3243
+4957,Gurjao,PB,3242
+4957,Sao Jose do Bonfim,PB,3242
+4957,Campestre da Serra,RS,3242
+4960,angulo,PR,3235
+4961,Castanheiras,RO,3233
+4962,Santa Ines,PB,3227
+4962,Atalanta,SC,3227
+4964,Esperanca do Sul,RS,3226
+4965,Porto Estrela,MT,3224
+4966,Major Gercino,SC,3214
+4967,Galvao,SC,3210
+4967,Ponte Alta do Norte,SC,3210
+4969,Itatiba do Sul,RS,3208
+4970,Ruy Barbosa,RN,3206
+4971,Estrela do Norte,GO,3205
+4972,Sebastiao Barros,PI,3202
+4972,Bom Sucesso do Sul,PR,3202
+4974,Cordislandia,MG,3200
+4974,Marmelopolis,MG,3200
+4974,Sao Felix de Minas,MG,3200
+4977,Leandro Ferreira,MG,3199
+4978,Novo Machado,RS,3198
+4979,Rio Bom,PR,3197
+4980,Esmeralda,RS,3195
+4981,Faria Lemos,MG,3188
+4982,Ourizona,PR,3187
+4982,Figueiropolis d''Oeste',MT,3187
+4984,Vera Mendes,PI,3185
+4985,Lamim,MG,3184
+4986,Porto Rico,PR,3182
+4987,Monte Alegre dos Campos,RS,3180
+4988,Quartel Geral,MG,3179
+4989,Vila Flor,RN,3174
+4990,Diamante do Sul,PR,3171
+4991,Fernando de Noronha[a],PE,3167
+4992,Planalto da Serra,MT,3166
+4993,Magda,SP,3165
+4994,Nova Alvorada,RS,3163
+4995,Lastro,PB,3162
+4996,Barra do Guarita,RS,3161
+4997,Mar Vermelho,AL,3155
+4998,Antonio Almeida,PI,3152
+4999,Nova Belem,MG,3151
+5000,Vale Verde,RS,3150
+5001,Guarara,MG,3149
+5002,Buritinopolis,GO,3145
+5003,Bandeirante,SC,3144
+5004,Sao Geraldo do Baixio,MG,3143
+5005,Elisiario,SP,3138
+5006,Sao Francisco,PB,3137
+5007,Morro do Pilar,MG,3133
+5008,Ribeira,SP,3132
+5008,Palestina de Goias,GO,3132
+5010,Mampituba,RS,3131
+5011,Sebastianopolis do Sul,SP,3130
+5012,Mira Estrela,SP,3126
+5013,Novo Itacolomi,PR,3125
+5014,Trombas,GO,3120
+5015,Capao do Cipo,RS,3119
+5015,Taquarucu do Sul,RS,3119
+5017,Chapada da Natividade,TO,3117
+5018,Passagem,RN,3115
+5019,Sao Sebastiao da Vargem Alegre,MG,3113
+5020,Catas Altas da Noruega,MG,3110
+5020,Porto Barreiro,PR,3110
+5022,Cajazeiras do Piaui,PI,3108
+5023,Westfalia,RS,3098
+5024,Dois Lajeados,RS,3097
+5025,Maurilandia do Tocantins,TO,3095
+5025,Dom Vicoso,MG,3095
+5025,Santa Barbara do Monte Verde,MG,3095
+5028,Serra da Raiz,PB,3094
+5029,Fortuna de Minas,MG,3093
+5030,Jaguaracu,MG,3092
+5031,Imigrante,RS,3080
+5032,Dona Francisca,RS,3079
+5033,Presidente Lucena,RS,3077
+5034,Primavera de Rondonia,RO,3076
+5034,Nova Roma,GO,3076
+5036,Chacara,MG,3075
+5037,Alto Feliz,RS,3072
+5038,Presidente Kubitschek,MG,3071
+5038,Morrinhos do Sul,RS,3071
+5040,Estrela Velha,RS,3070
+5040,Sao Pedro do Butia,RS,3070
+5042,Senhora do Porto,MG,3067
+5043,Nova Candelaria,RS,3061
+5044,Jumirim,SP,3056
+5045,Alto Paraiso,PR,3055
+5046,Erebango,RS,3054
+5047,Presidente Kennedy,TO,3047
+5048,Pitangueiras,PR,3046
+5049,Nova Brescia,RS,3044
+5050,Prata do Piaui,PI,3042
+5051,Farol,PR,3039
+5052,Mathias Lobato,MG,3038
+5053,General Maynard,SE,3037
+5054,Ernestina,RS,3034
+5055,Sao Goncalo do Rio Preto,MG,3032
+5056,Platina,SP,3025
+5056,Tesouro,MT,3025
+5058,Venha-Ver,RN,3014
+5058,Emilianopolis,SP,3014
+5060,Emas,PB,3011
+5061,Morro Grande,SC,3010
+5061,Nova Iguacu de Goias,GO,3010
+5063,Amorinopolis,GO,3007
+5064,Santa Cruz de Goias,GO,3002
+5065,Pajeu do Piaui,PI,3000
+5065,Santo Expedito,SP,3000
+5065,Caseiros,RS,3000
+5068,Lizarda,TO,2999
+5069,Itacurubi,RS,2995
+5070,Desterro do Melo,MG,2994
+5071,Peritiba,SC,2992
+5072,Castelandia,GO,2985
+5073,Camargo,RS,2981
+5074,Godoy Moreira,PR,2977
+5075,Joao Costa,PI,2970
+5076,Onca de Pitangui,MG,2969
+5077,Tenorio,PB,2966
+5078,Piloes,RN,2965
+5079,Princesa,SC,2964
+5079,Perolandia,GO,2964
+5081,Corrego Danta,MG,2960
+5082,Pinhal,RS,2959
+5083,Santa Mercedes,SP,2956
+5084,Algodao de Jandaira,PB,2953
+5085,Albertina,MG,2952
+5086,Chapadao do Lageado,SC,2950
+5087,Tamboril do Piaui,PI,2949
+5088,Sao Goncalo do Gurgueia,PI,2947
+5088,Simao Pereira,MG,2947
+5090,agua Nova,RN,2946
+5090,Planalto Alegre,SC,2946
+5090,Sao Bonifacio,SC,2946
+5090,Arenopolis,GO,2946
+5094,Serra Grande,PB,2942
+5095,Lagoinha do Piaui,PI,2939
+5096,Fernando Pedroza,RN,2938
+5097,Vila Nova do Piaui,PI,2935
+5098,Rafael Godeiro,RN,2934
+5099,Caranaiba,MG,2933
+5100,Francisco Macedo,PI,2929
+5101,Glaucilandia,MG,2928
+5102,Riachao,PB,2927
+5102,Cumari,GO,2927
+5102,Sitio d''Abadia',GO,2927
+5105,Jaupaci,GO,2924
+5106,Campanario,MG,2923
+5107,Capitao,RS,2921
+5107,Tres Ranchos,GO,2921
+5109,Ipiranga de Goias,GO,2919
+5110,Ouro Velho,PB,2918
+5110,Anahy,PR,2918
+5112,Arantina,MG,2915
+5113,Sao Joao da Mata,MG,2914
+5114,Sao Jorge,RS,2912
+5115,Aparecida do Rio Doce,GO,2907
+5116,Gloria d''Oeste',MT,2905
+5117,Vale de Sao Domingos,MT,2904
+5118,Parisi,SP,2892
+5118,Cruzmaltina,PR,2892
+5120,Candido Rodrigues,SP,2889
+5121,Alvinlandia,SP,2885
+5122,Muitos Capoes,RS,2879
+5123,Iomere,SC,2877
+5123,Salvador das Missoes,RS,2877
+5125,Angico,TO,2876
+5126,Corrego Novo,MG,2875
+5126,Sao Jose do Povo,MT,2875
+5128,Avelinopolis,GO,2868
+5129,Porto Alegre do Tocantins,TO,2866
+5130,Sao Martinho da Serra,RS,2860
+5131,Frei Martinho,PB,2846
+5132,Sao Felix do Piaui,PI,2842
+5133,aguas Frias,SC,2839
+5134,Camacho,MG,2838
+5135,Nova Luzitania,SP,2837
+5136,Rio dos indios,RS,2835
+5137,Sul Brasil,SC,2832
+5138,Goiabeira,MG,2830
+5139,Sao Miguel do Fidalgo,PI,2829
+5140,Novo Santo Antonio,PI,2827
+5141,Coronel Barros,RS,2822
+5142,Santa Rosa de Goias,GO,2820
+5143,Barra do Jacare,PR,2814
+5144,Dilermando de Aguiar,RS,2806
+5145,Celso Ramos,SC,2805
+5146,Pedrinhas Paulista,SP,2804
+5147,Chiador,MG,2800
+5148,Cassia dos Coqueiros,SP,2799
+5149,Uirapuru,GO,2798
+5150,Piau,MG,2796
+5151,Fernandes Tourinho,MG,2789
+5152,Pedranopolis,SP,2787
+5153,Vista Gaucha,RS,2783
+5154,Santa Tereza do Tocantins,TO,2781
+5155,aguas de Sao Pedro,SP,2780
+5155,Victor Graeff,RS,2780
+5157,Boa Vista do Sul,RS,2779
+5158,Pedra Mole,SE,2778
+5159,Bom Jesus,SC,2777
+5160,Uniao do Oeste,SC,2774
+5161,Comendador Gomes,MG,2773
+5162,Conceicao das Pedras,MG,2772
+5162,Estrela do Indaia,MG,2772
+5164,Manfrinopolis,PR,2770
+5165,Charrua,RS,2768
+5166,Gabriel Monteiro,SP,2763
+5167,Coronel Pacheco,MG,2762
+5168,Pinhal de Sao Bento,PR,2761
+5168,Matos Costa,SC,2761
+5170,Tres Forquilhas,RS,2760
+5171,Marzagao,GO,2758
+5172,Pedra Dourada,MG,2757
+5173,Mormaco,RS,2756
+5174,Sao Domingos do Sul,RS,2754
+5175,Sao Jose do Mantimento,MG,2753
+5176,Derrubadas,RS,2751
+5177,Alagoa,MG,2749
+5178,Mateiros,TO,2748
+5179,Cajazeirinhas,PB,2740
+5180,Rio dos Bois,TO,2738
+5181,Floreal,SP,2733
+5181,'Santa Rita d''Oeste',SP,2733
+5183,Buriti de Goias,GO,2732
+5184,Pindoba,AL,2731
+5185,Damolandia,GO,2724
+5186,Pinto Bandeira,RS,2723
+5187,Centenario,RS,2721
+5188,Luzinopolis,TO,2717
+5188,Santo Hipolito,MG,2717
+5190,Borebi,SP,2713
+5191,Cascalho Rico,MG,2712
+5192,Ivatuba,PR,2708
+5193,Sede Nova,RS,2704
+5194,Estrela do Norte,SP,2703
+5195,Riacho da Cruz,RN,2701
+5195,Teresina de Goias,GO,2701
+5197,Francisco Dantas,RN,2700
+5197,Rubiacea,SP,2700
+5199,Ibituruna,MG,2698
+5200,Santana do Serido,RN,2696
+5201,Ivolandia,GO,2693
+5202,Zacarias,SP,2692
+5202,Cristal do Sul,RS,2692
+5204,Aroeiras do Itaim,PI,2690
+5205,Santa Rita do Novo Destino,GO,2689
+5206,Argirita,MG,2688
+5206,Garruchos,RS,2688
+5208,Entre Rios do Sul,RS,2685
+5209,Umburatiba,MG,2684
+5209,Sao Bernardino,SC,2684
+5211,Formosa do Sul,SC,2682
+5212,Santa Maria do Tocantins,TO,2680
+5213,Senador Salgado Filho,RS,2673
+5214,Varzea,PB,2668
+5215,Coxilha,RS,2667
+5216,Lutecia,SP,2661
+5216,Sao Pedro do Parana,PR,2661
+5216,Santa Cruz do Xingu,MT,2661
+5219,Nantes,SP,2660
+5219,Vista Alegre,RS,2660
+5221,Belmonte,SC,2658
+5222,Urupema,SC,2656
+5223,Florida,PR,2652
+5224,Sao Joao do Polesine,RS,2649
+5225,Novo Horizonte,SC,2643
+5226,Itati,RS,2638
+5227,Olho d''agua do Piaui',PI,2637
+5228,Eugenio de Castro,RS,2633
+5229,Arapua,MG,2631
+5230,Cafeara,PR,2627
+5230,Vargem,SC,2627
+5232,Capao Alto,SC,2625
+5233,Santo Andre,PB,2622
+5234,Taquaral,SP,2619
+5235,'Rancho Alegre d''Oeste',PR,2618
+5236,Mimoso de Goias,GO,2614
+5237,Bento de Abreu,SP,2606
+5238,Carmesia,MG,2605
+5239,Sao Francisco,SP,2602
+5240,Lajeado do Bugre,RS,2601
+5241,Arroio do Padre,RS,2599
+5242,'Santa Clara d''Oeste',SP,2598
+5242,Abdon Batista,SC,2598
+5244,Santa Margarida do Sul,RS,2596
+5245,Sao Domingos,PB,2595
+5246,Ribeiraozinho,MT,2593
+5247,Tres Arroios,RS,2591
+5248,Sao Domingos do Cariri,PB,2585
+5249,Ingai,MG,2580
+5249,Sao Joao das Duas Pontes,SP,2580
+5251,Fama,MG,2578
+5251,Pracinha,SP,2578
+5253,Abreulandia,TO,2576
+5253,Santa Terezinha do Progresso,SC,2576
+5255,Saldanha Marinho,RS,2575
+5256,Lagoa de Velhos,RN,2567
+5257,Fagundes Varela,RS,2566
+5258,Brejo Alegre,SP,2565
+5258,Herveiras,RS,2565
+5260,Dom Pedro de Alcantara,RS,2562
+5261,Palmeira,SC,2561
+5261,Mairipotaba,GO,2561
+5263,Israelandia,GO,2560
+5264,Monte Belo do Sul,RS,2557
+5265,Olimpio Noronha,MG,2555
+5265,Jupia,SC,2555
+5267,Toropi,RS,2554
+5268,Mato Castelhano,RS,2553
+5269,Mato Grosso,PB,2543
+5269,Sao Valerio do Sul,RS,2543
+5271,Joca Claudino,PB,2539
+5272,Inaja,PR,2536
+5273,Faxinalzinho,RS,2520
+5274,Santo Afonso,MT,2519
+5275,oleo,SP,2512
+5276,Mirim Doce,SC,2511
+5277,Arvoredo,SC,2510
+5278,Luciara,MT,2509
+5279,Dezesseis de Novembro,RS,2507
+5279,Quevedos,RS,2507
+5281,Barra Funda,RS,2498
+5282,Santo Antonio do Caiua,PR,2493
+5283,Brunopolis,SC,2489
+5284,Rio Doce,MG,2484
+5285,Sagrada Familia,RS,2480
+5286,Sagres,SP,2474
+5287,Oscar Bressane,SP,2470
+5287,Marata,RS,2470
+5289,Timburi,SP,2464
+5290,Passagem,PB,2463
+5291,Nacip Raydan,MG,2459
+5292,Pedro Laurentino,PI,2458
+5293,Talisma,TO,2456
+5293,Morro Agudo de Goias,GO,2456
+5295,Boa Esperanca do Iguacu,PR,2455
+5295,Panama,GO,2455
+5297,Corrego do Ouro,GO,2454
+5298,Pedra Preta,RN,2441
+5299,Jardim de Angicos,RN,2437
+5300,Sem-Peixe,MG,2433
+5301,Santa Helena,SC,2425
+5302,Colinas,RS,2423
+5303,Morro da Garca,MG,2411
+5303,Frei Rogerio,SC,2411
+5305,Santa Terezinha do Tocantins,TO,2406
+5305,Sao Jose do Inhacora,RS,2406
+5307,Itapora do Tocantins,TO,2404
+5308,Paranapoema,PR,2398
+5309,Rio Rufino,SC,2397
+5310,Monte Santo do Tocantins,TO,2396
+5311,Forquetinha,RS,2393
+5312,Pontes Gestal,SP,2387
+5313,Sao Salvador do Tocantins,TO,2385
+5314,Biquinhas,MG,2383
+5315,Sao Jose do Sul,RS,2380
+5316,Cerro Grande,RS,2379
+5317,Lucianopolis,SP,2372
+5318,Porto Alegre do Piaui,PI,2364
+5319,Sao Jose das Missoes,RS,2362
+5320,Wenceslau Braz,MG,2356
+5321,Santo Expedito do Sul,RS,2349
+5322,Timbauba dos Batistas,RN,2348
+5323,Iracema do Oeste,PR,2343
+5323,Nova Padua,RS,2343
+5325,Taboleiro Grande,RN,2338
+5326,Nova America,GO,2337
+5327,Floresta do Piaui,PI,2333
+5328,Arapei,SP,2330
+5329,Ariranha do Ivai,PR,2329
+5329,Tigrinhos,SC,2329
+5331,Pilar de Goias,GO,2328
+5332,Silveirania,MG,2323
+5332,Embauba,SP,2323
+5334,Tanque do Piaui,PI,2316
+5335,Cachoeira Dourada,MG,2315
+5336,Carrapateira,PB,2312
+5337,Sao Luis do Piaui,PI,2309
+5338,Bodo,RN,2306
+5339,Presidente Nereu,SC,2301
+5340,Sao Sebastiao do Rio Verde,MG,2300
+5341,Adelandia,GO,2297
+5342,Curral Velho,PB,2292
+5343,Rochedo de Minas,MG,2291
+5343,Rolador,RS,2291
+5345,Bom Jesus,PB,2286
+5346,Piraque,TO,2282
+5347,Monte das Gameleiras,RN,2276
+5348,Boa Vista do Incra,RS,2271
+5349,Sao Miguel da Baixa Grande,PI,2269
+5349,Ermo,SC,2269
+5351,Pirapo,RS,2260
+5352,Palmelo,GO,2259
+5353,Lagoa Bonita do Sul,RS,2251
+5353,Sao Vendelino,RS,2251
+5355,Lacerdopolis,SC,2248
+5355,Pinhal da Serra,RS,2248
+5357,Juarina,TO,2243
+5358,Sao Joao do Pau-d''Alho',SP,2242
+5359,Senador Cortes,MG,2240
+5360,Mirador,PR,2238
+5361,Amparo,PB,2234
+5362,Passa Vinte,MG,2233
+5363,Novo Jardim,TO,2230
+5364,Boa Vista do Cadeado,RS,2229
+5365,Zabele,PB,2228
+5366,Santa Rita do Tocantins,TO,2219
+5367,Painel,SC,2215
+5368,Casa Grande,MG,2214
+5369,Indiavai,MT,2213
+5370,Coqueiros do Sul,RS,2211
+5371,Dolcinopolis,SP,2207
+5371,Sao Valentim do Sul,RS,2207
+5373,Carmolandia,TO,2201
+5374,Pugmil,TO,2193
+5375,Guaporema,PR,2191
+5376,Guaraita,GO,2188
+5377,Bom Jesus do Oeste,SC,2187
+5378,Estrela Dalva,MG,2186
+5379,Marema,SC,2184
+5380,Aracai,MG,2181
+5380,Ouro Verde,SC,2181
+5382,Poco das Antas,RS,2171
+5383,Amparo do Sao Francisco,SE,2170
+5384,Monjolos,MG,2169
+5385,Nova Ramada,RS,2163
+5386,Guarinos,GO,2161
+5387,Vargem Bonita,MG,2158
+5388,Pimenteiras do Oeste,RO,2156
+5388,Nova Guataporanga,SP,2156
+5390,Travesseiro,RS,2152
+5391,Bozano,RS,2151
+5392,Novo Tiradentes,RS,2146
+5393,Iguatu,PR,2144
+5393,Paulo Bento,RS,2144
+5395,Sao Patricio,GO,2143
+5396,Itambe do Mato Dentro,MG,2142
+5396,Porto Maua,RS,2142
+5398,Santo Antonio dos Milagres,PI,2138
+5398,Sao Manoel do Parana,PR,2138
+5400,Santana do Garambeu,MG,2137
+5401,Uniflor,PR,2136
+5402,Centenario,TO,2131
+5403,Santo Antonio do Paraiso,PR,2125
+5404,Jesupolis,GO,2123
+5405,Reserva do Cabacal,MT,2122
+5406,Santa Cruz da Esperanca,SP,2116
+5407,agua Comprida,MG,2108
+5407,Cruzalia,SP,2108
+5409,Galinhos,RN,2104
+5410,Nova Aurora,GO,2101
+5411,Bom Progresso,RS,2096
+5412,Santo Antonio do Palma,RS,2091
+5413,Paulistania,SP,2090
+5413,Dois Irmaos das Missoes,RS,2090
+5415,Santo Antonio do Planalto,RS,2089
+5416,Santa Rosa de Lima,SC,2088
+5417,Benjamin Constant do Sul,RS,2082
+5418,Vila Langaro,RS,2079
+5419,Joao Dias,RN,2076
+5420,Irati,SC,2069
+5421,Senador Jose Bento,MG,2068
+5422,Coronel Martins,SC,2065
+5423,Diorama,GO,2062
+5424,Pedras Altas,RS,2061
+5425,Aracitaba,MG,2049
+5426,Torre de Pedra,SP,2046
+5427,Arco-iris,SP,2044
+5428,Nova Boa Vista,RS,2042
+5429,Jacuizinho,RS,2040
+5430,Ipueira,RN,2035
+5431,Nova Canaa Paulista,SP,2032
+5432,Silveira Martins,RS,2028
+5433,Oliveira Fortes,MG,2027
+5434,Ribeirao dos indios,SP,2025
+5434,Protasio Alves,RS,2025
+5436,Taipas do Tocantins,TO,2021
+5437,Novo Santo Antonio,MT,2015
+5438,Gramado dos Loureiros,RS,2014
+5438,Inhacora,RS,2014
+5440,Ibiam,SC,2008
+5440,Ponte Branca,MT,2008
+5442,Areia de Baraunas,PB,2005
+5443,Vanini,RS,2004
+5444,Unistalda,RS,1995
+5445,Ubiretama,RS,1994
+5446,Serranos,MG,1990
+5447,Brasilandia do Tocantins,TO,1974
+5448,Aloandia,GO,1973
+5449,Almirante Tamandare do Sul,RS,1969
+5450,'Guarani d''Oeste',SP,1968
+5450,Cunhatai,SC,1968
+5452,Miraselva,PR,1966
+5453,Cachoeirinha,TO,1961
+5454,Riacho de Santo Antonio,PB,1955
+5455,Mesopolis,SP,1952
+5456,Lourdes,SP,1950
+5457,Olaria,MG,1945
+5458,Serio,RS,1941
+5459,Moncoes,SP,1937
+5459,Itapuca,RS,1937
+5461,Boa Vista das Missoes,RS,1933
+5462,Nicolau Vergueiro,RS,1932
+5463,Ivora,RS,1929
+5464,Paial,SC,1927
+5465,Tupirama,TO,1909
+5466,Sao Jose do Herval,RS,1902
+5466,Davinopolis,GO,1902
+5468,Doutor Ricardo,RS,1888
+5469,Tupiratins,TO,1874
+5470,Marinopolis,SP,1860
+5471,Mariano Moro,RS,1858
+5471,agua Limpa,GO,1858
+5473,Alto Bela Vista,SC,1856
+5474,Esperanca Nova,PR,1849
+5475,Novo Alegre,TO,1846
+5475,Sao Joao de Iracema,SP,1846
+5477,Aspasia,SP,1842
+5478,Sete de Setembro,RS,1830
+5479,Douradoquara,MG,1829
+5480,Coxixola,PB,1824
+5481,Vicosa,RN,1822
+5482,Seritinga,MG,1819
+5483,Turiuba,SP,1818
+5483,Vespasiano Correa,RS,1818
+5485,Pedro Teixeira,MG,1810
+5486,Santo Antonio do Rio Abaixo,MG,1808
+5487,Alto Alegre,RS,1800
+5487,Serra Nova Dourada,MT,1800
+5489,Relvado,RS,1796
+5490,Mato Queimado,RS,1795
+5491,Vitoria Brasil,SP,1794
+5492,Sao Felix do Tocantins,TO,1783
+5492,Flor do Sertao,SC,1783
+5494,Sao Miguel da Boa Vista,SC,1781
+5495,Macieira,SC,1778
+5496,Jardinopolis,SC,1776
+5497,Sao Joao da Parauna,GO,1774
+5498,Queluzito,MG,1770
+5499,Rio da Conceicao,TO,1768
+5500,Sao Pedro das Missoes,RS,1757
+5501,Santa Ines,PR,1748
+5502,Gentil,RS,1744
+5503,Quixaba,PB,1743
+5504,Pouso Novo,RS,1739
+5505,Lagoa dos Tres Cantos,RS,1738
+5506,Capao Bonito do Sul,RS,1733
+5507,Muliterno,RS,1721
+5508,Parari,PB,1720
+5508,Ipiranga do Sul,RS,1720
+5510,Lajeado Grande,SC,1702
+5511,Sao Jose do Brejo do Cruz,PB,1699
+5512,Barra do Rio Azul,RS,1696
+5513,Tapirai,MG,1690
+5514,Presidente Castello Branco,SC,1689
+5515,Moipora,GO,1685
+5516,Linha Nova,RS,1683
+5517,Trabiju,SP,1682
+5518,Santa Cecilia do Sul,RS,1674
+5519,Santana da Ponte Pensa,SP,1670
+5520,Turmalina,SP,1669
+5521,Barra Bonita,SC,1668
+5521,Floriano Peixoto,RS,1668
+5523,Fernao,SP,1656
+5523,Canudos do Vale,RS,1656
+5525,Santiago do Sul,SC,1651
+5526,Novo Xingu,RS,1646
+5527,Santa Salete,SP,1645
+5528,Cruzaltense,RS,1635
+5529,Lavandeira,TO,1626
+5530,Dirce Reis,SP,1620
+5531,Coronel Pilar,RS,1607
+5532,Uniao Paulista,SP,1603
+5533,Passabem,MG,1600
+5534,Ipueiras,TO,1590
+5534,Vista Alegre do Prata,RS,1590
+5536,Sucupira,TO,1577
+5537,Ponte Preta,RS,1575
+5538,Consolacao,MG,1563
+5539,Porto Vera Cruz,RS,1560
+5540,Quatro Irmaos,RS,1552
+5541,Antonio Prado de Minas,MG,1538
+5542,Santa Tereza,RS,1505
+5543,Chapada de Areia,TO,1501
+5544,Montauri,RS,1499
+5545,Flora Rica,SP,1487
+5546,Paiva,MG,1474
+5547,Crixas do Tocantins,TO,1470
+5548,Doresopolis,MG,1461
+5549,Guabiju,RS,1417
+5550,Cachoeira de Goias,GO,1405
+5551,Grupiara,MG,1392
+5552,Lagoa Santa,GO,1390
+5553,Uru,SP,1387
+5554,Tupanci do Sul,RS,1374
+5555,Carlos Gomes,RS,1368
+5556,Jardim Olinda,PR,1343
+5557,Nova Alianca do Ivai,PR,1323
+5558,Miguel Leao,PI,1318
+5559,Engenho Velho,RS,1296
+5560,Coqueiro Baixo,RS,1290
+5561,Sao Sebastiao do Rio Preto,MG,1259
+5562,Uniao da Serra,RS,1170
+5563,Oliveira de Fatima,TO,1164
+5564,Andre da Rocha,RS,1135
+5565,Cedro do Abaete,MG,1081
+5566,Nova Castilho,SP,1062
+5567,Araguainha,MT,1010
+5568,Anhanguera,GO,924
+5569,Bora,SP,907
+5570,Serra da Saudade,MG,833

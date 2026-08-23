@@ -29,14 +29,14 @@ let benfordChart = null;
 // URLs de APIs públicas
 const apiEndpoints = {
     brareacitiesgit: 'https://arjios.github.io/benford/assets/areacitiesbr.json',
-    brpopulation: 'https://servicodados.ibge.gov.br/api/v1/projecoes/populacao',
+    brpopulation: 'https://arjios.github.io/benford/assets/popbrasil.json',
     globalpopgit: 'https://arjios.github.io/benford/assets/popglobal.json',
     accountgit: 'https://arjios.github.io/benford/assets/condominio.json',
     custom: 'https://arjios.github.io/benford/assets/popbr.json',
     mortebr: 'https://arjios.github.io/benford/assets/mortebr.json',
     brareacities: '../../assets/areacitiesbr.json',
     gitcustomOld: '../../assets/popbr.json',
-    gitcustom: 'https://servicodados.ibge.gov.br/api/v1/projecoes/populacao',
+    gitcustom: '../../assets/popbrasil.json',
     account: '../../assets/condominio.json',
     globalpop: './assets/popglobal.json'   
 };
