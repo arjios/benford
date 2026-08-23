@@ -161,13 +161,16 @@ async function fetchDataFromAPI() {
         }  else if (source === 'brpopulation') { 
             // API de população do Brasil
             console.log("População das Cidades Brasileiras");
+            document.getElementById("chartChoice").innerText = 'Grafico da Distribuição do Primeiro Digito da População do Brasil';
             const response = await fetch(apiEndpoints.brpopulation);
-            const countries = await response.json();
+            const population = await response.json();
             // Extrair valores de população
-            data = countries
-                .slice(0, count)
-                .map(country => country.brpopulation)
-                .filter(pop => pop > 0);
+            data = population
+                    .map(area => area[5])
+                    .filter(pop => pop > 0);
+//                .slice(0, count)
+//                .map(item => item.brpopulation)
+//                .filter(pop => pop > 0);
 
         } else if (source === 'globalpop') {
             // Inserir o cabeçalho do grafico para a API de população global
