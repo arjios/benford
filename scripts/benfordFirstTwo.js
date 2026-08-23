@@ -178,8 +178,7 @@ async function fetchDataFromAPI() {
             const countries = await response.json();
             // Extrair valores de população
             data = countries
-                .slice(0, count)
-                .map(country => country.brpopulation)
+                .map(area => area[3])
                 .filter(pop => pop > 0);
 
         } else if (source === 'globalpop') {
