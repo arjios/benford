@@ -148,12 +148,6 @@ header {
 
 }
 
-.nav_items {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-}
-
 .main_container {
     align-items: center;
 
