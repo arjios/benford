@@ -452,6 +452,7 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
         }
     }
 
+    // Determinar nível de conformidade
     let conformityLevel, conformityClass;
 
     if (ssd <= 5.0) {
@@ -460,10 +461,9 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
     } else if (ssd <= 10.0) {
         conformityLevel = "Moderada";
         conformityClass = "medium-conformity";
-        } else {
-            conformityLevel = "Baixa";
-            conformityClass = "low-conformity";
-        }
+    } else {
+        conformityLevel = "Baixa";
+        conformityClass = "low-conformity";
     }
 
     // Atualizar interface com os resultados
