@@ -474,10 +474,10 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
     // Determinar nível de conformidade
     let conformityLevel, conformityClass;
 
-    if (chiSquare < 16.92 && ssd <= 2.0) {
+    if (ssd <= 5.0) {
         conformityLevel = "Alta";
         conformityClass = "high-conformity";
-    } else if (chiSquare < 25.0 && ssd <= 5.0) {
+    } else if (ssd <= 10.0) {
         conformityLevel = "Moderada";
         conformityClass = "medium-conformity";
     } else {

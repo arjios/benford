@@ -428,6 +428,7 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
         chiSquare += Math.pow(observed - expected, 2) / expected;
     }
 
+    // Calcular a sum of squared deviations (SSD)
     let ssd = 0;
     for (let d = 1; d <= 9; d++) {
         const deviation = observedPercentages[d] - benfordLawPercentagesFirst[d];
@@ -451,18 +452,18 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
         }
     }
 
-    // Determinar nível de conformidade
     let conformityLevel, conformityClass;
 
-    if (chiSquare < 16.92 && ssd <= 2.0) {
+    if (ssd <= 5.0) {
         conformityLevel = "Alta";
         conformityClass = "high-conformity";
-    } else if (chiSquare < 25.0 && ssd <= 5.0) {
+    } else if (ssd <= 10.0) {
         conformityLevel = "Moderada";
         conformityClass = "medium-conformity";
-    } else {
-        conformityLevel = "Baixa";
-        conformityClass = "low-conformity";
+        } else {
+            conformityLevel = "Baixa";
+            conformityClass = "low-conformity";
+        }
     }
 
     // Atualizar interface com os resultados
@@ -488,7 +489,6 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
     } else {
         alertMessage = 'Os dados apresentam baixa conformidade com a Lei de Benford. Isso pode indicar possível manipulação ou dados não naturais.';
         alertType = 'warning';
-    }
 
     showAlert(alertMessage, alertType);
 }
