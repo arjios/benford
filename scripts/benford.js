@@ -491,6 +491,7 @@ function calculateConformityMetrics(observedPercentages, totalValidDigits) {
         alertType = 'warning';
 
     showAlert(alertMessage, alertType);
+    }
 }
 
 // Mostrar alerta na interface
